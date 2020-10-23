@@ -12,7 +12,7 @@ hideall "--sync--"
 
 ### Phase 1: 100->85%
 0.0 "Start"
-0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
 
 10.0 "地裂" sync /:泰坦:5BB:/ window 10,10
 18.7 "大地之重" sync /:泰坦:5BE:/ window 20,5
