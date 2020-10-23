@@ -1,0 +1,138 @@
+### Innocence Ex
+# -ii 3ED5 3ED4 3ED3 3ED2 3EE7 3EE8 3EE4 3EE5 3EFD 3EFE 3EEB 3F3E 3EFF 3F00 3ED8 3F01 3F02 3EFB 3EFC 3ED6 3EDE 3EDF 38FC 3EE0 3EF0 -p 3EE9:300
+# https://thebalanceffxiv.com/guide/innocence/
+
+hideall "--Reset--"
+hideall "--sync--"
+hideall "Holy Trinity"
+hideall "Soul And Body"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+
+### Phase 1
+0 "Start"
+0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+1.0 "--sync--" sync /:无瑕灵君:3ECA:/ window 2,0
+17.0 "夺影" sync /:无瑕灵君:3EEA:/ window 20,5
+28.0 "连线断罪飞翔" sync /:无瑕灵君:40BD:/
+37.0 "斗争降临" sync /:断罪之桩:3EA9:/
+47.0 "裁决之雷" sync /:无瑕灵君:3ECD:/
+58.0 "连线断罪飞翔" sync /:无瑕灵君:40BD:/
+61.0 "--sync--" sync /:无瑕灵君:3EA2:/
+65.2 "断罪回旋" sync /:无瑕灵君:3EDC:/
+67.0 "斗争降临" sync /:断罪之桩:3EA9:/
+72.1 "断罪" sync /:无瑕灵君:3ECC:/
+81.2 "风车断罪飞翔" sync /:无瑕灵君:40BD:/
+95.2 "落光" sync /:无瑕灵君:3EEC:/
+107.8 "裁决之雷" sync /:无瑕灵君:3ECD:/
+118.8 "扇形断罪飞翔" sync /:无瑕灵君:40BD:/
+121.8 "--sync--" sync /:无瑕灵君:3EA2:/
+124.8 "圣三一" #sync /:无瑕灵君:3EDB:/
+125.8 "断罪回旋" sync /:无瑕灵君:3EDD:/
+129.3 "圣三一" #sync /:无瑕灵君:3EDB:/
+132.6 "断罪" sync /:无瑕灵君:3ECC:/
+133.7 "圣三一" #sync /:无瑕灵君:3EDB:/
+137.0 "光明柱" sync /:无瑕灵君:3EED:/
+144.0 "夺影" sync /:无瑕灵君:3EEA:/
+# technically Tethers + Rotate
+155.0 "连线断罪飞翔" sync /:无瑕灵君:40BD:/
+161.0 "身心" sync /:无瑕灵君:3ED7:/
+161.0 "斗争降临" sync /:断罪之桩:3EA9:/
+
+
+### Phase 2: Adds
+178.0 "--untargetable--" sync /:无瑕灵君:3EA2:/ #MISSINGTEXT
+180.3 "--targetable--" sync /:无瑕灵君:42B0:/ window 200,200 #MISSINGTEXT
+183.3 "--sync--" sync /:断罪之剑:42B1:/
+190.3 "毒舌钩" sync /:得到宽恕的耻辱:3EC8:/
+195.3 "神圣剑" sync /:得到宽恕的情欲:3EC9:/
+197.3 "指明灯" sync /:无瑕灵君:3F46:/
+211.3 "神圣剑" sync /:得到宽恕的情欲:3EC9:/
+213.3 "指明灯" sync /:无瑕灵君:3F46:/
+227.3 "神圣剑" sync /:得到宽恕的情欲:3EC9:/
+230.3 "Enrage" #MISSINGTEXT
+
+
+### Phase 3: Starbirth
+300.0 "--sync--" sync /:断罪之剑:3EE9:/ window 300,0
+314.0 "--targetable--" #MISSINGTEXT
+323.0 "创星角落" sync /:无瑕灵君:3EEF:/
+336.0 "夺影" sync /:无瑕灵君:3EEA:/
+337.0 "爆炸" sync /:无瑕灵君:3EF0:/
+347.0 "风车断罪飞翔" sync /:无瑕灵君:40BD:/
+353.0 "身心" sync /:无瑕灵君:3ED9:/
+359.0 "--sync--" sync /:无瑕灵君:3EA2:/
+363.0 "断罪回旋" sync /:无瑕灵君:3EDD:/
+367.0 "--jump--" sync /:无瑕灵君:3EA2:/ #MISSINGTEXT
+369.8 "断罪" sync /:无瑕灵君:3ECC:/
+373.7 "荣福直观" sync /:无瑕灵君:3EEE:/
+389.7 "裁决之雷" sync /:无瑕灵君:3ECD:/
+
+400.7 "创星躲避" sync /:无瑕灵君:3EEF:/
+407.7 "落光 1" #sync /:无瑕灵君:3EEC:/
+412.8 "落光 2" #sync /:无瑕灵君:3EEC:/
+419.7 "光明柱" sync /:无瑕灵君:3EED:/
+421.7 "--jump--" sync /:无瑕灵君:3EA2:/ #MISSINGTEXT
+428.3 "荣福直观" sync /:无瑕灵君:3EEE:/
+441.3 "--sync--" sync /:无瑕灵君:3EA2:/
+445.4 "断罪回旋" sync /:无瑕灵君:3EDC:/
+452.3 "断罪" sync /:无瑕灵君:3ECC:/
+452.9 "神光 x3" sync /:无瑕灵君:3EE6:/ window 5,1 duration 10
+469.9 "夺影" sync /:无瑕灵君:3EEA:/
+480.9 "裁决之雷" sync /:无瑕灵君:3ECD:/
+
+489.9 "创星爆炸" sync /:无瑕灵君:3EEF:/
+494.9 "扇形断罪飞翔" sync /:无瑕灵君:40BD:/
+500.9 "圣三一" #sync /:无瑕灵君:3EDB:/
+505.4 "圣三一" #sync /:无瑕灵君:3EDB:/
+509.9 "圣三一" #sync /:无瑕灵君:3EDB:/
+514.2 "光明柱" sync /:无瑕灵君:3EED:/
+523.2 "夺影" sync /:无瑕灵君:3EEA:/
+538.3 "裁决之雷" sync /:无瑕灵君:3ECD:/
+# technical tethers + trident
+547.3 "连线断罪飞翔" sync /:无瑕灵君:40BD:/
+553.3 "圣三一" #sync /:无瑕灵君:3EDB:/
+553.3 "斗争降临" sync /:断罪之桩:3EA9:/
+557.8 "圣三一" #sync /:无瑕灵君:3EDB:/
+# technically trident + rotate
+561.3 "扇形断罪飞翔" sync /:无瑕灵君:40BD:/
+562.3 "圣三一" #sync /:无瑕灵君:3EDB:/
+562.3 "圣三一" #sync /:无瑕灵君:3EDB:/
+
+570.3 "创星突进" sync /:无瑕灵君:3EEF:/
+573.3 "--jump--" sync /:无瑕灵君:3EA2:/ #MISSINGTEXT
+579.9 "荣福直观" sync /:无瑕灵君:3EEE:/
+592.9 "--sync--" sync /:无瑕灵君:3EA2:/
+597.1 "断罪回旋" sync /:无瑕灵君:3EDC:/
+598.9 "落光 1" #sync /:无瑕灵君:3EEC:/
+604.0 "断罪" sync /:无瑕灵君:3ECC:/
+604.8 "落光 2" #sync /:无瑕灵君:3EEC:/
+613.4 "连线断罪飞翔" sync /:无瑕灵君:40BD:/
+622.4 "斗争降临" sync /:断罪之桩:3EA9:/
+623.4 "裁决之雷" sync /:无瑕灵君:3ECD:/
+
+634.4 "创星躲避" sync /:无瑕灵君:3EEF:/
+641.4 "落光 1" #sync /:无瑕灵君:3EEC:/
+646.5 "落光 2" #sync /:无瑕灵君:3EEC:/
+653.4 "光明柱" sync /:无瑕灵君:3EED:/
+655.4 "--jump--" sync /:无瑕灵君:3EA2:/ #MISSINGTEXT
+662.1 "荣福直观" sync /:无瑕灵君:3EEE:/
+675.2 "--sync--" sync /:无瑕灵君:3EA2:/
+679.4 "断罪回旋" sync /:无瑕灵君:3EDC:/
+686.3 "断罪" sync /:无瑕灵君:3ECC:/
+686.9 "神光 x3" sync /:无瑕灵君:3EE6:/ window 5,1 duration 10
+703.9 "夺影" sync /:无瑕灵君:3EEA:/
+714.9 "裁决之雷" sync /:无瑕灵君:3ECD:/
+
+723.9 "创星狂暴" sync /:无瑕灵君:3EEF:/
+728.9 "扇形断罪飞翔" sync /:无瑕灵君:40BD:/
+734.9 "圣三一" #sync /:无瑕灵君:3EDB:/
+739.4 "圣三一" #sync /:无瑕灵君:3EDB:/
+740.4 "--sync--" sync /:无瑕灵君:3EA2:/
+743.9 "圣三一" #sync /:无瑕灵君:3EDB:/
+
+741.7 "--sync--" sync /:3EEF:无瑕灵君/ window 10,10
+744.7 "创星狂暴" sync /:无瑕灵君:3EEF:/
+764.7 "荣福直观" sync /:无瑕灵君:3EF1:/
+765.6 "爆炸 Enrage" sync /:无瑕灵君:3EF0:/

@@ -1,0 +1,87 @@
+hideall "--Reset--"
+hideall "--sync--"
+
+# ii 1F8B 1F8D 1F8E 1F8F 1F90 1F94 1F9A 1F9C 1F9E 1FA3 1FBB 1FCE 1FCF 1FF4 2218 2219 221A 244B 24F0
+
+# Elemental Attack is one of:
+# Aerial Blast, Judgment Bolt, Diamond Dust, Hellfire, Earthen Fury, Tidal Wave
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+1.0 "--sync--" sync /:(左翼|右翼):1FA9:/ window 1,2
+20.6 "巨浪" sync /:神龙:1FAA:/ window 20.6,5
+38.8 "超新星/闪电" sync /:右翼:1F9[9B]:/
+49.9 "死亡轮回" sync /:神龙:1FA4:/
+59.2 "召唤冰柱" sync /:左翼:1F9F:/
+59.9 "冰柱冲击 x2" # sync /:冰柱:1FA0:/
+64.4 "冰柱突刺 x2" # sync /:冰柱:1FA1:/
+75.2 "吹雪" sync /:左翼:1FA2:/
+88.3 "大地吐息" sync /:神龙:1F9D:/ # May be skipped with high DPS
+115.8 "地狱之火炎/制裁之雷"sync /:神龙:1FA[BC]:/ window 30,30
+118.1 "--untargetable--" #MISSINGTEXT
+
+# Intermission.
+# The given times for Meteor Impact are the latest they can occur.
+119.0 "--sync--" sync /:神龙:1F8A:/ window 120,5
+125.4 "--sync--" sync /:1F96:光茧/ window 10,5
+129.1 "陨石冲击" sync /:光茧:1F96:/
+130.6 "--adds spawn--" sync /:光茧:2142:/ #MISSINGTEXT
+146.2 "--sync--" sync /:1F96:光茧/ window 15,5
+150.9 "陨石冲击" sync /:光茧:1F96:/
+152.5 "--adds spawn--" sync /:光茧:2142:/ #MISSINGTEXT
+176.1 "--sync--" sync /:1F96:光茧/ window 25,5
+180.8 "陨石冲击" sync /:光茧:1F96:/
+182.4 "--adds spawn--" sync /:光茧:2142:/ #MISSINGTEXT
+219.7 "--sync--" sync /:1F95:神龙/ window 220,5
+225.2 "原恒星" sync /:神龙:1F95:/
+234.3 "暗物质" sync /:神龙:1F98:/
+240.5 "--sync--" sync /:神龙:2128:/
+244.9 "XJB按" # Doesn't seem to have an actual log line to sync
+
+# Post-intermission block
+271.9 "螺旋冲锋" sync /:神龙:1FA8:/
+279.1 "--targetable--" #MISSINGTEXT
+290.3 "尾部猛击" sync /:龙尾:1F93:/
+311.3 "吹雪" sync /:左翼:1FA2:/
+317.4 "尾部猛击" sync /:龙尾:1F93:/
+328.4 "吹雪" sync /:左翼:1FA2:/
+335.5 "龙掌" sync /:神龙:24EF:/ window 30,30
+353.6 "大气爆发/制裁之雷/钻石星尘/地狱之火炎/大地之怒/巨浪" sync /:神龙:1FA[ABCDEF]:/
+360.8 "--sync--" sync /:神龙:1F9[12]:/ window 30,15
+363.7 "召唤冰柱" sync /:左翼:1F9F:/
+364.3 "冰柱冲击 x2" # sync /:冰柱:1FA0:/
+368.8 "冰柱突刺 x2" # sync /:冰柱:1FA1:/
+370.8 "尾部猛击" sync /:龙尾:1F93:/
+377.8 "吹雪" sync /:左翼:1FA2:/
+387.8 "超新星/闪电" sync /:右翼:1F9[9B]:/
+388.0 "--sync--" sync /:神龙:1F9[12]:/
+398.1 "尾部猛击" sync /:龙尾:1F93:/
+425.2 "大气爆发/制裁之雷/钻石星尘/地狱之火炎/大地之怒/巨浪" sync /:神龙:1FA[ABCDEF]:/
+425.2 "--sync--" sync /:神龙:23BA:/
+
+# Rotation to 0% HP
+434.4 "死亡轮回 x3" sync /:神龙:1FA4:/ window 30,30
+440.7 "--untargetable--" #MISSINGTEXT
+450.1 "螺旋冲锋" sync /:神龙:1FA8:/
+457.2 "--targetable--" #MISSINGTEXT
+466.4 "吹雪" sync /:左翼:1FA2:/
+478.4 "龙掌" sync /:神龙:24EF:/ window 30,30
+484.4 "超新星/闪电" sync /:右翼:1F9[9B]:/
+496.5 "大气爆发/制裁之雷/钻石星尘/地狱之火炎/大地之怒/巨浪" sync /:神龙:1FA[ABCDEF]:/
+507.7 "--sync--" sync /:神龙:1F9[12]:/ window 30,15
+509.7 "召唤冰柱" sync /:左翼:1F9F:/
+510.3 "冰柱冲击" # sync /:冰柱:1FA0:/
+514.8 "冰柱突刺 x2" # sync /:冰柱:1FA1:/
+517.9 "尾部猛击" sync /:龙尾:1F93:/
+527.8 "超新星/闪电" sync /:右翼:1F9[9B]:/
+540.8 "死亡轮回 x3" # sync /:神龙:1FA4:/ duration 5
+548.9 "吹雪" sync /:左翼:1FA2:/
+555.2 "大地吐息" sync /:神龙:1F9D:/
+569.6 "大气爆发/制裁之雷/钻石星尘/地狱之火炎/大地之怒/巨浪" sync /:神龙:1FA[ABCDEF]:/
+
+578.8 "死亡轮回 x3" sync /:神龙:1FA4:/ jump 434.4
+585.1 "--untargetable--" #MISSINGTEXT
+594.5 "螺旋冲锋"
+601.6 "--targetable--" #MISSINGTEXT
+610.8 "吹雪"

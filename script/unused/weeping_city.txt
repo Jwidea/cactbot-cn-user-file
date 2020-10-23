@@ -1,0 +1,420 @@
+### THE WEEPING CITY OF MHACH
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0 "--Reset--" sync /00:0839:.*is no longer sealed/ window 100000 jump 0 #MISSINGSYNC
+
+#~~~~~~~~~~~~~#
+# ARACHNE EVE #
+#~~~~~~~~~~~~~#
+
+# -ii 368 1835 1836
+# -ic "Webmaiden" "Spitting Spider" "Skittering Spider" "Earth Aether"
+
+0 "--sync--" sync /00:0839:女王蛛猎场 will be sealed off/
+9.8 "暗之刺爪" sync /:阿剌克涅:1823:/
+21.6 "喷吐蛛丝" sync /:阿剌克涅:1824:/
+30.4 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
+36.8 "--untargetable--" #MISSINGTEXT
+41.9 "地震 x3" sync /:阿剌克涅:1837:/ # 3 separate abilities, 1837/1836/1835
+48.4 "--sync--" sync /:阿剌克涅:1889:/
+49.9 "强袭" sync /:阿剌克涅:1825:/
+51.9 "--targetable--" #MISSINGTEXT
+52.1 "--sync--" sync /:阿剌克涅:1847:/ # Sticky Wicket head markers
+55.7 "粘液弹 x3" # sync /:阿剌克涅:183F:/
+64.1 "喷吐蛛丝" sync /:阿剌克涅:1824:/
+
+# Intermission up in her web. There's a LOT of stuff going on here,
+# but the add spawns and abilities are dependent on what the team kills.
+# Implosion is the only real consistency we have through the intermission.
+95.7 "向心聚爆" sync /:阿剌克涅:1833:/ window 95.7,2.5
+113.9 "向心聚爆" sync /:阿剌克涅:1833:/
+132.1 "向心聚爆" sync /:阿剌克涅:1833:/
+150.3 "向心聚爆" sync /:阿剌克涅:1833:/ jump 95.7
+168.5 "向心聚爆"
+186.7 "向心聚爆"
+
+# Back on the ground for a relatively short bridge block
+# We sync to a 14/20 startsUsing log line instead of a 15/21 ability line.
+# This lets us jump out of the intermission slightly earlier.
+197.3 "暗之刺爪" sync /:1823:阿剌克涅/ window 100,5
+206.3 "--sync--" sync /:阿剌克涅:1847:/
+210.5 "粘液弹 x3" # sync /:阿剌克涅:183F:/
+212.1 "--untargetable--" #MISSINGTEXT
+216.7 "地震 x3" sync /:阿剌克涅:1837:/
+223.9 "--sync--" sync /:阿剌克涅:1889:/
+225.5 "强袭" sync /:阿剌克涅:1825:/
+227.5 "--targetable--" #MISSINGTEXT
+233.2 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
+246.3 "暗影爆" sync /:阿剌克涅:1838:/
+253.0 "暗之刺爪" sync /:阿剌克涅:1823:/
+264.4 "恐惧视线" sync /:阿剌克涅:183A:/ window 30,30
+271.1 "喷吐蛛丝" sync /:阿剌克涅:1824:/
+277.9 "暗之刺爪" sync /:阿剌克涅:1823:/
+287.7 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
+294.2 "--untargetable--" #MISSINGTEXT
+297.9 "蜘蛛陷阱" duration 5 # sync /:阿剌克涅:1842:/
+305.9 "大蜘蛛陷阱" sync /:阿剌克涅:1888:/
+308.5 "强袭" sync /:阿剌克涅:1845:/
+310.5 "--targetable--" #MISSINGTEXT
+317.2 "暗之刺爪" sync /:阿剌克涅:1823:/
+
+# And up we go again.
+347.2 "向心聚爆" sync /:阿剌克涅:1833:/ window 147,5
+365.4 "向心聚爆" sync /:阿剌克涅:1833:/
+383.6 "向心聚爆" sync /:阿剌克涅:1833:/ jump 347.2
+401.8 "向心聚爆"
+420.0 "向心聚爆"
+
+# Back down again for another bridge block
+464.9 "暗之刺爪" sync /:阿剌克涅:1823:/ window 120,5
+476.4 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
+483.8 "--sync--" sync /:阿剌克涅:1847:/
+487.4 "粘液弹 x3" # sync /:阿剌克涅:183F:/
+489.8 "--untargetable--" #MISSINGTEXT
+494.4 "地震 x3" sync /:阿剌克涅:1837:/
+501.3 "蜘蛛陷阱 x3" duration 5 # sync /:阿剌克涅:1842:/
+509.3 "大蜘蛛陷阱" sync /:阿剌克涅:1888:/
+511.9 "强袭" sync /:阿剌克涅:1845:/
+513.9 "--targetable--" #MISSINGTEXT
+520.6 "暗之刺爪" sync /:阿剌克涅:1823:/
+526.4 "喷吐蛛丝" sync /:阿剌克涅:1824:/
+535.0 "暗之刺爪" sync /:阿剌克涅:1823:/
+546.3 "恐惧视线" sync /:阿剌克涅:183A:/ window 30,30
+559.7 "暗影爆" sync /:阿剌克涅:1838:/
+565.2 "暗之刺爪" sync /:阿剌克涅:1823:/
+572.2 "--sync--" sync /:阿剌克涅:1847:/
+575.9 "粘液弹 x3" # sync /:阿剌克涅:183F:/
+578.3 "--untargetable--" #MISSINGTEXT
+582.9 "地震 x3" sync /:阿剌克涅:1837:/
+
+# And *finally* we get to rotation blocks!
+# It may not be necessary to sync so widely, but it's probably a safe bet,
+# since we don't have any network logs that get this far to verify.
+589.4 "--sync--" sync /:阿剌克涅:1889:/ window 100,5
+590.9 "强袭" sync /:阿剌克涅:1825:/
+592.9 "--targetable--" #MISSINGTEXT
+604.6 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
+617.8 "暗之刺爪" sync /:阿剌克涅:1823:/
+623.3 "喷吐蛛丝" sync /:阿剌克涅:1824:/
+631.8 "暗之刺爪" sync /:阿剌克涅:1823:/
+642.8 "恐惧视线" sync /:阿剌克涅:183A:/ window 30,30
+656.5 "暗影爆" sync /:阿剌克涅:1838:/
+662.0 "暗之刺爪" sync /:阿剌克涅:1823:/
+677.0 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
+681.2 "--untargetable--" #MISSINGTEXT
+684.9 "蜘蛛陷阱 x3" duration 5 # sync /:阿剌克涅:1842:/
+692.9 "大蜘蛛陷阱" sync /:阿剌克涅:1888:/
+695.4 "强袭" sync /:阿剌克涅:1845:/
+697.4 "--targetable--" #MISSINGTEXT
+703.4 "--sync--" sync /:阿剌克涅:1847:/
+707.1 "粘液弹 x3" # sync /:阿剌克涅:183F:/
+716.1 "暗之刺爪" sync /:阿剌克涅:1823:/
+721.6 "喷吐蛛丝" sync /:阿剌克涅:1824:/
+730.1 "暗之刺爪" sync /:阿剌克涅:1823:/
+741.1 "恐惧视线" sync /:阿剌克涅:183A:/ window 30,30
+754.7 "暗影爆" sync /:阿剌克涅:1838:/
+760.2 "暗之刺爪" sync /:阿剌克涅:1823:/
+767.2 "--sync--" sync /:阿剌克涅:1847:/
+770.8 "粘液弹 x3" # sync /:阿剌克涅:183F:/
+773.0 "--untargetable--" #MISSINGTEXT
+777.6 "地震 x3" # sync /:阿剌克涅:1837:/
+
+784.1 "--sync--" sync /:阿剌克涅:1889:/ jump 589.4
+785.6 "强袭"
+787.6 "--targetable--" #MISSINGTEXT
+799.3 "阿剌克涅之网"
+812.5 "暗之刺爪"
+818.0 "喷吐蛛丝"
+
+#~~~~~~~~~#
+# FORGALL #
+#~~~~~~~~~#
+
+# -ii 366 17D5 17C1 17D6
+
+1000.0 "--sync--" sync /00:0839:神谕祭坛 will be sealed off/ window 1000,5
+1014.2 "死灵潜质" sync /:猛禽联盟遗骸:17D7:/
+1024.4 "米吉多烈焰" sync /:弗加尔:17C0:/
+1032.4 "死灵潜质" sync /:弗加尔:17BE:/
+1060.7 "米吉多烈焰" sync /:弗加尔:17C0:/
+1066.7 "惩戒之光" sync /:弗加尔:17C4:/
+1081.0 "祭品烙印" sync /:弗加尔:17CC:/ window 20,20
+1090.3 "恶魔毒雾" sync /:弗加尔:17C5:/
+1101.3 "死灵潜质" sync /:猛禽联盟遗骸:17D7:/
+1118.3 "死灵潜质" sync /:弗加尔:17BE:/
+1131.6 "死灵潜质" sync /:弗加尔:17BF:/
+1132.8 "祭品烙印" sync /:弗加尔:17CC:/ window 20,20
+1141.1 "--sync--" sync /:弗加尔:17C2:/ # Dark Eruption markers go out.
+1146.3 "暗炎喷发 x3" # sync /:弗加尔:17C3:/
+1163.2 "--sync--" sync /:弗加尔:17C7:/ window 163.2 # Pushes at 50% HP.
+
+# We don't know how long the intermission goes.
+# There's no data available to tell us what, if anything,
+# happens if the three adds aren't killed in time.
+# It could even be nothing.
+# If the intermission goes longer than 3 minutes, something is WRONG.
+
+1350.0 "魔力爆炸" sync /:弗加尔:17C8:/ window 350,5
+
+1360.2 "死灵潜质" sync /:弗加尔:17BE:/ window 200,5
+1373.4 "死灵潜质" sync /:弗加尔:17BF:/
+1373.4 "--sync--" sync /:毒雾:17D8:/
+1377.5 "超即死" sync /:弗加尔:17CA:/ window 20,20
+1388.5 "--sync--" sync /:弗加尔:17C2:/
+1393.7 "暗炎喷发 x3" # sync /:弗加尔:17C3:/
+1395.7 "米吉多烈焰" sync /:弗加尔:17C0:/
+1400.9 "恶魔毒雾" sync /:弗加尔:17C5:/
+1414.9 "死灵潜质" sync /:弗加尔:17BF:/
+1414.9 "--sync--" sync /:毒雾:17D8:/
+1419.1 "超即死" sync /:弗加尔:17CA:/ window 20,20
+1439.2 "地狱之风" sync /:弗加尔:17CB:/
+1453.3 "祭品烙印" sync /:弗加尔:17CC:/
+1459.5 "惩戒之光" sync /:弗加尔:17C4:/
+1465.6 "祭品烙印" sync /:弗加尔:17CC:/
+
+1481.9 "死灵潜质" sync /:弗加尔:17BE:/ jump 1360.2
+1495.1 "死灵潜质"
+1499.1 "超即死"
+1515.4 "暗炎喷发 x3"
+
+#~~~~~~#
+# OZMA #
+#~~~~~~#
+
+# -ii 366 367 368 1802 1806 1807 1829 1830 1832
+# -ic "Singularity Ripple" "Singularity Trace"
+
+# Ozma is based on an A/B timeline pattern.
+# She begins in Sphere form and can morph into Cube or Pyramid stance.
+# The complete flow looks like:
+
+# Sphere opening block -->              --> Cube bridge block ---->       . - - - - - - - - - - ---
+#                                                                         V                       |
+# Cube opening block ----> Intermission --> Sphere bridge block --> (Cube|Sphere) rotation blocks |
+
+2000.0 "--sync--" sync /00:0839:金字塔上层 will be sealed off/ window 2000,5
+2015.0 "陨石点名"
+2024.0 "陨石冲击" sync /:压缩世界的断片:1935:/
+
+2045.5 "形态变化 (三角锥形态/立方体形态?)" sync /:奥兹玛:1826:/ jump 2150.0
+2045.5 "--sync--" sync /:奥兹玛:1803:/ jump 2250.0
+2052.6 "缩小射线?"
+2052.6 "耀星?"
+2059.0 "爆炸 x5?"
+2073.9 "加速度炸弹?"
+
+# Pyramid-first path
+
+2150.0 "形态变化 (三角锥形态)" sync /:奥兹玛:1826:/
+2157.1 "缩小射线" sync /:奥兹玛:1828:/
+2178.4 "加速度炸弹" sync /:奥兹玛:182F:/
+2195.7 "形态变化 (Sphere)" sync /:奥兹玛:1827:/
+2199.1 "--sync--" sync /:1800:奥兹玛/ window 48.8,5
+2203.8 "黑洞" sync /:奥兹玛:1800:/ window 53,5 jump 2400.0
+
+# Cube-first path
+
+2250.0 "形态变化 (立方体形态)" sync /:奥兹玛:1803:/
+2257.0 "耀星" sync /:奥兹玛:1805:/
+2288.0 "神圣" sync /:奥兹玛:182E:/
+2300.0 "形态变化 (Sphere)" sync /:奥兹玛:1804:/
+2303.3 "--sync--" sync /:1800:奥兹玛/ window 53.3,5
+2308.0 "黑洞" sync /:奥兹玛:1800:/ window 58,5 jump 2400.0
+
+# Intermission
+
+2400.0 "黑洞" # seems to be a 55% HP push.
+# We can't really do anything with this intermission.
+# The only real repetition is the Singularity Echoes casting stuff.
+# But they die well before the intermission ends, so no point.
+# Instead, we just let the timeline play on dead space.
+# The intermission's enrage is probably under 3 minutes, but we have no way to know.
+
+2594.4 "--sync--" sync /:奥兹玛:182D:/ window 194.4,0
+2600.0 "--sync--" sync /:奥兹玛:1826:/ window 200,5 jump 2700.0
+2600.0 "--sync--" sync /:奥兹玛:1803:/ window 200,5 jump 3000.0
+
+# The continuation from the intermission is dependent on whichever was first.
+# Each has its own bridge block, each one leading into a pair of rotation blocks.
+# Because of this, it's necessary to jump around way more than we should have to.
+# Each block seems? to be full of tiny HP pushes back into Sphere form.
+
+
+# Cube-first continued
+2700.0 "形态变化 (三角锥形态)" sync /:奥兹玛:1826:/
+2707.0 "缩小射线" sync /:奥兹玛:1828:/
+2728.0 "加速度炸弹" sync /:奥兹玛:182F:/
+2745.0 "形态变化 (Sphere)" sync /:奥兹玛:1827:/ window 45,5
+2763.0 "陨石冲击" sync /:压缩世界的断片:1935:/
+
+2790.8 "形态变化 (立方体形态/三角锥形态?)" sync /:奥兹玛:1826:/ window 50,5 jump 3200
+2790.8 "--sync--" sync /:奥兹玛:1803:/ window 50,5 jump 3400
+2797.8 "缩小射线?"
+2797.8 "耀星?"
+2809.8 "神圣?"
+2813.8 "加速度炸弹?"
+2816.8 "陨石冲击?"
+
+
+# Pyramid-first continued
+
+3000.0 "形态变化 (立方体形态)" sync /:奥兹玛:1803:/
+3007.0 "耀星" sync /:奥兹玛:1805:/
+3011.0 "坦克激光" # sync /:奥兹玛:1831:/
+3029.7 "形态变化 (Sphere)" sync /:奥兹玛:1804:/
+3047.9 "陨石冲击" sync /:压缩世界的断片:1935:/
+
+3080.8 "形态变化 (立方体形态/三角锥形态?)" sync /:奥兹玛:1826:/ window 50,5 jump 3200
+3080.8 "--sync--" sync /:奥兹玛:1803:/ window 50,5 jump 3400
+3087.8 "缩小射线?"
+3087.8 "耀星?"
+3091.8 "坦克激光?"
+3099.8 "神圣?"
+3103.8 "加速度炸弹?"
+
+
+# Pyramid standard rotation
+
+3200.0 "形态变化 (三角锥形态)" sync /:奥兹玛:1826:/
+3207.0 "缩小射线" sync /:奥兹玛:1828:/
+3223.0 "加速度炸弹" sync /:奥兹玛:182F:/
+3226.0 "陨石冲击" sync /:压缩世界的断片:1935:/
+3246.5 "陨石" # sync /:奥兹玛:182D:/
+3261.0 "加速度炸弹" sync /:奥兹玛:182F:/
+3263.0 "形态变化 (Sphere)" sync /:奥兹玛:1827:/ window 50,5
+
+3275.0 "形态变化 (立方体形态/三角锥形态?)" sync /:奥兹玛:1826:/ window 50,5 jump 3200
+3275.0 "--sync--" sync /:奥兹玛:1803:/ jump 3400
+3282.0 "缩小射线?"
+3282.0 "耀星?"
+3286.0 "坦克激光?"
+3294.0 "神圣?"
+3298.0 "加速度炸弹?"
+
+
+# Cube standard rotation
+
+3400.0 "形态变化 (立方体形态)" sync /:奥兹玛:1803:/
+3407.0 "耀星" sync /:奥兹玛:1805:/
+3411.0 "坦克激光" # sync /:奥兹玛:1831:/
+3419.2 "神圣" sync /:奥兹玛:182E:/
+3435.1 "陨石冲击" sync /:压缩世界的断片:1935:/
+3441.3 "神圣" sync /:奥兹玛:182E:/
+3456.6 "陨石" # sync /:奥兹玛:182D:/
+3463.2 "形态变化 (Sphere)" sync /:奥兹玛:1804:/ window 50,5
+
+3475.2 "形态变化 (立方体形态/三角锥形态?)" sync /:奥兹玛:1826:/ window 50,5 jump 3200
+3475.2 "--sync--" sync /:奥兹玛:1803:/ window 50,5 jump 3400
+3482.2 "缩小射线?"
+3482.2 "耀星?"
+3486.2 "坦克激光?"
+3494.2 "神圣?"
+3498.2 "加速度炸弹?"
+
+
+
+
+#~~~~~~~~~~~~~#
+# CALOFISTERI #
+#~~~~~~~~~~~~~#
+
+# -ii 181B 181C 181D 181E 1928
+
+# 1811 and 180D are releasing hair after Haircut and Split End cleaves
+
+4000.0 "--sync--" sync /00:0839:契约石玄室 will be sealed off/ window 4000,5
+4004.1 "血爪 x4" # sync /:卡洛菲斯提莉:181F:/
+4018.8 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 18.8,5
+4027.8 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4030.8 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4035.8 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4040.8 "接发" sync /:卡洛菲斯提莉:1812:/
+4043.8 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4047.8 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4051.9 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/ window 51,5
+4054.9 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/
+4063.9 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4066.9 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4071.9 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4076.9 "接发" sync /:卡洛菲斯提莉:1812:/
+4079.9 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4083.9 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4090.9 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4093.9 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4096.9 "灵气爆" sync /:卡洛菲斯提莉:1821:/
+4099.8 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/ window 40,5
+4101.4 "--untargetable--" #MISSINGTEXT
+4103.8 "魔发狂舞" sync /:卡洛菲斯提莉:1818:/ window 103.8,5
+
+# An intermission full of SKY LASERS
+4112.3 "潜地式波动炮 x16" sync /:卡洛菲斯提莉:1927:/ duration 10
+4131.6 "潜地式波动炮 x16" sync /:卡洛菲斯提莉:1927:/ duration 10
+4140.9 "潜地式波动炮 x16" sync /:卡洛菲斯提莉:1927:/ jump 4112.3
+4160.8 "潜地式波动炮 x16"
+
+
+# Returning to a broken bridge block.
+# It doesn't look like time taken on the intermission affects how many times
+# Dancing Mad strikes.
+
+4200.0 "魔力吸收" sync /:卡洛菲斯提莉:1819:/ window 80,5
+4204.0 "魔发狂舞" sync /:卡洛菲斯提莉:181A:/
+4212.9 "--targetable--" #MISSINGTEXT
+4215.0 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/
+4224.0 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4227.0 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/
+4232.0 "接发" sync /:卡洛菲斯提莉:1812:/
+4237.0 "--sync--" sync /:卡洛菲斯提莉:1813:/
+4238.0 "血爪 x3" # sync /:卡洛菲斯提莉:181F:/
+4249.0 "罪恶发旋/罪恶发团" sync /:卡洛菲斯提莉的魔发:181[67]:/
+4251.5 "接发" sync /:卡洛菲斯提莉:1812:/
+4253.5 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 15,15
+
+# This section of the bridge may be skipped depending on DPS. HP% for push is unknown.
+4262.5 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4268.5 "灵气爆" sync /:卡洛菲斯提莉:1821:/
+4273.5 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4278.5 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+
+4280.5 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/ window 27,15
+4285.5 "接发" sync /:卡洛菲斯提莉:1812:/
+4290.5 "--sync--" sync /:卡洛菲斯提莉:1813:/
+4293.4 "透耳尖啸" sync /:卡洛菲斯提莉:1822:/
+
+# Rotation block to 0%
+4296.9 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 15,15
+4307.2 "蓄力冲击" sync /:卡洛菲斯提莉:1820:/
+4311.2 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4317.2 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/
+4322.2 "接发" sync /:卡洛菲斯提莉:1812:/
+4325.2 "血爪 x3" # sync /:卡洛菲斯提莉:181F:/
+4332.2 "灵气爆" sync /:卡洛菲斯提莉:1821:/
+4338.7 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 15,15
+4339.2 "罪恶发钩" sync /:卡洛菲斯提莉的魔发:1815:/
+4345.7 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4351.7 "接发" sync /:卡洛菲斯提莉:1812:/
+4356.7 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4358.7 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/
+4363.7 "接发" sync /:卡洛菲斯提莉:1812:/
+4367.7 "血爪 x3" # sync /:卡洛菲斯提莉:181F:/
+4377.2 "灵气爆" sync /:卡洛菲斯提莉:1821:/
+4379.2 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 15,15
+4380.7 "罪恶发旋/罪恶发团" sync /:卡洛菲斯提莉的魔发:181[67]:/
+4386.3 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/
+4392.3 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4397.3 "发梢分裂" sync /:卡洛菲斯提莉:18(0C|10):/
+4402.3 "灵气爆" sync /:卡洛菲斯提莉:1821:/
+4404.3 "--sync--" sync /:卡洛菲斯提莉:18(0D|11):/
+4409.3 "接发" sync /:卡洛菲斯提莉:1812:/
+4414.3 "--sync--" sync /:卡洛菲斯提莉:1813:/
+4417.7 "透耳尖啸" sync /:卡洛菲斯提莉:1822:/
+4421.2 "罪恶发旋/罪恶发团" sync /:卡洛菲斯提莉的魔发:181[67]:/
+
+4421.2 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 15,15 jump 4296.9
+4431.5 "蓄力冲击"
+4435.5 "魔发斩"
+4446.5 "接发"
+4449.5 "血爪 x3"
+4456.5 "灵气爆"

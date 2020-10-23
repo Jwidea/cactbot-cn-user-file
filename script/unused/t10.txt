@@ -1,0 +1,73 @@
+# Turn 10
+# -ii B5A B5C B60 B66 B68 B64 B59 B58 B65 B61 B57 -p B5D:200 B5E:500
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+# Initial Phase: Tankbuster, Charge, Repeat
+0.0 "Start"
+0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync / 00:0839:第1信徒区间 will be sealed off/ window 5,5
+8.0 "雷光电闪" sync /:伊姆都古德:B55:/
+16.0 "暴击撕裂" sync /:伊姆都古德:B56:/
+20.0 "雷光电闪" sync /:伊姆都古德:B55:/
+32.0 "狂野冲锋" sync /:伊姆都古德:B5B:/ window 8,8
+36.0 "雷光电闪" sync /:伊姆都古德:B55:/
+51.0 "刃尾横扫" #sync /:伊姆都古德:B57:/
+56.0 "雷光电闪" sync /:伊姆都古德:B55:/
+64.0 "暴击撕裂" sync /:伊姆都古德:B56:/ window 20,20 jump 20
+# fake lookahead loop
+68.0 "雷光电闪"
+80.0 "狂野冲锋"
+84.0 "雷光电闪"
+89.0 "刃尾横扫"
+
+# 85% push into Adds Phase #1
+196.0 "--sync--" sync /:B5D:伊姆都古德/ window 200,0
+200.0 "蓄电" sync /:伊姆都古德:B5D:/ window 200,0
+201.0 "2x 伊姆都古德之子 / 2x 伊姆都古德之女 Adds"
+
+# Mid Phase: Alternates Heat Lightning, Heat Lightning+Charge, Tankbuster, Repeat
+497.0 "--sync--" sync /:B5E:伊姆都古德/ window 500,0
+500.0 "电光爆发" sync /:伊姆都古德:B5E:/ window 500,0
+509.2 "惊电" sync /:伊姆都古德:B5F:/
+528.1 "雷光电闪" sync /:伊姆都古德:B55:/
+535.2 "惊电" sync /:伊姆都古德:B5F:/
+541.9 "狂野冲锋" sync /:伊姆都古德:B5B:/ window 8,8
+545.3 "雷光电闪" sync /:伊姆都古德:B55:/
+558.3 "暴击撕裂" sync /:伊姆都古德:B56:/
+561.5 "雷光电闪" sync /:伊姆都古德:B55:/
+# fake lookahead loop
+569.8 "惊电" sync /:伊姆都古德:B5F:/ window 20,20 jump 509.2
+588.7 "雷光电闪"
+595.8 "惊电"
+602.5 "狂野冲锋"
+
+# 53% push into Adds Phase #2
+696.0 "--sync--" sync /:B5D:伊姆都古德/ window 200,0
+700.0 "蓄电" sync /:伊姆都古德:B5D:/ window 400,0
+701.0 "2x 伊姆都古德之子 / 2x 伊姆都古德之女 Adds"
+736.0 "1x 伊姆都古德之子 / 1x 伊姆都古德之女 Adds"
+
+# Final Phase: Heat+Tether, Buster, Random Mechanic, Repeat
+997.0 "--sync--" sync /:B5E:伊姆都古德/ window 400,0
+1000.0 "电光爆发" sync /:伊姆都古德:B5E:/ window 400,0
+
+1009.3 "惊电" sync /:伊姆都古德:B5F:/
+1013.5 "龙卷雷暴" sync /:伊姆都古德:B61:/
+1028.5 "雷光电闪" sync /:伊姆都古德:B55:/
+
+1035.8 "暴击撕裂" sync /:伊姆都古德:B56:/ window 20,20
+1042.0 "雷光电闪" sync /:伊姆都古德:B55:/
+
+# Heat + Charge, OR Tether + Charge
+1058.0 "随机+冲锋"
+
+1061.2 "雷光电闪" sync /:伊姆都古德:B55:/
+1089.2 "惊电" sync /:伊姆都古德:B5F:/ window 20,20 jump 1009.3
+1093.4 "龙卷雷暴"
+1108.4 "雷光电闪"
+1115.7 "暴击撕裂"
+1121.9 "雷光电闪"

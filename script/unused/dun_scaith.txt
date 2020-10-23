@@ -1,0 +1,492 @@
+### DUN SCAITH
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0 "--Reset--" sync /00:0839:.*is no longer sealed/ window 100000 jump 0 #MISSINGSYNC
+
+#~~~~~~~~~~~~~~~~~~#
+# DEATHGAZE HOLLOW #
+#~~~~~~~~~~~~~~~~~~#
+
+# -ii 1C90 1ABC -ic "Fierce Wind" "Void Sprite"
+
+0 "--sync--" sync /00:0839:主甲板 will be sealed off/ window 0,5
+6.7 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+11.8 "--sync--" sync /:虚空死亡凝视:1C91:/
+16.6 "--sync--" sync /:虚空死亡凝视:1C92:/
+19.0 "虚空即死" sync /:虚空死亡凝视:1C7F:/
+23.6 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+31.6 "虚空烈风" sync /:虚空死亡凝视:1C79:/
+32.4 "--sync--" sync /:虚空死亡凝视:1C8C:/
+34.6 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+39.1 "虚空冰封" sync /:虚空死亡凝视:1C75:/
+39.6 "--sync--" sync /:虚空死亡凝视:1C8A:/
+48.1 "虚空烈风I" sync /:虚空死亡凝视:1C7B:/
+54.1 "--sync--" sync /:虚空死亡凝视:1C8E:/
+54.1 "虚空烈风I" sync /:虚空死亡凝视:1C8D:/
+56.1 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+62.1 "死亡诅咒" sync /:虚空死亡凝视:1C8[45]:/
+
+# Logs exist where this section is skipped? HP push?
+74.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+77.6 "--sync--" sync /:虚空死亡凝视:1C91:/
+82.4 "--sync--" sync /:虚空死亡凝视:1C92:/
+84.9 "虚空即死" sync /:虚空死亡凝视:1C7F:/
+
+87.8 "--sync--" sync /:虚空死亡凝视:1C81:/ window 30,5
+94.8 "虚空冰澈" sync /:虚空死亡凝视:1C77:/
+99.8 "虚空冰澈" sync /:虚空死亡凝视:1C8B:/
+103.8 "虚空飙风" sync /:虚空死亡凝视:1C7C:/
+104.3 "--sync--" sync /:虚空死亡凝视:1C8F:/
+113.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+123.8 "虚空烈风" sync /:虚空死亡凝视:1C78:/
+124.6 "--sync--" sync /:虚空死亡凝视:1C8C:/
+129.8 "虚空烈风I" sync /:虚空死亡凝视:1C7A:/
+139.8 "--sync--" sync /:虚空死亡凝视:1C8E:/
+139.8 "虚空烈风I" sync /:虚空死亡凝视:1C8D:/
+139.8 "黑暗电光" sync /:虚空死亡凝视:1C8[67]:/
+140.6 "--sync--" sync /:虚空死亡凝视:1C93:/
+145.8 "虚空即死 IV" sync /:虚空死亡凝视:1C8[23]:/
+149.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+154.8 "死亡诅咒" sync /:虚空死亡凝视:1C8[45]:/
+159.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+168.8 "虚空烈风" sync /:虚空死亡凝视:1C78:/
+169.6 "--sync--" sync /:虚空死亡凝视:1C8C:/
+172.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+178.3 "虚空冰封" sync /:虚空死亡凝视:1C74:/
+178.8 "--sync--" sync /:虚空死亡凝视:1C8A:/
+184.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+189.3 "虚空即死 IV" sync /:虚空死亡凝视:1C8[23]:/
+194.3 "--sync--" sync /:虚空死亡凝视:1C91:/
+199.3 "--sync--" sync /:虚空死亡凝视:1C92:/
+201.7 "虚空即死" sync /:虚空死亡凝视:1C7E:/
+204.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+209.3 "死亡诅咒" sync /:虚空死亡凝视:1C8[45]:/
+218.3 "虚空烈风" sync /:虚空死亡凝视:1C78:/
+219.1 "--sync--" sync /:虚空死亡凝视:1C8C:/
+228.3 "虚空冰澈" sync /:虚空死亡凝视:1C76:/
+233.3 "虚空冰澈" sync /:虚空死亡凝视:1C8B:/
+237.3 "虚空飙风" sync /:虚空死亡凝视:1C7D:/
+237.8 "--sync--" sync /:虚空死亡凝视:1C8F:/
+247.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+257.3 "虚空烈风" sync /:虚空死亡凝视:1C79:/
+258.1 "--sync--" sync /:虚空死亡凝视:1C8C:/
+263.3 "虚空烈风I" sync /:虚空死亡凝视:1C7B:/
+273.3 "--sync--" sync /:虚空死亡凝视:1C8E:/
+273.3 "虚空烈风I" sync /:虚空死亡凝视:1C8D:/
+273.3 "黑暗电光" sync /:虚空死亡凝视:1C8[67]:/
+274.1 "--sync--" sync /:虚空死亡凝视:1C93:/
+279.3 "虚空即死 IV" sync /:虚空死亡凝视:1C8[23]:/
+283.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+288.3 "死亡诅咒" sync /:虚空死亡凝视:1C8[45]:/
+293.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+302.3 "虚空烈风" sync /:虚空死亡凝视:1C79:/
+303.1 "--sync--" sync /:虚空死亡凝视:1C8C:/
+306.3 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+311.8 "虚空冰封" sync /:虚空死亡凝视:1C75:/
+312.3 "--sync--" sync /:虚空死亡凝视:1C8A:/
+317.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+322.8 "虚空即死 IV" sync /:虚空死亡凝视:1C8[23]:/
+327.8 "--sync--" sync /:虚空死亡凝视:1C91:/
+332.8 "--sync--" sync /:虚空死亡凝视:1C92:/
+335.2 "虚空即死" sync /:虚空死亡凝视:1C7F:/
+337.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+342.8 "死亡诅咒" sync /:虚空死亡凝视:1C8[45]:/
+351.8 "虚空烈风" sync /:虚空死亡凝视:1C79:/
+352.6 "--sync--" sync /:虚空死亡凝视:1C8C:/
+361.8 "虚空冰澈" sync /:虚空死亡凝视:1C77:/
+366.8 "虚空冰澈" sync /:虚空死亡凝视:1C8B:/
+370.8 "虚空飙风" sync /:虚空死亡凝视:1C7C:/
+371.3 "--sync--" sync /:虚空死亡凝视:1C8F:/
+380.8 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
+390.8 "虚空烈风" sync /:虚空死亡凝视:1C78:/
+391.6 "--sync--" sync /:虚空死亡凝视:1C8C:/
+396.8 "虚空烈风I" sync /:虚空死亡凝视:1C7A:/
+406.8 "--sync--" sync /:虚空死亡凝视:1C8E:/
+406.8 "虚空烈风I" sync /:虚空死亡凝视:1C8D:/
+406.8 "黑暗电光" sync /:虚空死亡凝视:1C8[67]:/
+407.6 "--sync--" sync /:虚空死亡凝视:1C93:/
+412.8 "虚空即死 IV" sync /:虚空死亡凝视:1C8[23]:/
+
+
+#~~~~~~~~~~~~~~~~#
+# FERDIAD HOLLOW #
+#~~~~~~~~~~~~~~~~#
+
+# -ii 1C97 1CA8 1CA9 1CAB -ic "Abyssal Scythe"
+# -ic "Ferdiad's Fool"
+
+1000.0 "--sync--" sync /00:0839:小丑舞台 will be sealed off/ window 1000,5
+1014.2 "黑风 x3" # sync /:虚空弗迪亚:1CAC:/
+1020.3 "诡计" sync /:虚空弗迪亚:1C99:/
+1028.0 "虫洞" sync /:虚空弗迪亚:1C9A:/
+1028.3 "--sync--" sync /:(怨声的阿托莫斯|虚声的阿托莫斯):1C49:/
+1028.5 "杂耍球" sync /:(以太晶球|以太晶球ial Chakram):1C(9F|A0):/
+1030.0 "--sync--" sync /:(怨声的阿托莫斯|虚声的阿托莫斯):1C9[CD]:/
+1033.2 "爆炸" sync /:(以太晶球|以太晶球ial Chakram):1CA[12]:/
+1039.2 "小丑收割" sync /:虚空弗迪亚:1E41:/
+1047.2 "黑暗杂耍" sync /:虚空弗迪亚:1C98:/
+1052.2 "诡计" sync /:虚空弗迪亚:1C99:/
+1060.5 "虫洞" sync /:虚空弗迪亚:1C9A:/
+1060.8 "--sync--" sync /:(怨声的阿托莫斯|虚声的阿托莫斯):1C49:/
+1061.0 "杂耍球" sync /:(以太晶球|以太晶球ial Chakram):1C(9F|A0):/
+1062.5 "--sync--" sync /:(怨声的阿托莫斯|虚声的阿托莫斯):1C9[CD]:/
+1065.7 "爆炸" sync /:(以太晶球|以太晶球ial Chakram):1CA[12]:/
+1069.7 "弱点生成" sync /:虚空弗迪亚:1CA6:/
+1079.9 "黑暗杂耍" sync /:虚空弗迪亚:1C98:/
+1087.4 "烈炎流" sync /:虚空弗迪亚:1CA7:/
+1089.9 "诡计" sync /:虚空弗迪亚:1C99:/
+
+
+# The intermission is extremely complex to figure out.
+# There are Atomos teleports, but only if Fools aren't alive.
+# The Fool actions don't seem to have strict timers.
+# It's all a mess, but Ferdiad is guaranteed to do his half-circle on time.
+1089.9 "--untargetable--" #MISSINGTEXT
+1095.9 "--sync--" sync /:虚声的阿托莫斯:1C9E:/ window 95.9,5
+1131.1 "小丑的奖励" sync /:虚空弗迪亚:1CA3:/
+
+
+
+1300.0 "--sync--" sync /:1CA4:虚空弗迪亚/ window 300,5
+1304.7 "小丑的吉格舞" sync /:虚空弗迪亚:1CA4:/
+1306.7 "--sync--" sync /:虚空弗迪亚:1CA5:/
+
+1319.0 "诡计" sync /:虚空弗迪亚:1C99:/
+1327.5 "虫洞" sync /:虚空弗迪亚:1C9A:/
+1327.8 "--sync--" sync /:(怨声的阿托莫斯|虚声的阿托莫斯):1C49:/
+1328.0 "杂耍球" sync /:(以太晶球|以太晶球ial Chakram):1C(9F|A0):/
+1329.6 "--sync--" sync /:(怨声的阿托莫斯|虚声的阿托莫斯):1C9[CD]:/
+1333.0 "爆炸" sync /:(以太晶球|以太晶球ial Chakram):1CA[12]:/ window 15,15
+1338.1 "小丑收割" sync /:虚空弗迪亚:1E41:/
+1348.8 "黑风" # sync /:虚空弗迪亚:1CAC:/
+1362.4 "漆黑之炎" sync /:虚空弗迪亚:1CAA:/
+1372.7 "小丑收割" sync /:虚空弗迪亚:1E41:/
+1380.9 "黑暗杂耍" sync /:虚空弗迪亚:1C98:/ window 15,15
+1387.2 "弱点生成" sync /:虚空弗迪亚:1CA6:/
+1394.7 "黑雷" sync /:虚空弗迪亚:1CAD:/
+1405.2 "烈炎流" sync /:虚空弗迪亚:1CA7:/
+1411.4 "小丑收割" sync /:虚空弗迪亚:1E41:/
+
+1420.4 "诡计" sync /:虚空弗迪亚:1C99:/ window 15,15 jump 1319.0
+1428.9 "虫洞"
+1429.4 "杂耍球"
+1434.4 "爆炸"
+1439.5 "小丑收割"
+1450.2 "黑风"
+
+#~~~~~~~~~~~~~~#
+# PROTO ULTIMA #
+#~~~~~~~~~~~~~~#
+
+# It's all bad. It never lasts long enough to get a good sample of its abilities.
+# A couple logs exist that seem to indicate that Light Pillar can come first.
+# However, no logs since 2019 show this behavior.
+# Maybe HP%-based? We window Light Pillar just to be safe.
+
+# -ii 1D9B
+# -ic "Allagan Dreadnaught" "Proto Bit"
+
+2000.0 "--sync--" sync /00:0839:女王的阅兵广场 will be sealed off/ window 2000,5
+
+2007.8 "以太曲折" sync /:究极神兵原型:1D99:/
+2018.4 "魔科学激光 1" sync /:究极神兵原型:1D96:/
+2022.4 "魔科学激光 2" sync /:究极神兵原型:1D98:/
+2026.4 "魔科学激光 3" sync /:究极神兵原型:1D97:/
+2033.4 "魔科学核爆" sync /:究极神兵原型:1E52:/
+2034.6 "扩散射线" # sync /:究极神兵原型:1DAA:/
+2036.6 "--sync--" sync /:究极神兵原型:1D9A:/ window 36,5 # Logs exist where this is first.
+2042.6 "光柱 x8" duration 10 # sync /:究极神兵原型:1DA8:/
+2053.4 "魔科学核爆" sync /:究极神兵原型:1E52:/
+
+# We don't know about this part. Maybe it does this?
+# Timing might be a little different?
+2060.0 "以太曲折" sync /:究极神兵原型:1D99:/ window 30,15 jump 2007.8
+2070.6 "魔科学激光 1"
+2074.6 "魔科学激光 2"
+2078.6 "魔科学激光 3"
+2079.8 "扩散射线"
+2085.8 "光柱 x8"
+
+2100.0 "--untargetable--" sync /:究极神兵原型:1DA0:/ window 100,5 #MISSINGTEXT
+2110.6 "--sync--" sync /:究极神兵原型:1DAC:/
+2110.6 "荒蛮破坏者" sync /:究极神兵原型:1DAD:/
+2117.5 "以太池" sync /:究极神兵原型:1DA3:/
+2119.1 "耀星" sync /:究极神兵原型:1DA4:/
+2125.5 "以太池" sync /:究极神兵原型:1DA3:/
+2126.2 "--sync--" sync /:究极神兵原型:1DA2:/
+2127.1 "耀星" sync /:究极神兵原型:1DA4:/
+2131.2 "攻城炮" sync /:究极神兵原型:1DAB:/
+2139.3 "空降" sync /:究极神兵原型:1D9C:/
+2139.3 "--targetable--" #MISSINGTEXT
+
+2147.4 "空间错乱" sync /:究极神兵原型:1D9D:/
+2156.6 "--sync--" sync /:究极神兵原型:1D9A:/
+2160.7 "光柱 x10" # sync /:究极神兵原型:1DA5:/
+2194.7 "以太曲折" sync /:究极神兵原型:1D99:/ window 30,5
+2200.7 "魔科学核爆" sync /:究极神兵原型:1E52:/
+2204.4 "魔科学激光 1" sync /:究极神兵原型:1D96:/ window 45,5
+2208.4 "魔科学激光 2" sync /:究极神兵原型:1D97:/
+2213.4 "魔科学激光 3" sync /:究极神兵原型:1D98:/
+2214.4 "扩散射线" # sync /:究极神兵原型:1DAA:/
+
+# We don't know, but it seems likely.
+2216.4 "--sync--" sync /:究极神兵原型:1D9A:/ window 30,30 jump 2156.6
+2220.5 "光柱 x10"
+
+# Enrage is a LOOOONG cast alongside Aether Collectors.
+2500.0 "--sync--" sync /:1DA9:究极神兵原型/ window 2500,5
+2559.7 "空间错乱 Enrage" sync /:究极神兵原型:1DA9:/
+
+
+#~~~~~~~~~~#
+# SCATHACH #
+#~~~~~~~~~~#
+
+# -ii 1D2C 1D2D 1D2E 1D30 1DD4 1DD5 1E50
+# -ic Shadowcourt Jester" "Chimera Poppet"
+
+3000.0 "--sync--" sync /00:0839:女王之间 will be sealed off/ window 3000,5
+3013.1 "三十棘" sync /:斯卡哈:1D2B:/
+3030.2 "三十矢" sync /:斯卡哈:1D2F:/ window 30,5
+3037.4 "影子凝缩" sync /:斯卡哈:1CD3:/ window 30,5
+3047.7 "--sync--" sync /:斯卡哈:(1D1[EF]):/
+3049.0 "阴影回旋" sync /:斯卡哈:1D20:/
+3052.8 "三十镰" sync /:斯卡哈:1D31:/
+3056.0 "飞翔" sync /:斯卡哈:1D1B:/
+3060.0 "--sync--" sync /:斯卡哈:1D1C:/
+3061.0 "阴影重击" sync /:斯卡哈:1D1D:/
+
+3070.8 "--影之力--"
+3084.8 "三十魂" sync /:斯卡哈:1D32:/ window 30,5
+3088.0 "影子释放" sync /:斯卡哈:1CD4:/ window 90,5
+3095.1 "--sync--" sync /:康拉:1CD0:/
+3095.1 "强袭" sync /:康拉:1CD1:/
+3101.1 "三十棘" sync /:斯卡哈:1D2B:/
+3117.3 "三十矢" sync /:斯卡哈:1D2F:/
+3130.4 "三十魂" sync /:斯卡哈:1D32:/ window 30,5
+3133.6 "影子凝缩" sync /:斯卡哈:1CD3:/ window 30,5
+3143.7 "--sync--" sync /:斯卡哈:1D1[EF]:/
+3144.9 "阴影回旋" sync /:斯卡哈:1D20:/
+3151.9 "夜 x5" sync /:斯卡哈:1D22:/
+3164.1 "暗影直刺" sync /:斯卡哈:1D23:/
+3182.2 "三十魂" sync /:斯卡哈:1D32:/
+3197.4 "三十镰" sync /:斯卡哈:1D31:/ window 45,5
+3199.4 "--影之力--"
+3203.6 "飞翔" sync /:斯卡哈:1D1B:/
+3207.8 "--sync--" sync /:斯卡哈:1D1C:/
+3208.7 "阴影重击" sync /:斯卡哈:1D1D:/ window 30,30 jump 3061.0
+
+# We don't know 100% that this is the correct rotation,
+# but based on the available logs and video, it seems likely.
+3218.5 "--影之力--"
+3232.5 "三十魂"
+3235.7 "影子释放"
+3242.8 "强袭"
+3248.8 "三十棘"
+
+
+# Intermission at 45% HP. Might be a time push too? but it's uncertain.
+3300.0 "--untargetable--" sync /22:........:斯卡哈:........:斯卡哈:00/ window 300,5 #MISSINGTEXT
+3302.2 "--sync--" sync /03:........:Added new combatant 女王小丑/ window 300,5
+3323.6 "--塔出现--"
+3333.6 "波动爆炸" sync /:斯卡哈:1D2[78]:/
+
+
+3400.5 "--sync--" sync /:1D34:斯卡哈/ window 100,5
+# 3405.2 "Blinding Shadow" sync /:Scathach:1D34:/
+3409.2 "蔽目之影" sync /:斯卡哈:1DAE:/
+
+# A very long rotation, approximately 192 seconds.
+# Add spawns and shadows gathering are approximate,
+# as nothing shows up for them in the log.
+3411.4 "影子释放" sync /:斯卡哈:1CD4:/
+3421.5 "三十魂" sync /:斯卡哈:1D32:/
+3428.6 "三十矢" sync /:斯卡哈:1D2F:/
+3435.6 "波动爆炸" sync /:斯卡哈:1D2[78]:/
+3444.8 "三十魂" sync /:斯卡哈:1D32:/
+3453.1 "三十魂" sync /:斯卡哈:1D32:/
+3459.1 "三十矢" sync /:斯卡哈:1D2F:/
+3469.4 "三十泣" sync /:斯卡哈:1D33:/
+3471.5 "波动爆炸" sync /:斯卡哈:1D2[78]:/
+3480.7 "--sync--" sync /:康拉:1CD0:/
+3480.7 "强袭" sync /:康拉:1CD1:/
+3491.8 "三十泣" sync /:斯卡哈:1D33:/
+3494.9 "三十棘" sync /:斯卡哈:1D2B:/
+3506.1 "三十魂" sync /:斯卡哈:1D32:/
+3510.4 "影子凝缩" sync /:斯卡哈:1CD3:/
+3520.5 "--sync--" sync /:斯卡哈:1D1[EF]:/
+3521.6 "阴影回旋" sync /:斯卡哈:1D20:/
+3523.6 "--影之力--"
+3526.7 "三十镰" sync /:斯卡哈:1D31:/
+3528.7 "--adds spawn--" #MISSINGTEXT
+3535.9 "夜 x5" sync /:斯卡哈:1D22:/
+3544.1 "暗影直刺" sync /:斯卡哈:1D23:/
+3552.2 "三十魂" sync /:斯卡哈:1D32:/
+3553.2 "--影之力--"
+3557.4 "飞翔" sync /:斯卡哈:1D1B:/
+3561.4 "--sync--" sync /:斯卡哈:1D1C:/
+3562.4 "阴影重击" sync /:斯卡哈:1D1D:/
+3571.5 "暗影直刺" sync /:斯卡哈:1D23:/
+3575.5 "--影之力--"
+3580.6 "--sync--" sync /:斯卡哈:1D1[EF]:/
+3581.7 "阴影回旋" sync /:斯卡哈:1D20:/
+3588.8 "三十魂" sync /:斯卡哈:1D32:/
+3599.0 "三十魂" sync /:斯卡哈:1D32:/
+
+# Again, this is presumed based on what we have.
+# There might be extra adds/shadows.
+3603.3 "影子释放" sync /:斯卡哈:1CD4:/ window 30,30 jump 3409.2
+3613.4 "三十魂"
+3620.5 "三十矢"
+3627.5 "波动爆炸"
+3636.7 "三十魂"
+
+
+#~~~~~~~~~~#
+# DIABOLOS #
+#~~~~~~~~~~#
+
+# -ii 1C1B
+
+# Timing can vary depending on whether or not stuns are used.
+# Abilities can be skipped or delayed, there doesn't seem to be a clear pattern.
+# Also, tons of possible micro-skips before and after Ruinous Omen.
+
+# We sync off an attack from Diabolos because there are two encounters in The Lunar.
+4000.0 "--sync--" sync /:迪亚波罗斯:1C0C:/ window 4000,1
+4009.9 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4022.1 "噩梦" sync /:迪亚波罗斯:1C0E:/
+4032.3 "Ultimate 恐怖" sync /:迪亚波罗斯:1C12:/ window 15,5
+4050.5 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4053.5 "夜障" sync /:迪亚波罗斯:1C0F:/ window 10,5
+4058.7 "噩梦" sync /:迪亚波罗斯:1C0E:/ window 10,5
+
+# This seems like a possible rotation? Maybe?
+4064.9 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4075.2 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4078.4 "夜障" sync /:迪亚波罗斯:1C0F:/
+4083.4 "噩梦" sync /:迪亚波罗斯:1C0E:/ window 10,5 jump 4058.7
+
+4089.6 "夜袭"
+4099.9 "夜袭"
+4103.1 "夜障"
+4108.1 "噩梦"
+
+4149.0 "--sync--" sync /:1C10:迪亚波罗斯/ window 150,5
+4163.7 "破灭预兆" sync /:迪亚波罗斯:1C10:/
+4164.7 "破灭预兆" sync /:迪亚波罗斯:1C11:/
+
+4170.3 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4178.7 "Night 恐怖" sync /:迪亚波罗斯:1C13:/
+4185.8 "Ultimate 恐怖" sync /:迪亚波罗斯:1C12:/
+4190.0 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4195.1 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4203.5 "噩梦" sync /:迪亚波罗斯:1C0E:/
+4206.6 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4213.1 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4216.2 "夜障" sync /:迪亚波罗斯:1C0F:/
+4219.3 "夜袭" sync /:迪亚波罗斯:1C0D:/
+4225.8 "夜袭" sync /:迪亚波罗斯:1C0D:/
+
+4233.8 "Ultimate 恐怖" sync /:迪亚波罗斯:1C12:/ window 15,15 jump 4185.8
+4238.9 "夜袭"
+4244.0 "夜袭"
+4252.4 "噩梦"
+4255.5 "夜袭"
+4262.0 "夜袭"
+
+# This section leads directly into Diabolos Hollow the first time after Diabolos is defeated.
+# This is the dueling-lasers part where the party kills the big deathgate and two small ones.
+
+4274.0 "--sync--" sync /22:........:迪亚波罗斯:........:迪亚波罗斯:00/ window 100,5
+4286.2 "--魔力之门出现--" sync /03:........:Added new combatant 魔力之门/ window 300,5
+4300.0 "--sync--" sync /:迪亚波罗斯:1C16:/ window 300,5
+4320.0 "--召唤之门出现--" sync /03:........:Added new combatant 召唤之门/ window 50,5
+4477.1 "--sync--" sync /:迪亚波罗斯:1AFB:/ window 177,5
+4488.5 "--sync--" sync /:迪亚波罗斯:1AFD:/
+4494.6 "梦境之障" sync /:虚空迪亚波罗斯:1DB1:/ window 194,5
+
+
+#~~~~~~~~~~~~~~~~~#
+# DIABOLOS HOLLOW #
+#~~~~~~~~~~~~~~~~~#
+
+# -ii 1C1B 1C2A
+# ic 'Voidgate" "Shadowsphere" "Diabolic Gate" "Deathgate" "Shadow Dahak" "Shadow Hound"
+
+# This fight will normally begin immediately after Diabolos.
+# However, if an encounter with Diabolos Hollow fails,
+# the fight will resume here, rather than back at Diabolos.
+
+
+# As with Diabolos, we sync to an attack to start the timeline.
+# The attacks aren't always so cleanly distributed,
+# so we sync with wider windows than normal.
+
+# This first rotation block last until the initial zero-damage shield breaks.
+4500.9 "--sync--" sync /:虚空迪亚波罗斯:1E3E:/ window 4501,1
+4507.9 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/ window 5,5
+4516.2 "暗影直刺" sync /:虚空迪亚波罗斯:1C1A:/ window 5,5
+4523.6 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/ window 5,5
+4530.8 "暗影直刺" sync /:虚空迪亚波罗斯:1C1A:/ window 5,5
+
+4540.1 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/ window 5,5 jump 4507.9
+4547.2 "暗影直刺"
+4554.6 "虚空夜袭"
+4561.8 "暗影直刺"
+4571.1 "虚空夜袭"
+4578.2 "暗影直刺"
+
+# Presumably Nox is the first indication of Diabolos' shield breaking.
+# At 75%, Diabolos Hollow pushes Hollowshield,
+# replacing/delaying? whichever mechanic happens to be next.
+
+# Lots of possible pushes here, unknown what triggers them.
+# If not pushed, it *appears* this section flows naturally.
+4600.0 "夜 x5" sync /:虚空迪亚波罗斯:1C1C:/ window 100,5
+4604.2 "虚空暗夜" sync /:虚空迪亚波罗斯:1C1D:/
+4613.6 "暗影直刺" sync /:虚空迪亚波罗斯:1C1A:/
+4620.4 "波动爆炸" sync /:虚空迪亚波罗斯:1C2[456]:/
+4620.8 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/
+4624.1 "--召唤之门出现--" sync /03:........:Added new combatant 召唤之门/ window 25,5
+4627.1 "虚空之障" sync /:虚空迪亚波罗斯:1C1E:/ window 27.1,5
+4637.5 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/
+4646.8 "暗影直刺" sync /:虚空迪亚波罗斯:1C1A:/ window 20,10
+
+4654.9 "虚空之惊" sync /:虚空迪亚波罗斯:1C1F:/ window 55,5
+4665.3 "虚空暗夜" sync /:虚空迪亚波罗斯:1C1D:/
+4677.4 "虚空噩梦" sync /:虚空迪亚波罗斯:1C20:/
+4690.9 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/ window 30,5
+4700.2 "夜 x5" sync /:虚空迪亚波罗斯:1C1C:/ window 30,5
+4705.2 "虚空噩梦" sync /:虚空迪亚波罗斯:1C20:/
+4718.4 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/
+4727.6 "Hollow 恐怖" sync /:虚空迪亚波罗斯:1C21:/
+4737.2 "暗影直刺" sync /:虚空迪亚波罗斯:1C1A:/ window 20,5
+4751.0 "暗影直刺" sync /:虚空迪亚波罗斯:1C1A:/
+4753.5 "波动爆炸" sync /:虚空迪亚波罗斯:1C2[456]:/
+4760.3 "虚空之惊" sync /:虚空迪亚波罗斯:1C1F:/ window 30,30
+4766.6 "虚空夜袭" sync /:虚空迪亚波罗斯:1C19:/
+4774.9 "噩梦/恐怖" sync /:虚空迪亚波罗斯:1C2[01]:/
+
+
+# Can push early at 50% HP
+4785.3 "--sync--" sync /:虚空迪亚波罗斯:1C18:/ window 785,5
+4804.1 "--sync--" sync /:虚空迪亚波罗斯:1C22:/
+4809.2 "虚空预兆" sync /:虚空迪亚波罗斯:1C23:/
+4818.3 "双刃剑" sync /:虚空迪亚波罗斯:1C2B:/
+
+4825.6 "盲点袭击" sync /:虚空迪亚波罗斯:1C28:/
+4828.7 "--sync--" sync /:虚空迪亚波罗斯:1C18:/
+4836.0 "大地摇动" sync /:虚空迪亚波罗斯:1C29:/ window 15,15
+4844.0 "盲点袭击" sync /:虚空迪亚波罗斯:1C28:/
+4852.2 "盲点袭击" sync /:虚空迪亚波罗斯:1C28:/
+4855.4 "--sync--" sync /:虚空迪亚波罗斯:1C18:/
+4862.7 "大地摇动" sync /:虚空迪亚波罗斯:1C29:/
+
+4870.8 "盲点袭击" sync /:虚空迪亚波罗斯:1C28:/ window 10,5 jump 4825.6
+4881.2 "大地摇动"
+4889.2 "盲点袭击"
+4897.4 "盲点袭击"
+4907.9 "大地摇动"

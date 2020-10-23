@@ -1,0 +1,110 @@
+### Eden 6 (Normal)
+# Eden's Verse: Furor
+
+hideall "--Reset--"
+hideall "--sync--"
+
+# -ii 4BDD 4BE1 4BEB 4BEA 4BE5 4BE9 4BEC 4BD9 4BE7 4E39 4C1D 4C20 4F98
+# -ic "Tumultuous Nexus" "Great Ball Of Fire"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+
+# Garuda solo
+2.0 "--sync--" sync /:迦楼罗:366:/ window 3,1
+13.5 "凶猛风暴"# sync /:迦楼罗:4BD[DEF]:/
+20.6 "超级风暴" sync /:迦楼罗:4BD7:/ window 20,30
+31.4 "空气弹垫" sync /:迦楼罗:4BD1:/
+36.8 "血祭" sync /:迦楼罗:4BDA:/
+48.0 "下行突风" sync /:迦楼罗:4BDB:/ window 30,30
+54.6 "空气弹垫" sync /:迦楼罗:4BD1:/
+60.0 "血祭" sync /:迦楼罗:4BDA:/
+72.2 "暴怒风暴" sync /:迦楼罗:4BE0:/
+75.4 "--sync--" sync /:迦楼罗:4BD0:/
+81.7 "真空斩" sync /:迦楼罗:4BD5:/
+88.8 "锢囚锋" sync /:迦楼罗:4BD2:/ window 30,30
+98.3 "吸引力" sync /:迦楼罗:4BD6:/
+111.5 "--untargetable--" #MISSINGTEXT
+
+# Ifrit solo
+114.0 "--targetable--" #MISSINGTEXT
+114.0 "空降" sync /:伊弗利特:4BE8:/ window 30,30
+129.2 "火焰拳" sync /:伊弗利特:4CFE:/
+143.6 "业火拳" sync /:伊弗利特:4CFF:/
+152.3 "爆裂炎" sync /:伊弗利特:4BED:/ window 30,30
+156.9 "地火喷发" sync /:伊弗利特:4BF3:/
+166.1 "火花爆" sync /:伊弗利特:4BD3:/
+177.5 "飞火" sync /:伊弗利特:4BEF:/
+188.2 "灼热的咆哮" sync /:伊弗利特:4BF1:/ window 30,30
+196.5 "--untargetable--" #MISSINGTEXT
+
+
+# Garuda and Ifrit
+200.8 "--targetable--" #MISSINGTEXT
+207.2 "真空斩" sync /:迦楼罗:4BD5:/ window 30,30
+209.9 "地火喷发" sync /:伊弗利特:4BF3:/
+209.9 "地火喷发" sync /:伊弗利特:4BF4:/
+213.1 "--sync--" sync /:伊弗利特:4F98:/
+214.3 "锢囚锋" sync /:迦楼罗:4BD2:/
+221.2 "飞火" sync /:伊弗利特:4BEF:/
+223.8 "吸引力" sync /:迦楼罗:4BD6:/ window 30,30
+228.0 "空气弹垫" sync /:迦楼罗:4BD1:/
+233.3 "血祭" sync /:迦楼罗:4BDA:/
+237.9 "业火拳" sync /:伊弗利特:4CFF:/
+245.5 "凶猛风暴"# sync /:迦楼罗:4BD[DEF]:/
+250.2 "--untargetable--" #MISSINGTEXT
+
+
+# Raktapaksa initial block
+267.9 "火焰流" sync /:赤翼罗羯坨博叉:4BD8:/ window 30,30
+271.2 "--targetable--" #MISSINGTEXT
+283.2 "光辉炎柱" sync /:赤翼罗羯坨博叉:4BF2:/
+286.2 "凶猛风暴"# sync /:赤翼罗羯坨博叉:4BE[345]:/
+297.3 "火焰拳" sync /:赤翼罗羯坨博叉:4CFE:/ window 30,30
+301.1 "热波" sync /:赤翼罗羯坨博叉:4C1E:/
+311.2 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+312.6 "血祭" sync /:赤翼罗羯坨博叉:4BDA:/
+313.7 "业火拳" sync /:赤翼罗羯坨博叉:4CFF:/
+317.6 "热波" sync /:赤翼罗羯坨博叉:4C1E:/
+325.2 "下行突风" sync /:赤翼罗羯坨博叉:4BDC:/ window 30,30
+336.6 "光辉炎柱" sync /:赤翼罗羯坨博叉:4BF2:/
+341.6 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+348.1 "光辉炎柱" sync /:赤翼罗羯坨博叉:4BF2:/
+353.1 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+360.4 "瞬燃强袭" sync /:赤翼罗羯坨博叉:4BEE:/ window 30,30
+
+# Raktapaksa rotation block
+375.6 "凶猛风暴"# sync /:赤翼罗羯坨博叉:4BE[345]:/
+377.6 "空气弹垫" sync /:赤翼罗羯坨博叉:4BD4:/
+382.5 "血祭" sync /:赤翼罗羯坨博叉:4BDA:/ window 30,30
+390.7 "暴怒风暴" sync /:赤翼罗羯坨博叉:4BE6:/
+391.7 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+401.4 "灼热的咆哮" sync /:赤翼罗羯坨博叉:4BF1:/
+415.6 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+416.6 "业火拳" sync /:赤翼罗羯坨博叉:4CFF:/ window 30,30
+420.5 "热波" sync /:赤翼罗羯坨博叉:4C1E:/
+427.2 "爆裂炎" sync /:赤翼罗羯坨博叉:4BED:/
+433.4 "光辉炎柱" sync /:赤翼罗羯坨博叉:4BF2:/
+439.4 "灼热的咆哮" sync /:赤翼罗羯坨博叉:4BF1:/ window 30,30
+
+454.6 "凶猛风暴"# sync /:赤翼罗羯坨博叉:4BE[345]:/
+456.6 "空气弹垫" sync /:赤翼罗羯坨博叉:4BD4:/
+461.5 "血祭" sync /:赤翼罗羯坨博叉:4BDA:/ window 30,30
+469.7 "暴怒风暴" sync /:赤翼罗羯坨博叉:4BE6:/
+470.7 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+480.4 "灼热的咆哮" sync /:赤翼罗羯坨博叉:4BF1:/
+494.6 "地火喷发" sync /:赤翼罗羯坨博叉:4BF4:/
+495.6 "业火拳" sync /:赤翼罗羯坨博叉:4CFF:/ window 30,30
+499.5 "热波" sync /:赤翼罗羯坨博叉:4C1E:/
+506.2 "爆裂炎" sync /:赤翼罗羯坨博叉:4BED:/
+512.4 "光辉炎柱" sync /:赤翼罗羯坨博叉:4BF2:/
+518.4 "灼热的咆哮" sync /:赤翼罗羯坨博叉:4BF1:/ window 30,30 jump 439.4
+
+533.6 "凶猛风暴"
+535.6 "空气弹垫"
+540.5 "血祭"
+548.7 "暴怒风暴"
+549.7 "地火喷发"
+559.4 "灼热的咆哮"
+573.6 "地火喷发"

@@ -1,0 +1,128 @@
+### Omega 1 (Savage)
+# Omega - Deltascape V1.0 (Savage)
+# -p 1ECE:6.9
+# -ii 1ED0 1EDA 1ED9 2584 1ED2
+
+hideall "--sync--"
+hideall "--Reset--"
+hideall "Flame"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+###### 1st Classical Elements
+# spread: knockback => in => spread+lightning
+
+0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+2.5 "--sync--" sync /:老者:368:/ window 2.5,0
+6.9 "太古龙尾" sync /:老者:1ECE:/ window 7,3
+13.0 "太古龙尾" sync /:老者:1ECE:/
+20.1 "双重落雷" sync /:老者:1ECF:/
+
+34.6 "经典 ((分散))" sync /:老者:1EDC:/ window 80,80
+37.7 "火焰" sync /:老者:1ED5:/
+41.8 "闪耀冻结" sync /:老者:1ED7:/
+51.9 "下行突风" sync /:老者:1ED8:/
+57.2 "外圈火球" sync /:火焰球:1ECB:/
+60.5 "闪电" sync /:老者:1ED1:/
+66.6 "咆哮" sync /:老者:1ED4:/
+72.8 "太古龙尾" sync /:老者:1ECE:/
+78.9 "太古龙尾" sync /:老者:1ECE:/
+90.0 "双重落雷" sync /:老者:1ECF:/
+96.1 "压迫" sync /:老者:1EDE:/
+98.2 "火焰" sync /:老者:1ED5:/
+103.3 "火焰" sync /:老者:1ED5:/
+109.4 "太古龙尾" sync /:老者:1ECE:/
+117.4 "外圈火球" sync /:火焰球:1ECB:/
+120.5 "闪电" sync /:老者:1ED1:/
+122.5 "内圈火球" sync /:火焰球:1ECB:/
+127.6 "冰焰" sync /:老者:1EDD:/
+134.8 "太古龙尾" sync /:老者:1ECE:/
+140.9 "太古龙尾" sync /:老者:1ECE:/
+148.0 "双重落雷" sync /:老者:1ECF:/
+158.1 "咆哮" sync /:老者:1ED4:/
+164.2 "咆哮" sync /:老者:1ED4:/
+170.4 "太古龙尾" sync /:老者:1ECE:/
+177.5 "大漩涡" sync /:老者:1ED3:/
+184.7 "咆哮" sync /:老者:1ED4:/
+
+
+###### 2nd Classical Elements
+# safe: knockback safe spot => spread+lightning
+
+195.1 "经典 ((安全))" sync /:老者:1EDC:/ window 80,80
+198.2 "火焰" sync /:老者:1ED5:/
+204.8 "闪耀冻结" sync /:老者:1ED7:/
+213.9 "下行突风" sync /:老者:1ED8:/
+217.7 "外圈火球" sync /:火焰球:1ECB:/
+223.0 "闪电" sync /:老者:1ED1:/
+225.2 "火焰" sync /:老者:1ED5:/
+230.3 "闪耀冻结" sync /:老者:1ED7:/
+240.7 "风息之翼" sync /:老者:1ED6:/
+244.8 "内圈火球" sync /:火焰球:1ECB:/
+248.6 "压迫" sync /:老者:1EDE:/
+255.7 "冰焰" sync /:老者:1EDD:/
+262.8 "咆哮" sync /:老者:1ED4:/
+269.0 "太古龙尾" sync /:老者:1ECE:/
+275.1 "太古龙尾" sync /:老者:1ECE:/
+286.2 "大漩涡" sync /:老者:1ED3:/
+294.3 "双重落雷" sync /:老者:1ECF:/
+300.5 "火焰" sync /:老者:1ED5:/
+308.6 "火焰" sync /:老者:1ED5:/
+317.7 "闪电" sync /:老者:1ED1:/
+319.7 "内圈火球" sync /:火焰球:1ECB:/
+327.4 "压迫" sync /:老者:1EDE:/
+327.8 "外圈火球" sync /:火焰球:1ECB:/
+333.5 "咆哮" sync /:老者:1ED4:/
+339.6 "咆哮" sync /:老者:1ED4:/
+
+
+###### 3rd Classical Elements
+# stack: knockback => in => blaze stack
+
+350.0 "经典 ((分摊))" sync /:老者:1EDC:/ window 80,80
+353.1 "火焰" sync /:老者:1ED5:/
+356.2 "火焰" sync /:老者:1ED5:/
+361.3 "闪耀冻结" sync /:老者:1ED7:/
+371.4 "下行突风" sync /:老者:1ED8:/
+372.3 "外圈火球" sync /:火焰球:1ECB:/
+375.8 "内圈火球" sync /:火焰球:1ECB:/
+380.6 "冰焰" sync /:老者:1EDD:/
+387.7 "咆哮" sync /:老者:1ED4:/
+393.9 "太古龙尾" sync /:老者:1ECE:/
+400.0 "太古龙尾" sync /:老者:1ECE:/
+411.1 "双重落雷" sync /:老者:1ECF:/
+417.2 "压迫" sync /:老者:1EDE:/
+419.4 "火焰" sync /:老者:1ED5:/
+424.5 "火焰" sync /:老者:1ED5:/
+430.6 "太古龙尾" sync /:老者:1ECE:/
+438.6 "外圈火球" sync /:火焰球:1ECB:/
+441.7 "闪电" sync /:老者:1ED1:/
+443.7 "内圈火球" sync /:火焰球:1ECB:/
+448.9 "冰焰" sync /:老者:1EDD:/
+
+
+##### 4th Classical Elements
+# spread: knockback => in => spread+lightning
+
+460.3 "经典 ((分散))" sync /:老者:1EDC:/ window 80,80
+463.4 "火焰" sync /:老者:1ED5:/
+467.5 "闪耀冻结" sync /:老者:1ED7:/
+477.6 "下行突风" sync /:老者:1ED8:/
+483.0 "外圈火球" sync /:火焰球:1ECB:/
+486.3 "闪电" sync /:老者:1ED1:/
+492.4 "咆哮" sync /:老者:1ED4:/
+498.6 "太古龙尾" sync /:老者:1ECE:/
+504.7 "太古龙尾" sync /:老者:1ECE:/
+515.8 "大漩涡" sync /:老者:1ED3:/
+523.9 "双重落雷" sync /:老者:1ECF:/
+530.1 "火焰" sync /:老者:1ED5:/
+538.3 "火焰" sync /:老者:1ED5:/
+547.4 "闪电" sync /:老者:1ED1:/
+549.4 "内圈火球" sync /:火焰球:1ECB:/
+557.1 "压迫" sync /:老者:1EDE:/
+557.6 "外圈火球" sync /:火焰球:1ECB:/
+563.3 "咆哮" sync /:老者:1ED4:/
+569.5 "咆哮" sync /:老者:1ED4:/
+
+571.7 "火焰" sync /:老者:1ED5:/
+589.0 "Enrage" sync /:火焰球:23E4:/ #MISSINGTEXT

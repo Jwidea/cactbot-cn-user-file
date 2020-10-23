@@ -1,0 +1,275 @@
+# Ultima Weapon Ultimate
+## http://clees.me/guides/uwu/
+
+hideall "--sync--"
+hideall "--Reset--"
+
+0 "--Reset--" sync /Removing combatant 究极神兵\.  Max HP: \d{8}\./ window 10000 jump 0
+
+### Phase 1: Garuda ###
+0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0 "--sync--" sync /00:0044:[^:]*:哈哈哈哈哈！/ window 0,20
+9 "螺旋气流" sync /:迦楼罗:2B53:/ # drift 0.293
+12 "寒风之歌" sync /:迦楼罗:2B42:/ # drift -0.456
+18 "大龙卷风" sync /:迦楼罗:2B41:/
+24 "螺旋气流" sync /:迦楼罗:2B53:/ # drift 0.494
+27 "下行突风" sync /:迦楼罗:2B50:/ # drift 0.422
+29 "大龙卷风" sync /:迦楼罗:2B41:/ # drift 0.247
+34 "--untargetable--" #MISSINGTEXT
+37 "飞翎雨" sync /:迦楼罗:2B4D:/
+39 "--targetable--" #MISSINGTEXT
+42 "寒风之啸" sync /:迦楼罗:2B54:/
+51 "烈风刃" sync /:迦楼罗:2B48:/ # drift 0.492
+57 "烈风刃" sync /:迦楼罗:2B48:/
+69 "--untargetable--" #MISSINGTEXT
+72 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.32
+73.5 "--targetable--" #MISSINGTEXT
+77 "大气爆发" sync /:迦楼罗:2B55:/
+93 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift 0.228
+100 "寒风之歌" sync /:妙翅:2B4B:/
+100 "台风眼" sync /:迦楼罗:2B52:/ # drift 0.358
+100 "邪轮旋风" sync /:迦楼罗:2B4E:/
+104 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift 0.248
+105 "大龙卷风" sync /:美翼:2B41:/ # drift 0.48
+121 "螺旋气流" sync /:迦楼罗:2B53:/
+122 "台风眼" sync /:迦楼罗:2B52:/
+124 "中高压" sync /:妙翅:2B49:/
+124 "下行突风" sync /:迦楼罗:2B50:/
+129 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.449
+142 "螺旋气流" sync /:迦楼罗:2B53:/ # drift -0.479
+151 "邪轮旋风" sync /:迦楼罗:2B4E:/ # drift -0.486
+153 "邪气龙卷" sync /:迦楼罗:2B4F:/
+156 "下行突风" sync /:迦楼罗:2B50:/ # drift -0.218
+164 "螺旋气流" sync /:迦楼罗:2B53:/
+176 "--untargetable--" sync /:迦楼罗:2B4D:/ #MISSINGTEXT
+181 "大气爆发" sync /:迦楼罗:2B55:/ # drift -0.29
+
+
+### Phase 2: Ifrit ###
+300 "深红旋风" sync /:伊弗利特:2B5F:/ window 300,70
+301 "光辉炎柱" sync /:伊弗利特:2B61:/
+307 "地狱之火炎" sync /:伊弗利特:2B5E:/ # drift 0.246
+315 "火神爆裂" sync /:伊弗利特:2B57:/
+318 "烈焰焚烧"
+321 "烈焰焚烧"
+325 "烈焰焚烧"
+328 "火神柱" sync /:伊弗利特:1CD:/
+337 "火狱之锁" sync /:伊弗利特:2C19:/ # drift 0.214
+339 "灼热咆哮" sync /:伊弗利特:2B5B:/
+345 "灼热"
+345 "地火喷发" duration 6
+351 "灼热"
+357 "灼热"
+361.5 "--untargetable--" #MISSINGTEXT
+365.5 "--targetable--" #MISSINGTEXT
+369 "地狱之火炎" sync /:伊弗利特:2B5E:/ window 40,40 # drift 0.411
+377 "灼热咆哮" sync /:伊弗利特:2B5B:/ # drift 0.374
+383 "灼热"
+383 "地火喷发" duration 6
+389 "灼热"
+390 "深红旋风" sync /:伊弗利特:2B5F:/
+395 "灼热咆哮" sync /:伊弗利特:2B5B:/
+395 "灼热"
+401 "灼热"
+405 "烈焰碎击" sync /:伊弗利特:2B5D:/
+407 "灼热"
+409 "--untargetable--" #MISSINGTEXT
+413 "灼热"
+416 "深红旋风"
+417 "深红旋风"
+419 "深红旋风"
+420 "深红旋风"
+428 "烈焰焚烧" sync /:伊弗利特:2B56:/ window 5,1
+431 "烈焰焚烧"
+435 "烈焰焚烧"
+444 "地火喷发" duration 6
+453 "烈焰碎击" sync /:伊弗利特:2B5D:/
+
+
+### Phase 3: Titan ###
+600 "大地粉碎" sync /:泰坦:2CFD:/ window 600,0
+605 "大地之怒" sync /:泰坦:2B90:/ # drift 0.312999
+613 "碎岩" sync /:泰坦:2B62:/
+616 "山崩" sync /:泰坦:2B63:/ # drift 0.235001
+621 "大地之重" #sync /:泰坦:2B65:/
+623.5 "--untargetable--" #MISSINGTEXT
+624 "大地之重" #sync /:泰坦:2B65:/
+629 "--sync--" sync /:泰坦:2B66:/
+631 "大地粉碎" sync /:泰坦:2B68:/ # drift 0.474
+634 "塌方" sync /:爆破岩石:2B69:/
+637 "大怒震" sync /:泰坦:2B67:/
+639 "花岗岩牢狱" sync /:泰坦:2B6B:/
+642 "塌方" sync /:爆破岩石:2B69:/
+644 "地裂" sync /:泰坦:2B6F:/ window 5,3
+649 "地裂"
+651 "怒震 x8" duration 7
+666 "大地之重" sync /:泰坦:2B65:/ window 5,1
+669 "大地之重"
+671 "地裂"
+673 "地裂"
+676.5 "--untargetable--" #MISSINGTEXT
+684 "花岗岩牢狱" sync /:泰坦:2B6B:/ # drift 0.420001
+699 "地裂"
+701 "地裂"
+704 "怒震 x6" sync /:泰坦:2C18:/ duration 5 window 5,0 # drift 0.254
+711 "碎岩" sync /:泰坦:2B62:/ # drift 0.280001
+715 "山崩" sync /:泰坦:2B63:/ # drift 0.205999
+720 "塌方" duration 6
+722 "大地之重" sync /:泰坦:2B65:/ window 5,1
+725 "大地之重"
+727 "地裂"
+728 "大地之重"
+729 "地裂"
+735 "碎岩" sync /:泰坦:2B62:/ # drift 0.26
+739 "山崩" sync /:泰坦:2B63:/
+744 "大地之重" sync /:泰坦:2B65:/
+747 "大地之重" sync /:泰坦:2B65:/
+750 "大地之重"
+752 "怒震 x8" sync /:泰坦:2C18:/ duration 7 window 5,0 # drift -0.293
+768 "--untargetable--" #MISSINGTEXT
+
+
+### Phase 4: Snacks ###
+800 "诱导爆炸" sync /:究极神兵:2CF5:/ window 800,0
+815 "毒雾" sync /:拉哈布雷亚:2B73:/
+840 "冥暗"
+848 "究极" sync /:究极神兵:2B8B:/ window 50,10 jump 961
+
+
+### Phase 5: Ultima ###
+1000 "--targetable--" sync /:2B87:究极神兵/ window 1000,100 #MISSINGTEXT
+1004 "魔导核爆" sync /:究极神兵:2B87:/ # drift -0.314001
+1006 "吸附式炸弹" sync /:究极神兵:2B79:/ # drift 0.430001
+1012 "诱导射线" sync /:究极神兵:2B7B:/ # drift 0.220999
+1017 "引爆吸附式炸弹" sync /:究极神兵:2B7A:/
+
+## Ultimate Predation
+1023 "追击之究极幻想" sync /:究极神兵:2B76:/ # drift 0.349
+1026 "--untargetable--" #MISSINGTEXT
+1038 "深红旋风" sync /:伊弗利特:2B5F:/
+1038 "邪轮旋风" sync /:迦楼罗:2B4E:/
+1038 "地裂" sync /:泰坦:2B71:/
+1040 "邪气龙卷"
+1040 "青磷放射" sync /:究极神兵:2B7C:/
+1040 "深红旋风"
+1040 "地裂"
+1045 "飞翎雨" sync /:迦楼罗:2B4D:/
+
+## Interlude Dance
+1048 "--targetable--" #MISSINGTEXT
+1059 "地火喷发" sync /:伊弗利特:2B5A:/ duration 6 window 5,0 # drift 0.223
+1064 "火狱之锁"
+1069 "光辉炎柱" sync /:究极神兵:2B7D:/
+1070 "塌方" sync /:爆破岩石:2B69:/ duration 10 window 5,0
+1073 "地裂" sync /:泰坦:2B71:/ window 5,1
+1074 "地裂" sync /:究极神兵:2B7E:/
+1079 "怒震 x7" sync /:泰坦:2C18:/ duration 6 window 5,0 # drift -0.248001
+1082 "吸附式炸弹" sync /:究极神兵:2B79:/
+1086 "邪轮旋风" sync /:妙翅:2B4C:/ # drift 0.339
+1088 "寒风之啸" sync /:迦楼罗:2B54:/
+1091 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift 0.402001
+1092 "引爆吸附式炸弹" sync /:究极神兵:2B7A:/ # drift -0.261001
+1093 "诱导射线" sync /:究极神兵:2B7B:/
+1095 "飞翎雨"
+
+## Ultimate Annihilation
+1100 "爆击之究极幻想" sync /:究极神兵:2D4C:/ # drift 0.261
+1105 "--untargetable--" #MISSINGTEXT
+1109 "--targetable--" #MISSINGTEXT
+1112 "大地之重" sync /:泰坦:2B65:/ window 5,1
+1114 "烈焰碎击" sync /:伊弗利特:2B5D:/
+1115 "大地之重"
+1115 "台风眼" sync /:迦楼罗:2B52:/
+1116 "以太爆雷"
+1117 "中高压" sync /:迦楼罗:2B49:/
+1118 "大地之重"
+1118 "灼热咆哮" sync /:伊弗利特:2B5B:/
+1122 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.466001
+1123 "以太爆雷"
+1124 "灼热" sync /:伊弗利特:2B5C:/ # drift -0.237
+1126 "深红旋风" sync /:伊弗利特:2B5F:/
+1127 "地裂" sync /:泰坦:2B71:/
+1128 "深红旋风" sync /:伊弗利特:2B60:/
+1129 "地裂" sync /:泰坦:2C22:/
+1130 "灼热" sync /:泰坦:2B5C:/ # drift -0.432999
+1131 "以太爆雷"
+1133 "台风眼" sync /:迦楼罗:2B52:/ # drift -0.436001
+1136 "中高压" sync /:迦楼罗:2B49:/ # drift -0.478999
+1136 "以太爆雷"
+1137 "灼热" sync /:伊弗利特:2B5C:/ # drift 0.374
+1139 "魔导核爆" sync /:究极神兵:2B87:/ # drift -0.434
+1141 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.328
+1142 "--untargetable--" #MISSINGTEXT
+1144 "灼热" sync /:迦楼罗:2B5C:/
+1147 "--targetable--" #MISSINGTEXT
+1150 "灼热" sync /:迦楼罗:2B5C:/
+1151 "台风眼" sync /:迦楼罗:2B52:/
+1155 "诱导射线" sync /:究极神兵:2B7B:/
+1163 "台风眼" sync /:迦楼罗:2B52:/
+1165 "光辉炎柱" sync /:究极神兵:2B7D:/ # drift 0.324001
+1169 "扩散射线" sync /:究极神兵:2B78:/ # drift -0.486999
+1173 "火神爆裂" sync /:究极神兵:2CF4:/
+1175 "台风眼" sync /:迦楼罗:2B52:/
+1181 "诱导射线" sync /:究极神兵:2B7B:/
+1186 "火神爆裂" sync /:究极神兵:2CF4:/
+1190 "扩散射线"
+
+## Ultimate Suppression (50%)
+1195 "乱击之究极幻想" sync /:究极神兵:2D4D:/ window 1200,500
+1200 "--untargetable--" #MISSINGTEXT
+1206 "花岗岩牢狱" sync /:泰坦:2B6B:/
+1207 "地火喷发" sync /:伊弗利特:2B5A:/ duration 6 window 5,0
+1210 "寒风之歌"
+1212 "寒风之歌"
+1215 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.221
+1216 "大龙卷风" sync /:迦楼罗:2B41:/
+1216 "飞翎雨" sync /:伊弗利特:2B4D:/ # drift 0.468
+1216 "魔科学激光" sync /:究极神兵:2B85:/ window 5,2
+1220 "魔科学激光"
+1223 "地裂" sync /:泰坦:2B71:/
+1224 "魔科学激光"
+1225 "地裂" sync /:伊弗利特:2C22:/ # drift 0.288999
+1226 "中高压" sync /:迦楼罗:2B49:/
+1227 "烈焰碎击" sync /:伊弗利特:2B5D:/ # drift -0.252
+1232 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.393999
+1232 "魔导核爆" sync /:究极神兵:2B87:/ # drift 0.369999
+1243 "究极" sync /:究极神兵:2B8B:/ # drift 0.468
+1253 "以太波动" sync /:究极神兵:2B88:/ # drift 0.227
+1274 "吸附式炸弹" sync /:究极神兵:2B8F:/ # drift 0.256
+1278 "召唤随机蛮神"
+
+## Random Primal Finale (summon all three in random order)
+
+## Summon Garuda (random order)
+1300 "--sync--" sync /:究极神兵:2CD3:/ window 50,300
+1307 "邪轮旋风" sync /:迦楼罗:2B4E:/ # drift 0.351
+1308 "引爆吸附式炸弹" sync /:究极神兵:2B7A:/ # drift 0.326
+1309 "邪气龙卷" sync /:迦楼罗:2B4F:/ # drift -0.239
+1314 "大气爆发" sync /:迦楼罗:2B55:/
+1320 "召唤随机蛮神"
+1322 "飞翎雨" sync /:迦楼罗:2B4D:/ # drift -0.208
+
+## Summon Ifrit (random order)
+1400 "--sync--" sync /:究极神兵:2CD4:/ window 150,300
+1408 "地火喷发" sync /:伊弗利特:2B5A:/ # drift -0.445001
+1408 "深红旋风" sync /:伊弗利特:2B5F:/
+1409 "引爆吸附式炸弹" sync /:究极神兵:2B7A:/
+1416 "地狱之火炎" sync /:伊弗利特:2B5E:/ # drift -0.208999
+1421 "召唤随机蛮神"
+
+## Summon Titan (random order)
+1500 "--sync--" sync /:究极神兵:2CD5:/ window 250,300
+1505 "大地之重" #sync /:泰坦:2B65:/
+1508 "大地之重" #sync /:泰坦:2B65:/
+1508 "引爆吸附式炸弹" sync /:究极神兵:2B7A:/ # drift 0.201999
+1511 "大地之重"
+1514 "大地之怒" sync /:泰坦:2B90:/ # drift 0.241001
+1516 "召唤随机蛮神"
+
+## Enrage
+1600.0 "Enrage" sync /:究极神兵:2B8C:/ window 400,0 #MISSINGTEXT
+# FIXME: this waits until 100% aether, so likely needs to be shifted later for natural push.
+# +3 seconds for each further one.  Maybe not worth including.
+#1625.0 "Citadel Siege" sync /:Garuda:2B92:/ window 100,50
+
+#$ python util/make_timeline.py --ignore-id 2B51 2B59 2B58 2Bb5 2B46 2B44 2B64 2B6E 2B77 2B6A 2B98 2B89 2B83 2B91 2DB8 2B75 2C20 2C21 2C1F 2CD4 2CD5 2B80 --phase 2B5F:300 2CFD:600 2CF5:800 2B87:1004

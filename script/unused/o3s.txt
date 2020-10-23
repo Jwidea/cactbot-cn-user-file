@@ -1,0 +1,176 @@
+# Omega - Deltascape V3.0 (Savage) - O3S
+# Created by Shasta Kota of Death & Taxes (DnT) on Gilgamesh
+# Shasta's reddit: /u/shastaxc
+# Last Updated: 07/31/2017
+
+#############################################################
+########CUSTOMIZE your timeline. Remove the hashtag from
+########the beginning of the following lines to prevent
+########them from appearing on your timeline.
+
+#hideall "--Reset--"
+#########DPS CAN HIDE THESE
+#hideall "Critical Hit"
+#hideall "Haste"
+#hideall "Dimensional Wave"
+#hideall "The Playing Field"
+#hideall "The Game"
+#hideall "Place Token (Apanda)"
+#hideall "Place Token (Ninjas/Giant)"
+#hideall "Place Dark Token"
+
+#########HEALERS CAN HIDE THESE
+#hideall "Haste"
+#hideall "Dimensional Wave"
+#hideall "The Playing Field"
+#hideall "The Game"
+#hideall "Place Token (Apanda)"
+#hideall "Place Token (Ninjas/Giant)"
+#hideall "Place Dark Token"
+
+#########TANKS CAN HIDE THESE
+#hideall "Haste"
+#hideall "The Playing Field"
+#hideall "The Game"
+#hideall "Place Token (Apanda)"
+#hideall "Place Token (Ninjas/Giant)"
+#hideall "Place Dark Token"
+
+##############################################################
+################## Windows 8 & 10 Voices ##################
+########REMOVE THE HASTAG to select a voice
+#define speaker "voice" "Microsoft Zira Desktop" 0 100
+#define speaker "voice" "Microsoft David Desktop" 0 100
+
+#################### Windows 7 Voices ####################
+########REMOVE THE HASTAG to select a voice
+#define speaker "voice" "Microsoft Anna" 0 100
+
+################ CUSTOMIZE Call Outs #####################
+########REMOVE THE HASHTAG to enable each call out
+#alertall "Dimensional Wave" before 3 speak "voice" "AoE"
+#alertall "Critical Hit" before 3 speak "voice" "Tank Buster"
+#alertall "Queen's Waltz (Clock)" before 3 speak "voice" "Surround Boss"
+#alertall "Queen's Waltz (Crystals)" before 5 speak "voice" "Go Blue Tile"
+#alertall "Queen's Waltz (Books)" before 5 speak "voice" "Individual Tiles"
+#alertall "Oink" before 3 speak "voice" "stack"
+#alertall "Ribbit" before 1 speak "voice" "ribbit cone"
+#alertall "Squelch" before 3 speak "voice" "look away"
+#alertall "Mindjack" before 0 speak "voice" "look at your debuff"
+#alertall "Magic Hammer" before 5 speak "voice" "stack on individual tiles"
+#alertall "Tanks Morph" before 3 speak "voice" "tanks morph"
+#alertall "Healers Morph" before 3 speak "voice" "healers morph"
+#alertall "DPS Morph" before 3 speak "voice" "DPS morph"
+#alertall "Place Token" before 3 speak "voice" "add spawn"
+
+##############################################################
+0       "--Reset--"     sync /Removing combatant 哈利卡纳苏斯/ window 10000 jump 0
+
+########Phase 1
+0       "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+10      "暴击"  sync /:哈利卡纳苏斯:22EB:/ window 10,10 #Tank buster
+19      "魔法剑·神圣"   duration 6 #4 players spread/stack
+37      "女王之舞 (Clock)"      #Spread around boss
+41      "加速"
+44      "随机元灵" #Fire, Blizz, or Thunder
+50      "次元波动"      #AoE
+59      "游戏盘面"
+65      "哼哼哼哼哼！"  #Stack with another player
+72      "游戏开始"      #Stand on role tiles
+
+########Phase 2
+81      "刷新盘面"      sync /:哈利卡纳苏斯:2304:/ window 30    #Arena changes
+90      "女王之舞 (连线)"       #Applies thorny tethers
+93      "连线"  #Run from partner Healer/Tank always tethered to a DPS. Never Healer-Healer, tank-tank, tank-healer, dps-dps.
+95      "火炎"  #Spellblade Fire III
+99      "加速"
+103     "闪雷"  #Spellblade Thunder III
+108     "暴击"  #Tank Buster
+115     "次元波动"      #AoE
+121     "召唤魔形"      #Spawns add
+122     "--白焰出现--"
+132     "加速"
+136     "冰结"  #Spellblade Blizzard III
+143     "精神控制" duration 13  #Applies 13s facing debuffs
+155     "女王之舞 (连线)"       #Applies thorny tethers
+157     "连线"  #Run from partner
+160     "火炎"  #Spellblade Fire III
+167     "次元波动"      #AoE
+
+########Phase 3
+174     "刷新盘面"      sync /:哈利卡纳苏斯:2304:/ window 30    #Arena changes
+180     "召唤魔形"      #spawns add
+181     "--巨龙出现--"  #Spawns add
+191     "女王之舞 (Crystals)"   #AoE + Stand on blue tiles
+197     "呱呱呱呱呱！"
+203     "次元波动"      #Dimensional Wave
+203     "龙圆锥AOE" #Frostbite
+217     "暴击"  #Tank Buster
+228     "召唤死形"      #spawns 5 untargetable adds
+240     "女王之舞 (Crystals)"   #AoE + Stand on blue tiles
+#242    "Cross Reaper/Gusting Gouge"    #Middle AoE + knockback on edge tiles
+248     "随机元灵" #Fire, Blizz, or Thunder
+253     "次元波动"      #AoE
+
+########Phase 4
+260     "刷新盘面"      sync /:哈利卡纳苏斯:2304:/ window 30    #Arena changes
+267     "女王之舞 (Books)"      #Spread, one person per tile (Folio)
+274     "哼哼哼哼哼！"  #Stack with another player
+279     "召唤魔形 (Apanda)"     #Spawns add
+280     "--阿班达出现--"
+292     "女王之舞 (Books)"      #Spread, one person per tile (Folio)
+295     "魔法锤"        #Requires delay of spread for Queen's Waltz for middle 4 players
+299     "喀喀喀喀喀！"  #Look away from boss
+305     "次元波动"      #AoE
+311     "暴击"  #Tank Buster
+323     "次元波动"      #AoE
+328     "魔法剑·神圣 (Ultimate)"        #5 players; 3 spreads, 2 stacks. Get book buffs.
+336     "女王之舞 (Ultimate)"   #Spread, one person per tile (Folio)
+347     "次元波动"      #AoE
+
+########Phase 5
+355     "刷新盘面"      sync /:哈利卡纳苏斯:2304:/ window 30
+360     "游戏盘面"
+371     "坦克变形"      #Ribbit, Squelch, or Oink
+377     "治疗变形"      #Ribbit, Squelch, or Oink
+383     "DPS变形"       #Ribbit, Squelch, or Oink
+390     "游戏开始"      #Get on square by role
+402     "女王之舞 (Random)"
+412     "魔法剑·神圣" duration 6        #Stack/spread, only 2 people this time
+428     "暴击"  #Tank Buster
+437     "精神控制" duration 13  #Applies 13s facing debuffs
+#442    "Place Dark Token"      #Spawns 9 untargetable adds
+#457    "Stench of Death/Gusting Gouge" #Middle AoE + lengthen tethers
+463     "女王之舞 (Random)"
+477     "次元波动"      #AoE
+485     "加速"
+489     "随机元灵" #Fire, Blizz, or Thunder
+493     "随机元灵" #Fire, Blizz, or Thunder
+500     "次元波动"      #AoE
+510     "召唤魔形 (Ninjas/Giant)"       #Spawns ninja adds + iron giant
+511     "--忍者 + 巨人出现--"
+520     "加速 III"      sync /:22F5:哈利卡纳苏斯/ window 100
+524     "次元波动"      #AoE
+530     "次元波动"      #AoE
+535     "次元波动"      #AoE
+541     "次元波动"      #AoE
+548     "女王之舞 (Random)"     #Spread around boss
+553     "随机元灵"      #Fire, Blizz, or Thunder
+563     "次元波动"      #Dimensional Wave
+569     "暴击"  #Tank Buster
+580     "女王之舞 (Random)"     #Spread, one person per tile (Folio)
+589     "魔法剑·神圣" duration 6        #4 players spread/stack
+605     "暴击"  #Tank Buster
+614     "精神控制" duration 13  #Applies 13s facing debuffs
+#619    "Place Dark Token"      #Spawns 9 untargetable adds
+#633    "Stench of Death/Cross Reaper/Gusting Gouge"    #Middle AoE + knockback on edge tiles + lengthen tethers
+641     "女王之舞 (Random)"     #Applies thorny tethers
+#643    "Tethers"       #Run from partner
+654     "次元波动"      #AoE
+662     "加速"
+665     "随机元灵"      #Fire, Blizz, or Thunder
+670     "随机元灵"      #Fire, Blizz, or Thunder
+676     "次元波动"      #AoE
+686     "游戏盘面"
+693     "游戏开始"      #Enrage
+703 "--Enrage--" #MISSINGTEXT
