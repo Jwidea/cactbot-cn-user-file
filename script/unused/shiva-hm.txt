@@ -1,0 +1,170 @@
+### Shiva Hard
+# https://finalfantasy.fandom.com/wiki/Akh_Afah_Ampitheatre
+#
+# -it Shiva -ii 998 9A2 9A3
+# -p 995:100 C7F:200 994:800
+#
+# Phase Flowchart:
+# HP:100%     95%         85%           65%               40% (if adds dead)
+#                                   +-> 4a(adds+staff) -> cutscene -+
+# 1(autos) -> 2(staff) -> 3(sword) -+                               +->
+#                                   +-> 4b(adds+sword) -> cutscene -+
+#
+#  +-> 5a(staff) -+       +-> 6a(staff) -+
+# -+              + -+-> -+              + --- repeat --+
+#  +-> 5b(sword) -+  ^    +-> 6b(sword) -+              |
+#                    |                                  |
+#                    +----------------------------------+
+#
+# Notes:
+# * no enrage (at least in twenty minutes)
+# * like extreme, will go invincible if pushed below 40% until adds are dead
+# * always starts out staff phase sword phase, then a random one during adds
+# * the first phase after the cutscene has slightly different timings/abilities
+# * during phase 1, the icicle impact between phase 2 and 3 is always cross
+# * after the cutscene, the icicle impact is always the circle
+# * the remaining icicle impacts are random, but it doesn't affect the timeline
+# * unlike extreme, the permafrosts are guaranteed (thank goodness)
+
+hideall "--sync--"
+hideall "--Reset--"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+# Phase 1: Literally Just Autos (100% -> 95%)
+0.0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+2.0 "--sync--" sync /:希瓦:99A:/ window 10,10
+
+# jump to staff
+10.0 "--sync--" sync /:希瓦:995:/ window 10,100 jump 200
+
+
+# Phase 2: Staff (95% -> 85%)
+200.0 "冰霜之杖" sync /:希瓦:995:/
+208.1 "冰雹" sync /:希瓦:997:/
+
+221.7 "绝对零度" sync /:希瓦:99C:/ window 30,30 jump 221.7
+244.7 "绝对零度" #sync /:希瓦:99C:/
+267.7 "绝对零度" #sync /:希瓦:99C:/
+
+
+# Phase 3: Sword (85% -> 65%)
+400.0 "武器融化" sync /:希瓦:C7F:/ window 200,0
+409.2 "冰柱冲击 (十字)" sync /:希瓦:99E:/
+417.3 "寒冰的幻想" sync /:希瓦:99D:/
+
+427.9 "冰霜之剑" sync /:希瓦:993:/
+433.0 "冰印剑" sync /:希瓦:996:/
+439.3 "天降一击" sync /:希瓦:9A0:/
+
+451.9 "冰河怒击" sync /:希瓦:9A1:/
+468.7 "天降一击" sync /:希瓦:9A0:/
+
+481.1 "冰河怒击" sync /:希瓦:9A1:/ window 20,20 jump 451.9
+497.9 "天降一击" #sync /:希瓦:9A0:/
+
+
+# Phase 4: Adds
+800.0 "武器融化" sync /:希瓦:994:/ window 800,0
+# If you push *really* fast and skip a weapon phase, you'll miss the melt jump.
+# So, fix that up with a combatant sync here.
+806.2 "--adds targetable--" sync /03:........:Added new combatant 寒冰士兵\./ window 807,2.5 #MISSINGTEXT
+809.9 "寒冰的幻想" sync /:希瓦:99D:/
+
+# Note: Yes, really.  These times are different.
+823.6 "冰霜之杖?" sync /:希瓦:995:/ window 100,100 jump 1023.6
+825.4 "冰霜之剑?" sync /:希瓦:993:/ window 100,100 jump 1225.4
+
+
+# Phase 4a: Adds (Staff)
+1023.6 "冰霜之杖" sync /:希瓦:995:/
+1031.7 "冰雹" sync /:希瓦:997:/
+1044.3 "绝对零度" sync /:希瓦:99C:/
+
+1051.6 "武器融化" sync /:希瓦:C7F:/ window 100,10
+1052.7 "--untargetable--" #MISSINGTEXT
+1063.9 "--冻结--" sync /:希瓦:C16:/ window 1100,10
+1068.8 "钻石星尘" sync /:希瓦:98A:/
+1076.0 "--targetable--" #MISSINGTEXT
+1079.1 "寒冰的幻想" sync /:希瓦:99D:/
+1088.3 "冰柱冲击 (圆)" duration 4 #sync /:希瓦:99E:/
+
+1095.3 "冰霜之杖?" sync /:希瓦:995:/ jump 1400 window 50,90
+1095.3 "冰霜之剑?" sync /:希瓦:993:/ jump 1600 window 50,90
+
+
+# Phase 4b: Adds (Blade)
+1225.4 "冰霜之剑" sync /:希瓦:993:/
+1230.5 "冰印剑" sync /:希瓦:996:/
+1236.8 "天降一击" sync /:希瓦:9A0:/
+1249.2 "冰河怒击" sync /:希瓦:9A1:/
+
+# You get 5 extra seconds to kill the adds if it's Blade.
+1256.6 "武器融化" sync /:希瓦:994:/ window 100,10
+1257.7 "--untargetable--" #MISSINGTEXT
+1268.9 "--冻结--" sync /:希瓦:C16:/
+1273.8 "钻石星尘" sync /:希瓦:98A:/
+1281.0 "--targetable--" #MISSINGTEXT
+1284.2 "寒冰的幻想" sync /:希瓦:99D:/
+1293.4 "冰柱冲击 (圆)" duration 4 #sync /:希瓦:99E:/
+
+1300.6 "冰霜之杖?" sync /:希瓦:995:/ jump 1400 window 50,90
+1300.6 "冰霜之剑?" sync /:希瓦:993:/ jump 1600 window 50,90
+
+
+# Phase 5a: Staff
+# Note: only one absolute zero here.
+1400.0 "冰霜之杖" sync /:希瓦:995:/
+1408.1 "冰雹" sync /:希瓦:997:/
+1421.7 "绝对零度" sync /:希瓦:99C:/
+1432.2 "武器融化" sync /:希瓦:C7F:/
+1434.3 "永久冻土" sync /:希瓦:999:/
+1440.5 "寒冰的幻想" sync /:希瓦:99D:/
+1450.7 "冰柱冲击" sync /:希瓦:99E:/
+
+1454.7 "冰霜之杖?" sync /:希瓦:995:/ jump 1800 window 50,90
+1454.7 "冰霜之剑?" sync /:希瓦:993:/ jump 2000 window 50,90
+
+
+# Phase 5b: Blade
+# Note: this has the same abilities as 6b, but slightly different timings,
+# e.g. Heavenly Strike is ~1611 instead of ~1614.
+1600.0 "冰霜之剑" sync /:希瓦:993:/
+1605.3 "冰印剑" sync /:希瓦:996:/
+1611.7 "天降一击" sync /:希瓦:9A0:/ window 10,10
+1624.2 "冰河怒击" sync /:希瓦:9A1:/
+1634.8 "武器融化" sync /:希瓦:994:/
+1636.9 "永久冻土" sync /:希瓦:999:/
+1643.1 "寒冰的幻想" sync /:希瓦:99D:/
+1653.3 "冰柱冲击" #sync /:希瓦:99E:/
+
+1657.6 "冰霜之杖?" sync /:希瓦:995:/ jump 1800 window 90,90
+1657.6 "冰霜之剑?" sync /:希瓦:993:/ jump 2000 window 90,90
+
+
+# Phase 6a: Staff
+1800.0 "冰霜之杖" sync /:希瓦:995:/
+1808.1 "冰雹" sync /:希瓦:997:/
+1818.6 "绝对零度" sync /:希瓦:99C:/
+1823.9 "绝对零度" sync /:希瓦:99C:/
+1829.2 "武器融化" sync /:希瓦:C7F:/
+1831.3 "永久冻土" sync /:希瓦:999:/
+1837.5 "寒冰的幻想" sync /:希瓦:99D:/
+1847.8 "冰柱冲击" sync /:希瓦:99E:/
+
+1851.8 "冰霜之杖?" sync /:希瓦:995:/ jump 1800 window 90,90
+1851.8 "冰霜之剑?" sync /:希瓦:993:/ jump 2000 window 90,90
+
+
+# Phase 6b: Blade
+2000.0 "冰霜之剑" sync /:希瓦:993:/
+2005.1 "冰印剑" sync /:希瓦:996:/ window 5,5
+2014.5 "天降一击" sync /:希瓦:9A0:/ window 5,5
+2024.9 "冰河怒击" sync /:希瓦:9A1:/
+2030.2 "武器融化" sync /:希瓦:994:/
+2032.3 "永久冻土" sync /:希瓦:999:/
+2038.5 "寒冰的幻想" sync /:希瓦:99D:/
+2048.7 "冰柱冲击" #sync /:希瓦:99E:/
+
+2053.5 "冰霜之杖?" sync /:希瓦:995:/ jump 1800 window 90,90
+2053.5 "冰霜之剑?" sync /:希瓦:993:/ jump 2000 window 90,90

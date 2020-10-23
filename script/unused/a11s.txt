@@ -1,0 +1,229 @@
+### A12S
+# Alexander - The Heart of the Creator (Savage)
+# https://docs.google.com/document/d/1z7VC-k2UzkLMsfWhWR9C5Z4dUlTZPPR0w2mNswTCnU4/edit
+# https://www.reddit.com/r/ffxiv/comments/5743rk/question_pillars_and_final_phase_of_a11s/d8p39zj/
+# -ii 1A64 1A65 1A77 1A74 1A7C 1AAF 1A61 1A62 1A63 1A70 1A72 1A7E
+# -p 1A80:179.3 1A19:352.5 1A75:651.8
+# Optionally for first phase: -p 1A6C:17.3 1A6D:17.3
+# Optionally for last phase: -p 1A76:551.3
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync / 00:0839:中枢大动力室 will be sealed off in 15 seconds/ window 10,10
+6.2 "--sync--" sync /:1A7[A9]:巡航驱逐者/ window 7,5
+9.2 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+
+# skippable
+17.3 "制导 (顺时针/外)" sync /:巡航驱逐者:1A6[CD]:/
+
+# skippable
+33.4 "龙卷风" sync /:巡航驱逐者:1A84:/
+40.6 "回旋碎踢" sync /:巡航驱逐者:1A85:/
+
+# skippable
+45.8 "护航机甲出现" sync / 03:........:Added new combatant E\.D\.D\./ window 50,5 #MISSINGSYNC
+
+# If we jump to this laser sword immediately after first, the timing is:
+# 9.2 (first sword) 21.7 (second sword)
+# Sync to somewhere that will catch t=18.7 - 2.5 seconds = ~36 window (at least)
+51.8 "--sync--" sync /:1A7[A9]:巡航驱逐者/ window 40,5
+54.8 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+55.8 "护航机甲肩部装甲"
+64.0 "回旋碎踢" sync /:巡航驱逐者:1A85:/
+81.2 "龙卷风" sync /:巡航驱逐者:1A84:/
+
+85.3 "--sync--" sync /:1A7[A9]:巡航驱逐者/ window 30,5
+88.3 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+
+# GA-100 in the first phase.  WHO KNEW?
+# There's a question mark because nobody should ever see this.
+101.6 "百式聚能炮 ?" sync /:巡航驱逐者:1A76:/
+
+# can skip add and jump here
+112.7 "--sync--" sync /:1A6E:巡航驱逐者/ window 113,5
+114.7 "制导 (诱导)" sync /:巡航驱逐者:1A6E:/
+119.9 "鹰式破坏炮" sync /:巡航驱逐者:1A6F:/
+
+129.8 "制导 (顺时针/外)" sync /:巡航驱逐者:1A6[CD]:/
+137.9 "超级鹰式破坏炮" sync /:巡航驱逐者:1A71:/
+
+143.9 "制导 (外/顺时针)" sync /:巡航驱逐者:1A6[CD]:/
+150.9 "超级鹰式破坏炮" sync /:巡航驱逐者:1A71:/
+
+159.9 "龙卷风" sync /:巡航驱逐者:1A84:/
+168.1 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+
+### Limit Cut Numbers
+177.3 "--sync--" sync /:1A80:巡航驱逐者/ window 180,5
+179.3 "限制器减档 (麻将)" sync /:巡航驱逐者:1A80:/
+179.9 "--无敌--"
+183.5 "标记"
+192.1 "剑  1" sync /:巡航驱逐者:1A81:/
+193.2 "刺冲 2" sync /:巡航驱逐者:1A82:/
+195.4 "剑  3" sync /:巡航驱逐者:1A81:/
+196.5 "刺冲 4" sync /:巡航驱逐者:1A82:/
+198.7 "剑  5" sync /:巡航驱逐者:1A81:/
+199.8 "刺冲 6" sync /:巡航驱逐者:1A82:/
+202.0 "剑  7" sync /:巡航驱逐者:1A81:/
+203.1 "刺冲 8" sync /:巡航驱逐者:1A82:/
+205.2 "--targetable--" #MISSINGTEXT
+
+215.3 "光子炮" sync /:巡航驱逐者:1A73:/
+222.4 "龙卷风" sync /:巡航驱逐者:1A84:/
+229.6 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+237.1 "准备升空" sync /:巡航驱逐者:1A66:/ window 240,10
+237.9 "--untargetable--" #MISSINGTEXT
+
+
+### Cutscene
+240.2 "变形" sync /:巡航驱逐者:1A49:/
+247.9 "--sync--" sync /:巡航驱逐者:1A4A:/
+252.8 "摧毁者破坏炮" sync /:巡航驱逐者:1A69:/
+258.8 "变形" sync /:巡航驱逐者:1A4E:/
+264.8 "着陆" sync /:巡航驱逐者:1A6B:/
+
+
+### ORBS
+268.0 "--targetable--" #MISSINGTEXT
+270.1 "限制器减档 (球)" sync /:巡航驱逐者:1A80:/
+270.7 "--无敌--"
+273.2 "天青石 x4"
+276.3 "--sync--" sync /:巡航驱逐者:1A7B:/
+276.8 "等离子球 x1"
+283.4 "龙卷风" sync /:巡航驱逐者:1A84:/
+287.6 "--sync--" sync /:巡航驱逐者:1A5A:/
+292.7 "--sync--" sync /:舰载浮游炮:1A5B:/
+295.7 "--sync--" sync /:巡航驱逐者:1A7B:/
+296.4 "等离子球 x2"
+297.4 "突击加农炮" #sync /:舰载浮游炮:1A78:/
+308.0 "交叉光剑" sync /:巡航驱逐者:1A7F:/
+308.9 "--sync--" sync /:舰载浮游炮:1A5B:/
+313.7 "突击加农炮" #sync /:舰载浮游炮:1A78:/
+315.1 "--sync--" sync /:巡航驱逐者:1A7B:/
+315.7 "等离子球 x2"
+321.7 "突击加农炮" #sync /:舰载浮游炮:1A78:/
+326.2 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+338.3 "龙卷风" sync /:巡航驱逐者:1A84:/
+
+
+### Eternal Darkness
+344.4 "--targetable--" #MISSINGTEXT
+344.5 "--sync--" sync /:1A19:巡航驱逐者/ window 350,10
+352.5 "黑暗命运" sync /:巡航驱逐者:1A19:/
+361.7 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+370.8 "龙卷风" sync /:巡航驱逐者:1A84:/
+378.9 "回旋碎踢" sync /:巡航驱逐者:1A85:/
+
+# skippable
+386.0 "制导 (诱导)" sync /:巡航驱逐者:1A6E:/
+391.2 "鹰式破坏炮" sync /:巡航驱逐者:1A6F:/
+396.1 "超级鹰式破坏炮" sync /:巡航驱逐者:1A71:/
+
+# also skippable
+399.2 "--sync--" sync /:1A80:巡航驱逐者/ window 50,10
+401.2 "限制器减档 (护盾)" sync /:巡航驱逐者:1A80:/
+401.8 "--无敌--"
+406.6 "等离子护盾"
+431.2 "等离子护盾 Enrage"
+431.2 "--sync--" sync /:1A83:巡航驱逐者/ window 40,30
+435.2 "摧毁者冲击" sync /:巡航驱逐者:1A83:/
+437.3 "--targetable--" #MISSINGTEXT
+
+439.5 "--sync--" sync /:1A73:巡航驱逐者/ window 40,10
+442.5 "光子炮 (offtank)" sync /:巡航驱逐者:1A73:/
+450.9 "交叉光剑" sync /:巡航驱逐者:1A7F:/
+
+# maybe skippable
+458.7 "护航机甲出现" sync / 03:........:Added new combatant E\.D\.D\./ #MISSINGSYNC
+462.0 "光子炮 (dps)" sync /:巡航驱逐者:1A73:/
+470.2 "龙卷风" sync /:巡航驱逐者:1A84:/
+
+478.4 "--sync--" sync /:1A7[A9]:巡航驱逐者/ window 80,5
+481.4 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+487.5 "光子炮 (healer)" sync /:巡航驱逐者:1A73:/
+495.6 "龙卷风" sync /:巡航驱逐者:1A84:/
+502.1 "准备升空" sync /:巡航驱逐者:1A66:/ window 260,10
+502.9 "--untargetable--" #MISSINGTEXT
+
+
+### Cutscene 2
+505.2 "变形" sync /:巡航驱逐者:1A49:/
+513.0 "--sync--" sync /:巡航驱逐者:1A4A:/
+517.8 "摧毁者破坏炮" sync /:巡航驱逐者:1A69:/
+520.8 "层积科学结界 x3" sync / 03:........:Added new combatant 层积科学结界/
+523.9 "变形" sync /:巡航驱逐者:1A4E:/
+529.9 "着陆" sync /:巡航驱逐者:1A6B:/
+
+
+### Final phase
+532.7 "--targetable--" #MISSINGTEXT
+551.3 "百式聚能炮" sync /:巡航驱逐者:1A76:/
+558.4 "制导 (顺时针/外)" sync /:巡航驱逐者:1A6[CD]:/
+565.5 "超级鹰式破坏炮" sync /:巡航驱逐者:1A71:/
+573.6 "制导 (外/顺时针)" sync /:巡航驱逐者:1A6[CD]:/
+581.7 "超级鹰式破坏炮" sync /:巡航驱逐者:1A71:/
+586.7 "龙卷风" sync /:巡航驱逐者:1A84:/
+595.9 "龙卷风" sync /:巡航驱逐者:1A84:/
+605.1 "交叉光剑" sync /:巡航驱逐者:1A7F:/
+612.2 "制导 (诱导)" sync /:巡航驱逐者:1A6E:/
+617.4 "鹰式破坏炮" sync /:巡航驱逐者:1A6F:/
+622.3 "超级鹰式破坏炮" sync /:巡航驱逐者:1A71:/
+622.4 "--sync--" sync /:巡航驱逐者:1A5A:/
+626.6 "--sync--" sync /:舰载浮游炮:1A5B:/
+# Well, really everyone but the main tank.  But that's too long to write out.
+628.6 "光子炮 (全员)" sync /:巡航驱逐者:1A73:/
+633.1 "突击加农炮" #sync /:舰载浮游炮:1A78:/
+635.8 "龙卷风" sync /:巡航驱逐者:1A84:/
+640.3 "突击加农炮" #sync /:舰载浮游炮:1A78:/
+647.4 "突击加农炮" #sync /:舰载浮游炮:1A78:/
+651.8 "螺旋桨强风" sync /:巡航驱逐者:1A75:/
+
+655.0 "--sync--" sync /:1A80:巡航驱逐者/ window 100,20
+657.0 "限制器减档 (麻将)" sync /:巡航驱逐者:1A80:/
+657.6 "--无敌--"
+661.2 "标记"
+669.9 "剑  1" sync /:巡航驱逐者:1A81:/
+671.0 "刺冲 2" sync /:巡航驱逐者:1A82:/
+673.2 "剑  3" sync /:巡航驱逐者:1A81:/
+674.3 "刺冲 4" sync /:巡航驱逐者:1A82:/
+676.5 "剑  5" sync /:巡航驱逐者:1A81:/
+677.6 "刺冲 6" sync /:巡航驱逐者:1A82:/
+679.8 "剑  7" sync /:巡航驱逐者:1A81:/
+680.9 "刺冲 8" sync /:巡航驱逐者:1A82:/
+683.0 "--targetable--" #MISSINGTEXT
+
+693.2 "交叉光剑" sync /:巡航驱逐者:1A7F:/
+697.2 "护航机甲出现" sync / 03:........:Added new combatant E\.D\.D\./ #MISSINGSYNC
+705.4 "光子炮 (dps)" sync /:巡航驱逐者:1A73:/
+714.6 "左/右光剑" sync /:巡航驱逐者:1A7[A9]:/
+722.7 "光子炮 (healer)" sync /:巡航驱逐者:1A73:/
+730.8 "龙卷风" sync /:巡航驱逐者:1A84:/
+
+733.7 "--sync--" sync /:1A80:巡航驱逐者/ window 70,20
+735.7 "限制器减档 (护盾)" sync /:巡航驱逐者:1A80:/
+736.3 "--无敌--"
+741.1 "等离子护盾"
+765.7 "等离子护盾 Enrage"
+765.7 "--sync--" sync /:1A83:巡航驱逐者/ window 40,30
+769.7 "摧毁者冲击" sync /:巡航驱逐者:1A83:/
+771.8 "--targetable--" #MISSINGTEXT
+
+779.7 "回旋碎踢" sync /:巡航驱逐者:1A85:/
+789.7 "龙卷风" sync /:巡航驱逐者:1A84:/
+806.4 "交叉光剑" sync /:巡航驱逐者:1A7F:/
+
+# If you destroy a tower with the first GA-100, this is enrage.
+# FIXME: Guessing that this loops, but unclear.
+829.4 "百式聚能炮" sync /:巡航驱逐者:1A76:/ window 100,100 jump 551.3
+836.5 "制导 (顺时针/外)"
+843.6 "超级鹰式破坏炮"
+851.7 "制导 (外/顺时针)"
+859.8 "超级鹰式破坏炮"
+864.8 "龙卷风"
+874.0 "龙卷风"
+883.2 "交叉光剑"

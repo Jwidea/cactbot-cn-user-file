@@ -1,0 +1,177 @@
+# -ii EC1 EC2 EA5 EAA EBE 1299 13BC 13BF 140F
+# ic "Spirit Gana" "Moon Gana" "Chandrahas"
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+# During all phases, any attacks will increase Ravana's Bloodlust meter.
+# The relationship between increases and damage done is not fully understood.
+# The meter also increases passively during all phases except the opening block.
+# Any displayed phase lengths are the maximum that could occur with no "extra" Bloodlust.
+
+0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+1.2 "--sync--" sync /:罗波那:13E4:/ window 1.2,1
+7.1 "武神闪" sync /:罗波那:E9F:/ window 7.1,10
+11.9 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+16.0 "武神魂" sync /:罗波那:EA6:/
+22.2 "鬼武神 x3" sync /:罗波那:EA4:/ window 20,20
+29.4 "武神魂" sync /:罗波那:EA6:/
+32.5 "武神闪" sync /:罗波那:E9F:/
+37.3 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+42.5 "武神魂" sync /:罗波那:EA6:/
+
+51.7 "武神闪" sync /:罗波那:E9F:/
+56.5 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+60.6 "武神魂" sync /:罗波那:EA6:/
+66.8 "鬼武神 x3" sync /:罗波那:EA4:/ window 20,20
+74.0 "武神魂" sync /:罗波那:EA6:/
+77.1 "武神闪" sync /:罗波那:E9F:/
+81.9 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+87.1 "武神魂" sync /:罗波那:EA6:/ jump 42.5
+
+96.3 "武神闪"
+101.1 "左翼防御/右翼防御/两翼防御"
+105.2 "武神魂"
+111.4 "鬼武神 x3"
+118.6 "武神魂"
+121.7 "武神闪"
+126.5 "左翼防御/右翼防御/两翼防御"
+
+# Block initiates at 100 bloodlust. Loosely linked to HP%, exact connection unknown.
+150.0 "光焰化身" sync /:罗波那:E81:/ window 150,5
+155.2 "焰剑" sync /:罗波那:137A:/
+175.3 "光焰【序】" sync /:罗波那:EBC:/
+175.3 "--untargetable--" #MISSINGTEXT
+182.4 "光焰【序】 (十字火) " sync /:罗波那:EBD:/
+183.4 "--sync--" sync /:罗波那:13BC:/
+189.6 "光焰【序】 (圆圈)" sync /:罗波那:EBF:/
+194.8 "--targetable--" #MISSINGTEXT
+195.0 "焰剑" sync /:罗波那:137A:/
+215.6 "光焰【破】" sync /:罗波那:EC0:/
+215.6 "--untargetable--" #MISSINGTEXT
+219.8 "分身出现 1" # sync /:罗波那:EC1:/
+220.8 "分身出现 2" # sync /:罗波那:EC1:/
+221.8 "分身出现 3" # sync /:罗波那:EC1:/
+222.8 "分身出现 4" # sync /:罗波那:EC1:/
+226.9 "分身冲锋 1" # sync /:罗波那:EC2:/
+228.4 "分身冲锋 2" # sync /:罗波那:EC2:/
+229.9 "分身冲锋 3" # sync /:罗波那:EC2:/
+231.4 "分身冲锋 4" # sync /:罗波那:EC2:/
+235.6 "--targetable--" #MISSINGTEXT
+
+# Initiates immediately following Liberation block.
+235.7 "武毅化身" sync /:罗波那:E80:/
+242.8 "武神甲" sync /:罗波那:EB1:/
+247.6 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+255.4 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+264.6 "武神焰 ?" sync /:罗波那:EB2:/ # Skipped if Ravana's shield is burned.
+267.8 "--sync--" sync /:罗波那:EB0:/
+272.0 "鬼武神 x3" sync /:罗波那:EA4:/ window 30,5
+279.1 "武神魂" sync /:罗波那:EA6:/
+286.8 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+290.9 "武神魂" sync /:罗波那:EA6:/
+296.2 "鬼武神 x3" sync /:罗波那:EA4:/
+303.3 "武神魂" sync /:罗波那:EA6:/
+306.4 "武神闪" sync /:罗波那:E9F:/
+309.5 "武神魂" sync /:罗波那:EA6:/
+312.7 "鬼武神 x3" sync /:罗波那:EA4:/
+320.8 "武神闪" sync /:罗波那:E9F:/
+325.5 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+330.7 "武神魂 x2" # sync /:罗波那:EA6:/
+
+# The intermission can have 0-10 Laughing Moon charges before Ravana uses the Chandrahas ultimate.
+# The number is dependent on how many Gana are able to finish their Falling Laughter casts.
+# More than 1-2 is typically a wipe, as each inflicts a Vulnerability Up stack to the party.
+336.8 "神通力" sync /:EB3:罗波那/ duration 4.7 window 336.8,5
+341.1 "--untargetable--" #MISSINGTEXT
+
+400.0 "明月之笑" sync /:罗波那:EB5:/ window 400,5
+413.9 "甲壳化身" sync /:罗波那:E82:/ window 15,15
+414.0 "--targetable--" # Technically slightly before, but invulnerability drops here. #MISSINGTEXT
+422.0 "冲天击" sync /:罗波那:EB8:/
+429.1 "--sync--" sync /:罗波那:EB9:/
+429.8 "月气弹" # The EB9 skill resolves well before the damage displays
+445.4 "穿甲散弹 x4" # sync /:罗波那:EBA:/
+453.1 "斗气弹" sync /:罗波那:EB6:/
+460.2 "斗气炮" sync /:罗波那:EBB:/
+465.4 "穿甲散弹 x7" # sync /:罗波那:EBA:/
+466.3 "斗气爆碎" sync /:罗波那's Will:EB7:/
+485.8 "冲天击" sync /:罗波那:EB8:/
+493.0 "--sync--" sync /:罗波那:EB9:/
+493.7 "月气弹"
+506.2 "穿甲散弹 x7 ?" # sync /:罗波那:EBA:/
+# This phase ends at 100 Bloodlust.
+
+514.0 "光焰化身" sync /:罗波那:E81:/ window 114,5
+514.1 "--sync--" sync /:罗波那:13BF:/
+519.2 "焰剑" sync /:罗波那:137A:/
+540.4 "光焰【急】" sync /:罗波那:EA7:/
+540.4 "--untargetable--" #MISSINGTEXT
+540.5 "光焰【急】+冲锋 1" # sync /:罗波那:EA8:/
+543.5 "光焰【急】+冲锋 2" # sync /:罗波那:EA8:/
+546.5 "光焰【急】+冲锋 3" # sync /:罗波那:EA8:/
+549.5 "光焰【急】+冲锋 4" # sync /:罗波那:EA8:/
+552.7 "光焰【急】 (十字火) " # sync /:罗波那:EA9:/
+556.9 "光焰【急】 (圆圈)" # sync /:罗波那:EAB:/
+562.1 "--targetable--" #MISSINGTEXT
+562.3 "焰剑" sync /:罗波那:137A:/ window 20,20
+583.5 "光焰【灭】" sync /:罗波那:EAC:/
+583.5 "--untargetable--" #MISSINGTEXT
+583.6 "光焰【灭】 (第1次双红球点名)" sync /:罗波那:EAD:/
+591.6 "光焰【灭】 (第2次双红球点名)" sync /:罗波那:EAD:/
+597.7 "--sync--" sync /:罗波那:13C4:/
+597.7 "光焰【灭】 (外圈AOE)" sync /:罗波那:EAE:/
+598.9 "--targetable--" #MISSINGTEXT
+603.9 "光焰【灭】 (中间AOE)" sync /:罗波那:EAF:/
+603.9 "--untargetable--" #MISSINGTEXT
+610.1 "--targetable--" #MISSINGTEXT
+
+610.2 "武毅化身" sync /:罗波那:E80:/ window 96,20
+610.3 "--sync--" sync /:罗波那:1299:/
+617.3 "武神甲" sync /:罗波那:EB1:/
+622.5 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+626.7 "武神魂" sync /:罗波那:EA6:/
+631.0 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/
+
+# If Blessing of Earth is not damaged off Ravana, he uses Warlord Flame at 640.2.
+# If it is, Flame is skipped and things go directly to Blinding Blade.
+# We assume the skip, and re-sync if it doesn't happen.
+636.4 "--sync--" sync /:罗波那:EB2:/ window 15,15
+640.2 "武神闪/武神焰 ?" sync /:罗波那:E9F:/ window 30,2.5
+643.3 "武神魂" sync /:罗波那:EA6:/
+646.1 "鬼武神 x3" sync /:罗波那:EA4:/
+652.2 "武神魂" sync /:罗波那:EA6:/
+655.3 "武神闪" sync /:罗波那:E9F:/
+658.4 "武神魂 x2" # sync /:罗波那:EA6:/
+663.1 "鬼武神 x3" sync /:罗波那:EA4:/
+669.2 "武神闪" sync /:罗波那:E9F:/
+672.3 "武神魂" sync /:罗波那:EA6:/
+
+679.5 "武神闪" sync /:罗波那:E9F:/
+682.6 "武神魂" sync /:罗波那:EA6:/
+685.0 "鬼武神 x3" sync /:罗波那:EA4:/
+691.2 "武神魂" sync /:罗波那:EA6:/
+694.3 "武神闪" sync /:罗波那:E9F:/
+697.4 "武神魂 x2" # sync /:罗波那:EA6:/
+701.7 "鬼武神 x3" sync /:罗波那:EA4:/
+708.1 "武神闪" sync /:罗波那:E9F:/
+711.2 "武神魂" sync /:罗波那:EA6:/
+718.3 "武神闪" sync /:罗波那:E9F:/
+
+721.4 "武神魂" sync /:罗波那:EA6:/
+723.9 "鬼武神 x3" sync /:罗波那:EA4:/
+730.0 "武神魂" sync /:罗波那:EA6:/
+
+736.5 "甲壳化身" sync /:罗波那:E82:/ window 130,10 jump 413.9
+744.6 "冲天击"
+751.7 "月气弹"
+768.0 "穿甲散弹 x4"
+
+# Enrage follows this sequence, but unfortunately there's no way to sync to it.
+# 1781.6 "Dragonfly Avatar" sync /:Ravana:E80:/
+# 1781.7 "--sync--" sync /:Ravana:1299:/
+# 1786.7 "--untargetable--"
+# 1791.8 "Bloody Fuller" sync /:Ravana:EB3:/
+# Laughing Moon until wipe

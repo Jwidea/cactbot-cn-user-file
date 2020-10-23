@@ -1,0 +1,177 @@
+### A5S
+# Alexander - The Fist of the Son (Savage)
+# https://dtguilds.enjin.com/a5sguide
+# -p 16CC:1009.8 1598:2001
+# -ii 16AD 169D 16A4
+
+hideall "Guzzle"
+hideall "Relaxant"
+
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+### Hummel and Friends
+1000.0 "--sync--" sync / 00:0839:哥布林科学研究室 will be sealed off/ window 1000,0
+1001.8 "--sync--" sync /:浮士德:367:/ window 1002,0.5
+1009.8 "寒光 x1" sync /:浮士德:16CC:/
+1018.9 "寒光 x2" duration 2.1 sync /:浮士德:16CC:/ window 5,0.5
+#1021.0 "Kaltstrahl" sync /:Faust:16CC:/
+1032.1 "寒光 x3" duration 4.2 sync /:浮士德:16CC:/ window 5,0.5
+#1034.2 "Kaltstrahl" sync /:Faust:16CC:/
+#1036.3 "Kaltstrahl" sync /:Faust:16CC:/
+1043.4 "寒光 x3" duration 4.2 sync /:浮士德:16CC:/ window 5,0.5
+#1045.5 "Kaltstrahl" sync /:Faust:16CC:/
+#1047.6 "Kaltstrahl" sync /:Faust:16CC:/
+
+1051.6 "--sync--" sync /:16D2:新型浮士德/ window 52,10
+1056.6 "战车前进" sync /:新型浮士德:16D2:/
+
+# Note: if previous Fausts haven't been destroyed,
+# There's a 3.7 second delay for Reducible Complexity + Pressure Increase.
+# These two have been adjusted backwards in time by this to re-sync for it.
+# Assume this will not happen in general though.
+1053.4 "--sync--" sync /:浮士德:16CF:/ window 10,10 # Reducible Complexity
+1056.0 "--sync--" sync /:新型浮士德:16CD:/ window 10,10 # Pressure Increase.
+
+1065.2 "寒光 x2" duration 2.1 sync /:新型浮士德:16CE:/ window 5,0.5
+#1067.3 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+1085.4 "寒光 x3" duration 4.2 sync /:新型浮士德:16CE:/ window 5,0.5
+#1087.5 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+#1089.6 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+1101.7 "反坦克火箭筒" sync /:新型浮士德:16D0:/ window 15,15
+1110.9 "寒光 x4" duration 6.3 sync /:新型浮士德:16CE:/ window 5,0.5
+#1113.0 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+#1115.1 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+#1117.2 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+1128.3 "反坦克火箭筒" sync /:新型浮士德:16D0:/
+1134.4 "反坦克火箭筒" sync /:新型浮士德:16D0:/
+1138.5 "寒光 x4" duration 6.3 sync /:新型浮士德:16CE:/ window 5,0.5
+#1140.6 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+#1142.7 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+#1144.8 "Kaltstrahl" sync /:Hummelfaust:16CE:/
+# FIXME: maybe more abilities if Fausts are pushed quickly?
+
+# Time-based enrage.
+1150.7 "--sync--" sync /:16D1:新型浮士德/ window 151,20
+1154.7 "反坦克火箭筒 Enrage" sync /:新型浮士德:16D1:/
+
+
+
+### Ratfinx Twinkledinks
+# This happens so quickly, no need for "Advanced Clevering will be sealed off".
+2000.0 "Start"
+2001.0 "一饮而尽" sync /:奇才 拉特芬克斯:1598:/ window 2001,30
+
+2005.6 "--大--" sync /:奇才 拉特芬克斯:1599:/
+2009.1 "牵制刺拳 1" sync /:奇才 拉特芬克斯:16A9:/
+2013.2 "牵制刺拳 2" sync /:奇才 拉特芬克斯:16A9:/
+2017.3 "牵制刺拳 3" sync /:奇才 拉特芬克斯:16A9:/
+2021.4 "牵制刺拳 4" sync /:奇才 拉特芬克斯:16A9:/
+2028.5 "全力重拳/猛击上勾拳" sync /:奇才 拉特芬克斯:16A[AC]:/
+2041.1 "怒涛冲拳" sync /:奇才 拉特芬克斯:16AF:/
+
+# will push at 90%
+2047.3 "药物失效" sync /:奇才 拉特芬克斯:159B:/ window 50,20
+2049.4 "--小--" sync /:奇才 拉特芬克斯:1687:/
+2058.9 "强酸剧毒药" sync /:奇才 拉特芬克斯:16AE:/
+2068.0 "Cobra x2 (NE/SE)"
+2069.0 "强酸剧毒药" sync /:奇才 拉特芬克斯:16AE:/
+2074.1 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2077.3 "钢鳞" #sync /:Glassy-Eyed Cobra:16A2:/ #MISSINGSYNC
+2078.5 "喷毒" #sync /:Glassy-Eyed Cobra:16A1:/ #MISSINGSYNC
+2085.3 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+
+2098.5 "投放炸弹" sync /:奇才 拉特芬克斯:1590:/
+2112.4 "四方爆炸" sync /:炸弹:16A3:/
+2112.6 "大爆炸" sync /:超高性能炸弹:16A5:/
+2118.6 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+
+2123.8 "一饮而尽" sync /:奇才 拉特芬克斯:1598:/ window 110,20
+2128.4 "--大--" sync /:奇才 拉特芬克斯:1599:/
+2135.9 "蓄力" sync /:奇才 拉特芬克斯:16A6:/
+2139.1 "激震抛拳 x4" duration 6.3 #sync /:奇才 拉特芬克斯:16A7:/
+2144.9 "四方爆炸 1" #sync /:炸弹:16A3:/
+2145.9 "四方爆炸 2" #sync /:炸弹:16A3:/
+2146.9 "四方爆炸 3" #sync /:炸弹:16A3:/
+2147.9 "四方爆炸 4" #sync /:炸弹:16A3:/
+2158.1 "怒涛冲拳" sync /:奇才 拉特芬克斯:16AF:/
+2164.2 "刚猛勾拳" sync /:奇才 拉特芬克斯:15A0:/
+2171.4 "牵制刺拳 1" sync /:奇才 拉特芬克斯:16A9:/
+2175.5 "牵制刺拳 2" sync /:奇才 拉特芬克斯:16A9:/
+2179.6 "牵制刺拳 3" sync /:奇才 拉特芬克斯:16A9:/
+2183.7 "牵制刺拳 4" sync /:奇才 拉特芬克斯:16A9:/
+2191.8 "猛击上勾拳/全力重拳" sync /:奇才 拉特芬克斯:16A[AC]:/
+
+2201.0 "药物失效" sync /:奇才 拉特芬克斯:159B:/ window 140,20
+2203.1 "--小--" sync /:奇才 拉特芬克斯:1687:/
+2203.6 "哥布林奇美拉出现"
+2214.1 "火焰吐息" #sync /:哥布林奇美拉:16A8:/
+2230.6 "强酸剧毒药" sync /:奇才 拉特芬克斯:16AE:/
+2237.7 "投放炸弹" sync /:奇才 拉特芬克斯:1590:/
+2242.8 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2243.0 "四方爆炸" sync /:炸弹:16A3:/
+2250.9 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2251.8 "大爆炸" sync /:超高性能炸弹:16A5:/
+2252.0 "四方爆炸" sync /:炸弹:16A3:/
+2259.0 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2267.1 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2275.3 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+
+2277.5 "一饮而尽" sync /:奇才 拉特芬克斯:1598:/ window 140,20
+2282.1 "--大--" sync /:奇才 拉特芬克斯:1599:/
+2289.6 "蓄力" sync /:奇才 拉特芬克斯:16A6:/
+2292.8 "激震抛拳 x4" duration 6.3 #sync /:奇才 拉特芬克斯:16A7:/
+2298.7 "四方爆炸 x4" sync /:炸弹:16A3:/
+2321.2 "全力重拳/猛击上勾拳" sync /:奇才 拉特芬克斯:16A[AC]:/
+2325.5 "怒涛冲拳" sync /:奇才 拉特芬克斯:16AF:/
+2329.2 "怒涛冲拳" sync /:奇才 拉特芬克斯:16AF:/
+2336.0 "刚猛勾拳" sync /:奇才 拉特芬克斯:15A0:/
+
+2343.5 "牵制刺拳 1" sync /:奇才 拉特芬克斯:16A9:/
+2347.6 "牵制刺拳 2" sync /:奇才 拉特芬克斯:16A9:/
+2351.7 "牵制刺拳 3" sync /:奇才 拉特芬克斯:16A9:/
+2355.8 "牵制刺拳 4" sync /:奇才 拉特芬克斯:16A9:/
+2362.9 "猛击上勾拳/全力重拳" sync /:奇才 拉特芬克斯:16A[AC]:/
+
+2381.1 "药物失效" sync /:奇才 拉特芬克斯:159B:/ window 170,20
+2383.2 "--小--" sync /:奇才 拉特芬克斯:1687:/
+2386.7 "弥诺陶洛斯 (NW)"
+2386.7 "豚鼠 x6 (NE)"
+2390.8 "哥布之眼 x2 (SE/SW)"
+2398.1 "十吨挥打" #sync /:兴奋弥诺陶洛斯:16A0:/
+2399.2 "石化视线" #sync /:哥布之眼:169C:/
+2407.6 "豚鼠 x3 (NW)"
+2410.8 "强酸剧毒药" sync /:奇才 拉特芬克斯:16AE:/
+2411.8 "Cobra (NE)"
+2414.4 "沙布提 (SE)"
+2415.3 "飨宴" #sync /:兴奋弥诺陶洛斯:169A:/
+2420.4 "吼叫" #sync /:兴奋弥诺陶洛斯:169B:/
+2433.5 "十吨挥打" #sync /:兴奋弥诺陶洛斯:16A0:/
+2435.0 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2443.2 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2451.4 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2459.5 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+2467.7 "电气冲击" sync /:奇才 拉特芬克斯:159C:/
+
+2472.9 "一饮而尽" sync /:奇才 拉特芬克斯:1598:/ window 190,20
+2477.5 "--大--" sync /:奇才 拉特芬克斯:1599:/
+2485.0 "牵制刺拳 1" sync /:奇才 拉特芬克斯:16A9:/
+2489.1 "牵制刺拳 2" sync /:奇才 拉特芬克斯:16A9:/
+2493.2 "牵制刺拳 3" sync /:奇才 拉特芬克斯:16A9:/
+2497.3 "牵制刺拳 4" sync /:奇才 拉特芬克斯:16A9:/
+2505.4 "全力重拳/猛击上勾拳" sync /:奇才 拉特芬克斯:16A[AC]:/
+
+2513.6 "药物失效" sync /:奇才 拉特芬克斯:159B:/ window 180,20
+2515.7 "--小--" sync /:奇才 拉特芬克斯:1687:/
+2516.4 "哥布林奇美拉出现"
+2526.7 "火焰吐息" #sync /:哥布林奇美拉:16A8:/
+2532.9 "火焰吐息" #sync /:哥布林奇美拉:16A8:/
+2543.3 "强酸剧毒药" sync /:奇才 拉特芬克斯:16AE:/
+2555.7 "四方爆炸" sync /:炸弹:16A3:/
+# TODO: Maybe there are more mechanics here if you pushed the first phase quickly?
+
+
+### Enrage (time-based)
+# We could sync down here on an 16A4 ability, which is the damage,
+# but that point you're dead.
+2700.0 "--sync--" sync /:159C:奇才 拉特芬克斯/ window 200,200
+2703.0 "电气冲击 Enrage" sync /:奇才 拉特芬克斯:159C:/

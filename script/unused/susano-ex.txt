@@ -1,0 +1,125 @@
+# Susano Extreme
+# Original timeline from: https://www.reddit.com/r/ffxiv/comments/6lh5gu/act_timeline_kaizoban_for_susanolakshmi_ex/
+
+0 "--Reset--" sync /Removing combatant 须佐之男/ window 10000 jump 0
+
+### Phase 1 ###
+1 "--Start--" sync /欢庆吧！跳舞吧！/ window 10000
+10 "强击"
+13 "祸泡附身"
+31.5 "击退" duration 6
+38 "断海" duration 2.5
+44 "集合"
+48.5 "强击"
+51.5 "祸泡附身"
+55.5 "螺旋海峡" duration 3
+# 70 "Thunderhead add"
+72 "击退 (云)" duration 6
+79 "断海" duration 2.5
+89.5 "强击"
+
+### Phase 2 ###
+94 "--阶段 2 (72%)--" sync /有意思，真有意思！/ window 10000
+118 "天之丛云小怪" sync /Added new combatant 天之丛云/ window 120,0
+124 "紫电"
+127 "紫电"
+130 "紫电"
+133 "紫电"
+
+200 "天之丛云小怪" sync /Added new combatant 天之丛云/ window 80,0
+206 "紫电"
+209 "紫电"
+212 "紫电"
+215 "紫电"
+
+### Phase 3 ###
+300 "--阶段 3--" sync /哇啊啊啊！/ window 10000
+304 "天之丛云"
+320.6 "破浪斩" duration 5.5
+328 "闪电" duration 5
+333.5 "闪电" duration 5
+339 "闪电" duration 5
+344.5 "闪电" duration 5
+
+358.5 "祈请 x 2"
+359.5 "祈请 (1)"
+361.5 "祈请 (2)"
+
+#367.5 "Thunderhead add"
+369.5 "击退 (云)" duration 6
+376 "断海" duration 2.5
+382 "集合"
+385.6 "破浪斩" duration 5.5
+
+393 "闪电" duration 5
+#396.5 "Thunderhead add"
+398.5 "闪电 + Thunder" duration 5
+404 "闪电" duration 5
+409.5 "闪电" duration 5
+
+420.5 "祈请 x 3"
+421.5 "祈请 (1)"
+423.7 "祈请 (2)"
+426 "祈请 (3)"
+
+431.5 "岩户隐" sync /:须佐之男:2034:/ window 5,5
+442 "岩户闭合" duration 15
+444.5 "螺旋海峡" duration 3
+449.5 "破浪斩" duration 5.5
+
+461 "Stun + 闪电" duration 6.5
+467.5 "Stun + 闪电" duration 6.5
+474 "Stun + 闪电" duration 6.5
+480.5 "Stun + 闪电" duration 6.5
+
+492.5 "祈请 x 3"
+493.5 "祈请 (1)"
+495.7 "祈请 (2)"
+498 "祈请 (3)"
+
+505 "祸泡附身"
+506.5 "击退 (骰点)" duration 6
+513 "断海" duration 2.5
+519 "集合"
+
+519.8 "螺旋海峡" duration 3
+528 "破浪斩" duration 5.5
+
+537 "Stun + 闪电" duration 6.5
+543.5 "Stun + 闪电" duration 6.5
+550 "Stun + 闪电" duration 6.5
+556.5 "Stun + 闪电" duration 6.5
+
+569.5 "祈请 x 3"
+571 "祈请 (1)"
+573.2 "祈请 (2)"
+575 "祈请 (3)"
+
+577.5 "祸泡附身"
+581.5 "螺旋海峡 (1)" duration 3
+587 "螺旋海峡 (2)" duration 3
+
+597 "破浪斩" duration 5.5
+
+604.5 "闪电" duration 5
+#607.5 "Thunderhead add"
+610 "闪电 + Thunder" duration 5
+611 "螺旋海峡" duration 3
+615.5 "闪电" duration 5
+621 "闪电" duration 5
+621 "螺旋海峡" duration 3
+
+#629 "Thunderhead add"
+631 "击退 (云)" duration 6
+637.5 "断海" duration 2.5
+643.5 "集合"
+
+649 "祈请 x 3"
+650.5 "祈请 (1)"
+652.7 "祈请 (2)"
+654.5 "祈请 (3)"
+
+661 "岩户隐" sync /:须佐之男:2034:/ window 100,0 jump 431.5
+671.5 "岩户闭合" duration 15
+674 "螺旋海峡" duration 3
+679 "破浪斩" duration 5.5

@@ -1,0 +1,104 @@
+# DELTASCAPE V4.0--O4N
+# EXDEATH
+
+# Enrage appears to be 25 minutes. No way to accurately warn about it
+# as the second phase is HP-dependent.
+
+hideall "--Reset--"
+hideall "--sync--"
+
+# -ii 24BA 24BC 24BE 24C3 24C5
+0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
+
+0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+2.5 "--sync--" sync /:艾克斯迪司:366:/ window 2.5,1
+9.5 "死亡宣告" sync /:艾克斯迪司:24B7:/ window 9.5,5
+19.1 "冰封/爆炎" sync /:艾克斯迪司:24B[9B]:/
+28.8 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/
+37.4 "冰封/爆炎" sync /:艾克斯迪司:24B[9B]:/
+50.3 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+63.6 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+74.8 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+87.0 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+92.6 "冰封/爆炎" sync /:艾克斯迪司:24B[9B]:/
+103.2 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/
+
+113.3 "真空波" sync /:艾克斯迪司:24B8:/ window 40,30
+121.5 "神圣" sync /:艾克斯迪司:24C4:/
+132.8 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+138.4 "冰封/爆炎" sync /:艾克斯迪司:24B[9B]:/
+149.1 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/
+
+159.2 "真空波" sync /:艾克斯迪司:24B8:/ window 20,20
+167.4 "神圣" sync /:艾克斯迪司:24C4:/
+178.7 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+184.3 "冰封/爆炎" sync /:艾克斯迪司:24B[9B]:/
+195.0 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/ jump 149.1
+
+205.1 "真空波"
+213.3 "神圣"
+224.6 "冰封/爆炎/暴雷 ++"
+230.2 "冰封/爆炎"
+
+# Phase change appears to be 65% HP.
+# This first section is not quite the same as the main rotation.
+300.0 "决战" sync /:艾克斯迪司:2408:/ window 300,5
+305.9 "--sync--" sync /:艾克斯迪司:240A:/
+307.0 "冲击" sync /:艾克斯迪司:24CA:/
+312.0 "死亡吐息" sync /:艾克斯迪司:24CB:/
+322.4 "神圣" sync /:艾克斯迪司:24C4:/ window 20,20
+329.5 "核爆" sync /:艾克斯迪司:24C2:/
+338.6 "陨石" sync /:艾克斯迪司:24C6:/
+353.8 "黑洞" sync /:艾克斯迪司:24C8:/ window 30,30
+365.1 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+
+# This section has choices.
+370.7 "冰封/爆炎?" sync /:艾克斯迪司:24B[9B]:/
+372.2 "神圣?" sync /:艾克斯迪司:24C4:/
+386.3 "陨石" sync /:艾克斯迪司:24C6:/
+396.4 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/ window 30,30
+410.7 "黑洞" sync /:艾克斯迪司:24C8:/
+421.0 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+427.1 "核爆?" sync /:艾克斯迪司:24C2:/
+427.1 "真空波?" sync /:艾克斯迪司:24B8:/
+442.3 "陨石" sync /:艾克斯迪司:24C6:/ window 30,30
+452.4 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/
+
+# Actual rotation block begins. Consistent first half...
+466.8 "决战" sync /:艾克斯迪司:2408:/ window 30,30
+472.6 "--sync--" sync /:艾克斯迪司:240A:/
+473.7 "冲击" sync /:艾克斯迪司:24CA:/
+475.1 "横扫" sync /:灵树藤:24CC:/
+478.8 "死亡吐息" sync /:艾克斯迪司:24CB:/
+488.3 "真空波" sync /:艾克斯迪司:24B8:/
+496.5 "神圣" sync /:艾克斯迪司:24C4:/ window 30,30
+503.6 "核爆" sync /:艾克斯迪司:24C2:/
+512.7 "陨石" sync /:艾克斯迪司:24C6:/
+528.0 "黑洞" sync /:艾克斯迪司:24C8:/
+538.2 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+
+# Leading into choices in the second half.
+543.8 "冰封/爆炎?" sync /:艾克斯迪司:24B[9B]:/
+545.3 "神圣?" sync /:艾克斯迪司:24C4:/
+557.5 "陨石" sync /:艾克斯迪司:24C6:/
+567.7 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/ window 30,30
+582.0 "黑洞" sync /:艾克斯迪司:24C8:/
+592.3 "冰封/爆炎/暴雷 ++" sync /:艾克斯迪司:24(BF|C[01]):/
+599.4 "核爆?" sync /:艾克斯迪司:24C2:/
+599.4 "真空波?" sync /:艾克斯迪司:24B8:/
+613.5 "陨石" sync /:艾克斯迪司:24C6:/ window 30,30
+623.7 "暴雷 (Buster)" sync /:艾克斯迪司:24BD:/
+
+637.9 "决战" sync /:艾克斯迪司:2408:/ jump 466.8
+644.8 "冲击"
+646.2 "横扫"
+649.9 "死亡吐息"
+659.4 "真空波"
+667.6 "神圣"
+674.7 "核爆"
+
+
+# Enrage. Exdeath is untargetable at this point.
+# "Nothingness is my weapon, and nothingness alone can strike me down!"
+1000.0 "--sync--" sync /:24C7:艾克斯迪司/ window 1000,0
+1005.0 "陨石 Enrage" sync /:艾克斯迪司:24C7:/

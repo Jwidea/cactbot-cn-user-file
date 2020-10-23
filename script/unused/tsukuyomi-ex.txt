@@ -1,0 +1,98 @@
+# Tsukuyomi Extreme
+# http://clees.me/guides/tsukuyomi-ex/
+
+hideall "--sync--"
+
+0 "--Reset--" sync /Removing combatant 月读/ window 10000 jump 0
+
+0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+15 "责难" sync /:月读:2BBA:/ window 15,2
+25 "深宵换装" sync /:月读:2BB(C|D):/
+31 "弹/枪"
+42 "深宵换装" sync /:月读:2BB(C|D):/
+49 "枪/弹"
+67 "责难" sync /:月读:2BBA:/
+75 "--sync--" sync /:2BC7:月读/ window 72,3 # can push this before reprimand
+81 "月下彼岸花" sync /:月读:2BC7:/ window 80,3
+103 "家人幻影(东->西)" sync /:Added new combatant 养父的幻影/
+140 "帝国幻影(西南->西北)" sync /:Added new combatant 朝阳的幻影/ window 40,3
+200 "--sync--" sync /:芝诺斯的幻影:2BC8:/ window 60,30
+202 "压缩剑气" # stun/knockback is actually 2s after the real cast (2BC8)
+207 "--sync--" sync /:芝诺斯的幻影:2CA8:/ window 67,3
+214 "--sync--" sync /:芝诺斯的幻影:2BCA:/
+217 "--targetable--" #MISSINGTEXT
+224 "剑气波动" sync /:幻影:2BCC:/
+230 "剑气波动" sync /:幻影:2BCC:/
+236 "剑气波动" sync /:幻影:2BCC:/
+242 "剑气波动" sync /:幻影:2BCC:/
+248 "剑气波动" sync /:幻影:2BCC:/
+
+# Adds complete, crescent phase
+486 "--sync--" sync /豪雪的幻影:2CD6:/ window 486,0
+496 "--sync--" sync /:2CAF:月读/
+500 "月下彼岸花" sync /:月读:2CAF:/ window 500,0
+506 "--targetable--" #MISSINGTEXT
+
+# Begin loop
+520 "极月读" sync /:月读:2EB0:/
+539 "月之碎片" sync /:月读:2BD0:/
+545 "深宵换装 (gun)" sync /:月读:2BBC:/
+551 "黄泉之弹"
+564 "碎片散落" sync /:月之碎片:2BD1:/
+565 "月时雨" sync /:月读:2BCE:/
+568 "碎片爆炸" sync /:月之碎片:2BD2:/ # drift 0.28
+574 "百月光" sync /:月光:2BD6:/ # drift -0.301
+579 "残月" sync /:月读:2BD3:/
+581 "百月光" sync /:月光:2BD6:/
+581 "冰轮" sync /:月之碎片:2CD7:/
+592 "月下美人/月天心" sync /:月读:2BD(8|9):/
+
+607 "责难" sync /:月读:2BBA:/
+614 "宴会游乐" sync /:月读:2BC5:/
+623 "深宵换装" sync /:月读:2BB(C|D):/
+625 "月下舞扇"
+628 "月下舞扇"
+629 "弹/枪"
+645 "折磨" sync /:月读:2BBB:/
+
+656 "极月读" sync /:月读:2EB0:/
+675 "月之碎片" sync /:月读:2BD0:/
+681 "深宵换装 (spear)" sync /:月读:2BBD:/
+688 "黄泉之枪"
+700 "月时雨" sync /:月读:2BCE:/
+714 "残月" sync /:月读:2BD3:/
+727 "月下美人" sync /:月读:2BD8:/ # drift 0.283
+
+# 35% push
+739 "黄泉之舞" sync /:月读:2CD0:/ window 1000,1000
+756 "Bright/月刀右斩" sync /:月读:2BD(A|B):/
+757 "Waning/纯白怨念" sync /:月读:2BD(E|F):/
+769 "Bright/月刀右斩" sync /:月读:2BD(A|B):/
+770 "Waning/纯白怨念" sync /:月读:2BD(E|F):/
+
+# Begin loop
+# Rotating fans
+780 "责难" sync /:月读:2BBA:/
+792 "月下缭乱" duration 4
+793 "月下舞扇" duration 3
+
+803 "Bright/月刀右斩" sync /:月读:2BD(A|B):/
+804 "Waning/纯白怨念" sync /:月读:2BD(E|F):/
+813 "折磨" sync /:月读:2EB2:/
+
+# Side fans
+826 "破月" duration 4
+828 "月下舞扇"
+831 "月下舞扇"
+
+836 "Bright/月刀右斩" sync /:月读:2BD(A|B):/
+837 "Waning/纯白怨念" sync /:月读:2BD(E|F):/
+845 "责难" sync /:月读:2BBA:/
+852 "责难" sync /:月读:2BBA:/ jump 780
+# End loop
+
+# Dummy loop future
+864 "月下缭乱" duration 4
+865 "月下舞扇" duration 3
+876 "Bright/月刀右斩"
+877 "Waning/纯白怨念"

@@ -1,0 +1,111 @@
+### THE BURN
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+
+
+#~~~~~~~~~#
+# HEDETET #
+#~~~~~~~~~#
+
+# -ii 3198 3199
+
+0 "Start" sync / 00:0839:赫德提特的领地 will be sealed off/ window 0,1
+10.4 "水晶针" sync /:赫德提特:3193:/
+25.8 "冰雹发射" sync /:赫德提特:3194:/ window 25,30
+29.8 "共振炸裂" sync /:褪色水晶:3198:/
+39.8 "碎片打击" sync /:赫德提特:3195:/
+53.9 "碎片脱落" sync /:赫德提特:3191:/
+62.0 "不和谐音" sync /:赫德提特:3192:/ window 30,30
+69.1 "水晶剥落" sync /:褪色水晶:3197:/
+
+74.2 "水晶针" sync /:赫德提特:3193:/ window 20,20
+83.4 "--jump--" sync /:赫德提特:3196:/ #MISSINGTEXT
+92.8 "冰雹发射" sync /:赫德提特:3194:/ window 30,30
+103.9 "碎片打击" sync /:赫德提特:3195:/
+118.1 "碎片脱落" sync /:赫德提特:3191:/
+126.1 "不和谐音" sync /:赫德提特:3192:/ window 30,30
+133.2 "水晶剥落" sync /:褪色水晶:3197:/
+
+138.3 "水晶针" sync /:赫德提特:3193:/ window 20,20 jump 74.2
+147.5 "--jump--" #MISSINGTEXT
+156.9 "冰雹发射"
+168.0 "碎片打击"
+
+
+#~~~~~~~~~~~~~~~~~#
+# DEFECTIVE DRONE #
+#~~~~~~~~~~~~~~~~~#
+
+# -ii 2D76 2D77 34D5 34D6 34D9
+
+1000.0 "Start" sync / 00:0839:伽马隔离区 will be sealed off/ window 1000,5
+1012.7 "魔科学烈焰" sync /:次品无人机:2D73:/
+1026.7 "魔科学粘液" sync /:次品无人机:2D74:/
+1030.9 "--untargetable--" #MISSINGTEXT
+1039.1 "全力轰油起步" sync /:次品无人机:2D75:/ window 39,30
+1042.2 "--targetable--" #MISSINGTEXT
+
+1059.3 "魔科学车轮" sync /:次品无人机:2D72:/ window 30,15
+1074.5 "削岩" # sync /:石刃:2D78:/
+1080.4 "魔科学烈焰" sync /:次品无人机:2D73:/
+1094.5 "魔科学车轮" sync /:次品无人机:2D72:/
+1111.7 "魔科学粘液" sync /:次品无人机:2D74:/
+1115.6 "--untargetable--" #MISSINGTEXT
+1123.8 "全力轰油起步" sync /:次品无人机:2D75:/ window 30,30
+1123.8 "削岩" # sync /:石刃:2D78:/
+1126.9 "--targetable--" #MISSINGTEXT
+
+1144.0 "魔科学车轮" sync /:次品无人机:2D72:/ window 30,15 jump 1059.3
+1159.2 "削岩"
+1165.1 "魔科学烈焰"
+1179.2 "魔科学车轮"
+
+#~~~~~~~~~~~~~#
+# MIST DRAGON #
+#~~~~~~~~~~~~~#
+
+# -ii 3142 3145 3146 3149
+
+2000.0 "Start" sync / 00:0839:雾碟 will be sealed off/ window 2000,5
+2013.2 "白霜环绕" sync /:雾龙:314B:/
+2021.4 "寒霜吐息" sync /:雾龙:314C:/
+2030.7 "放射雾" sync /:雾龙:3144:/
+2050.9 "白霜环绕" sync /:雾龙:314B:/
+
+
+2061.9 "雾散" sync /:雾龙:3140:/ window 62,30
+2064.1 "--untargetable--" #MISSINGTEXT
+2073.1 "--targetable--" #MISSINGTEXT
+2093.1 "彻骨雾寒" sync /:雾龙:3141:/
+2104.4 "迷雾吐息" sync /:雾龙:314D:/
+2111.6 "寒霜吐息" sync /:雾龙:314C:/
+2119.7 "放射雾" sync /:雾龙:3144:/
+2137.9 "白霜环绕" sync /:雾龙:314B:/
+2152.2 "浓雾" sync /:雾龙:3147:/ window 150,30
+2157.3 "--untargetable--" #MISSINGTEXT
+2167.4 "低温俯冲" sync /:雾龙:3148:/
+2178.0 "低温俯冲" sync /:雾龙:3148:/
+2187.0 "--targetable--" sync /:雾龙:314A:/ #MISSINGTEXT
+2196.2 "白霜环绕" sync /:雾龙:314B:/
+2205.4 "白霜环绕" sync /:雾龙:314B:/
+2214.6 "白霜环绕" sync /:雾龙:314B:/
+2224.8 "迷雾吐息" sync /:雾龙:314D:/ window 30,30
+2232.0 "寒霜吐息" sync /:雾龙:314C:/
+2240.1 "放射雾" sync /:雾龙:3144:/
+2254.3 "白霜环绕" sync /:雾龙:314B:/
+2263.5 "白霜环绕" sync /:雾龙:314B:/
+2273.7 "浓雾" sync /:雾龙:3147:/ window 30,30
+2278.8 "--untargetable--" #MISSINGTEXT
+2288.9 "低温俯冲" sync /:雾龙:3148:/
+2299.5 "低温俯冲" sync /:雾龙:3148:/
+2308.5 "--targetable--" sync /:雾龙:314A:/ #MISSINGTEXT
+2317.7 "白霜环绕" sync /:雾龙:314B:/
+
+
+2329.8 "雾散" sync /:雾龙:3140:/ window 30,30 jump 2061.9
+2332.0 "--untargetable--" #MISSINGTEXT
+2341.0 "--targetable--" #MISSINGTEXT
+2361.0 "彻骨雾寒"
