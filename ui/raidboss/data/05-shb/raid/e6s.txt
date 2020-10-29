@@ -10,7 +10,7 @@ hideall "--sync--"
 
 ### Phase 1: Garuda
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.3 "--sync--" sync /:迦楼罗:366:/ window 5,0
 18.0 "超级风暴" sync /:迦楼罗:4BF7:/ window 18,20
 27.1 "锢囚锋" sync /:迦楼罗:4BD2:/

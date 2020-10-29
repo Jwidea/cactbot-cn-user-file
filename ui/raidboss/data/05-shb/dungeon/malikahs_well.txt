@@ -8,7 +8,7 @@ hideall "--sync--"
 
 ### Greater Armadillo
 # -ii 3CEA 3CE8 -p 3CE5:115
-100.0 "--sync--" sync /00:0839:轨道车站 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距轨道车站被封锁还有/ window 100,0
 
 115.0 "落石重锤" sync /:大犰狳:3CE5:/ window 115,5
 133.6 "甩尾锤" sync /:大犰狳:3CE6:/
@@ -45,7 +45,7 @@ hideall "--sync--"
 
 ### Amphibious Talos
 # -ii 3CF0 -p 3CEB:515.5
-500.0 "--sync--" sync /00:0839:马利卡水源 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距马利卡水源被封锁还有/ window 500,0
 515.5 "抹灭" sync /:水陆两用塔罗斯:3CEB:/
 527.1 "钻井" sync /:水陆两用塔罗斯:3CED:/
 531.3 "井水喷出" sync /:水陆两用塔罗斯:3CEE:/
@@ -71,7 +71,7 @@ hideall "--sync--"
 
 ### Storge
 # -ii 3CF7 3CA8 41A8 -p 3CF1:1015
-1000.0 "--sync--" sync /00:0839:无偿离宫 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距无偿离宫被封锁还有/ window 1000,0
 1015.0 "绞肠" sync /:斯托尔戈:3CF1:/ window 1015,5
 1028.2 "异端十字叉" sync /:斯托尔戈:3CF2:/
 1043.0 "碎轮" sync /:斯托尔戈:3CF5:/

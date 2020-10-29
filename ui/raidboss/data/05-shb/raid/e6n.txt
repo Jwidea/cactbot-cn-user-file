@@ -9,7 +9,7 @@ hideall "--sync--"
 
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 
 # Garuda solo
 2.0 "--sync--" sync /:迦楼罗:366:/ window 3,1

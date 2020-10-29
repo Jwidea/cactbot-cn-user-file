@@ -4,9 +4,9 @@
 
 // It's awkward to refer to these string keys, so name them as replaceSync[keys.sealKey].
 const syncKeys = {
-  seal: '(?<=00:0839:)(.*) will be sealed off(?: in (?:[0-9]+ seconds)?)?',
-  unseal: 'is no longer sealed',
-  engage: 'Engage!',
+  seal: '距(?<=00:0839:)(.*)被封锁还有(?: in (?:[0-9]+ seconds)?)?',
+  unseal: '的封锁解除了',
+  engage: '战斗开始！',
 };
 
 const textKeys = {

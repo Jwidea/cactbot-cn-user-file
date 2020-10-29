@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Dohn Mheg Rake',
-      regex: /Rake/,
+      regex: /利爪/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'tank' || data.role == 'healer';

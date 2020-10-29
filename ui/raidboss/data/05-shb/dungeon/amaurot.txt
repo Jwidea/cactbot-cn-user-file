@@ -8,7 +8,7 @@ hideall "--sync--"
 ### Unknown
 # -p 4B69:1013.5 4E4B:1313
 # -ii 4B78 4B6D 4B6F
-1000.0 "--sync--" sync / 00:0839:净化广场 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync / 00:0839:距净化广场被封锁还有/ window 1000,0
 1013.5 "恶臭尖牙" sync /:不明物体:4B69:/
 1032.3 "观察" sync /:不明物体:4E25:/
 1034.3 "爆炸" sync /:怪异泡沫:4B6E:/
@@ -65,7 +65,7 @@ hideall "--sync--"
 ### Kyklops
 # -p 4B58:2011
 # -ii 4B53 4B5C 4B5B
-2000.0 "--sync--" sync / 00:0839:信仰大堂 will be sealed off/ window 2000,0
+2000.0 "--sync--" sync / 00:0839:距信仰大堂被封锁还有/ window 2000,0
 2011.0 "恐怖的最终章" sync /:克琉普斯:4B58:/ window 2012,5
 2020.6 "钢铁/横扫/月环" sync /:克琉普斯:4B5[457]:/
 2030.9 "战锤/大剑标记" sync /:克琉普斯:4B5[9A]:/
@@ -96,7 +96,7 @@ hideall "--sync--"
 ### Rukshs Dheem
 # -p 4B8C:3013
 # -ii 4B7C 4B7E 4B8A 4B86 4B85 4B80 4B82 4B87
-3000.0 "--sync--" sync / 00:0839:概念之间 will be sealed off/ window 3000,0
+3000.0 "--sync--" sync / 00:0839:距概念之间被封锁还有/ window 3000,0
 3013.0 "碎骨" sync /:鲁克嘶·蒂母:4B8C:/
 3019.2 "高速移动" sync /:鲁克嘶·蒂母:4B83:/
 3026.5 "水底仪式" sync /:鲁克嘶·蒂母:4B7B:/
@@ -155,7 +155,7 @@ hideall "--sync--"
 ### The First Beast
 # -p 3CCE:113.5 -ii 3CC6 3CCA 3CC8
 
-100.0 "--sync--" sync /00:0839:第一之灾难 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距第一之灾难被封锁还有/ window 100,0
 101.5 "--sync--" sync /:第一之兽:368:/ window 102,0
 113.5 "毒气吐息" sync /:第一之兽:3CCE:/
 122.7 "流星群" sync /:第一之兽:3CC4:/
@@ -186,7 +186,7 @@ hideall "--sync--"
 
 ### Terminus Bellwether
 # -p 3CCF:523 -ii 465D 3CE4 3CD3 3CD2 3CD5 417D
-500.0 "--sync--" sync /00:0839:第二之灾难 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距第二之灾难被封锁还有/ window 500,0
 501.5 "--sync--" sync /:终末的指引:368:/ window 502,0
 523.0 "绝叫" sync /:终末的指引:3CCF:/
 525.0 "--untargetable--" #MISSINGTEXT
@@ -199,7 +199,7 @@ hideall "--sync--"
 
 ### Therion
 # -ii 3CD6 3CDD 3CD9 3CDE 3CE1 3CDB 4191 4192 -p 3CE3:1013
-1000.0 "--sync--" sync /00:0839:第三之灾难 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距第三之灾难被封锁还有/ window 1000,0
 1001.0 "--sync--" sync /:至大灾兽:3CD6:/ window 1001,0
 1013.0 "暗影毁灭" sync /:至大灾兽:3CE3:/
 1026.2 "启示录" sync /:至大灾兽:3CD7:/ duration 5.9

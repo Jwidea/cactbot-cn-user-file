@@ -8,7 +8,7 @@ hideall "--sync--"
 ### Serial-jointed Command Model
 # -ic 2P -p 48B2:108.5 -ii 4B31 48B3 48B4 48B7 48B6 48CB 48CC 48BA 4B32 48FA 48BC 48BD 48BE 48BF 48C0 48C1 48C2 48C9
 
-100.0 "--sync--" sync /00:0839:仓库A will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距仓库A被封锁还有/ window 100,0
 108.5 "包围阵型" sync /:多关节型：司令机:48B2:/
 122.6 "强攻击" sync /:多关节型：司令机:48CE:/
 134.1 "迫击能量弹" sync /:多关节型：司令机:48B8:/

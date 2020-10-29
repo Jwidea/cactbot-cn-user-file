@@ -13,7 +13,7 @@ hideall "--sync--"
 # to have a little bit of leeway on them as the bosses might swim around more.
 # This is maybe like +/- 1-2 seconds?
 
-100.0 "--sync--" sync /00:0839:水生生物创造场 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距水生生物创造场被封锁还有/ window 100,0
 103.0 "--sync--" sync /:裂口鲨:368:/ window 103,0
 110.5 "原始穿孔" sync /:裂口鲨:3E04:/
 119.5 "怒潮断头台" sync /:裂口鲨:3E08:/
@@ -59,7 +59,7 @@ hideall "--sync--"
 
 ### Marquis Morbol
 # -p 3E16:508.5 -ii 3E11 3E14
-500.0 "--sync--" sync /00:0839:草木生物创造场 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距草木生物创造场被封锁还有/ window 500,0
 505.0 "--sync--" sync /:侯爵魔界花:3E14:/ window 505,5
 508.5 "鞭打" sync /:侯爵魔界花:3E16:/
 516.1 "喷洒汁液" sync /:侯爵魔界花:3E15:/
@@ -109,7 +109,7 @@ hideall "--sync--"
 
 ### Quetzalcoatl
 # -ii 3E1A 3E1B 3E22 3E20 -p 3E23:1008.2
-1000.0 "--sync--" sync /00:0839:幻想生物创造场 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距幻想生物创造场被封锁还有/ window 1000,0
 1008.2 "雷电震击" sync /:克察尔科亚特尔:3E23:/ window 1010,5
 1017.9 "霹雳" sync /:克察尔科亚特尔:3E24:/
 1031.4 "雷暴" sync /:克察尔科亚特尔:3E1C:/

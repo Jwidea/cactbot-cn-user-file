@@ -51,7 +51,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
   timelineTriggers: [
     {
       id: 'TEA Fluid Swing',
-      regex: /Fluid Swing/,
+      regex: /流体摆动/,
       beforeSeconds: 5,
       // TODO: this is likely calling out twice sometimes because
       // the timeline resyncs and it becomes 5 seconds before again.
@@ -129,7 +129,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
       // open palm or a fist, so this just warns when to move and not
       // where to go based on time.
       id: 'TEA Hand of Stuff',
-      regex: /Hand of Prayer\/Parting/,
+      regex: /祈祷之手\/离别之手/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'tank';
@@ -146,7 +146,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
     },
     {
       id: 'TEA J Kick',
-      regex: /J Kick/,
+      regex: /正义飞踢/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';
@@ -163,7 +163,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
     },
     {
       id: 'TEA Water and Thunder',
-      regex: /Water and Thunder/,
+      regex: /水 雷/,
       beforeSeconds: 3,
       infoText: {
         en: 'Water/Thunder in 3',
@@ -176,7 +176,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
     },
     {
       id: 'TEA Flarethrower',
-      regex: /Flarethrower/,
+      regex: /大火炎放射/,
       beforeSeconds: 8,
       condition: function(data) {
         return data.me == data.bruteTank && data.phase == 'brute';
@@ -193,7 +193,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
     },
     {
       id: 'TEA Propeller Wind',
-      regex: /Propeller Wind/,
+      regex: /螺旋桨强风/,
       beforeSeconds: 15,
       infoText: {
         en: 'Hide Behind Ice',
@@ -206,7 +206,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
     },
     {
       id: 'TEA Final Nisi Pass',
-      regex: /Propeller Wind/,
+      regex: /螺旋桨强风/,
       beforeSeconds: 15,
       durationSeconds: 14,
       alertText: function(data) {
@@ -215,7 +215,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
     },
     {
       id: 'TEA Wormhole Puddle',
-      regex: /Repentance ([1-3])/,
+      regex: /罪恶感 ([1-3])/,
       beforeSeconds: 4,
       alertText: function(data, matches) {
         // data.puddle is set by 'TEA Wormhole TPS Strat' (or by some user trigger).
@@ -261,7 +261,7 @@ const kFinalJudgementNisi = ['8B0', '8B1', '85B', '85C'];
       // Do this from timeline as you can have more than three seconds
       // to move and stack the tanks.
       id: 'TEA Ordained Capital Punishment',
-      regex: /^Ordained Capital Punishment$/,
+      regex: /^加重诛罚$/,
       beforeSeconds: 6,
       alertText: function(data) {
         if (data.role == 'tank' || data.role == 'healer') {
