@@ -5,7 +5,7 @@
 # -ii 1ED9 1EDA 23D7 23D9 2583
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
-0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.8 "--sync--" sync /:老者:368:/ window 2,0
 6.6 "太古龙尾" sync /:老者:23D6:/ window 6.6,2.5
 12.8 "太古龙尾" sync /:老者:23D6:/
