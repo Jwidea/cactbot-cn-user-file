@@ -8,7 +8,7 @@ hideall "--sync--"
 
 ### Lozatl
 # -p 3C89:113.7
-100.0 "--sync--" sync /00:0839:神前石门 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距神前石门被封锁还有/ window 100,0
 
 113.7 "石拳" sync /:洛查特尔:3C89:/ window 114,5
 121.0 "投射石块" sync /:洛查特尔:3C8A:/
@@ -45,7 +45,7 @@ hideall "--sync--"
 
 ### Batsquatch
 # -ii 3C94 3C96 3C97 3C95 -p 3C91:514.5
-500.0 "--sync--" sync /00:0839:映照神影之洞窟 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距映照神影之洞窟被封锁还有/ window 500,0
 
 514.5 "裂肉尖牙" sync /:大脚野蝠:3C91:/ window 515,5
 525.7 "声波" sync /:大脚野蝠:3C92:/
@@ -76,7 +76,7 @@ hideall "--sync--"
 
 ### Eros
 #
-1000.0 "--sync--" sync /00:0839:奥奇斯加托尔之祭坛 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距奥奇斯加托尔之祭坛被封锁还有/ window 1000,0
 
 1015.0 "撕碎" sync /:艾洛斯:3C99:/ window 1015,5
 1026.2 "蓄力冲撞" sync /:艾洛斯:3C9A:/

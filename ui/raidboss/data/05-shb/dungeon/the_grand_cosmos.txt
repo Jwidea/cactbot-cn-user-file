@@ -7,7 +7,7 @@ hideall "--sync--"
 
 ### Seeker of Solitude
 # -ii 4768 49A4 476C 476F 4771 4770 -p 4769:111.7
-100.0 "--sync--" sync /00:0839:兵棋之间 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距兵棋之间被封锁还有/ window 100,0
 111.7 "暗影雷" sync /:宫殿的隐者:4769:/ window 112,5
 119.4 "不朽的诅咒" sync /:宫殿的隐者:49A3:/
 
@@ -38,7 +38,7 @@ hideall "--sync--"
 
 ### Leannan Sith
 # -ii 4724 471F -p 471B:512
-500.0 "--sync--" sync /00:0839:春水涌泉 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距春水涌泉被封锁还有/ window 500,0
 512.0 "春风" sync /:凉南希:471B:/
 522.3 "狂爱之歌" sync /:凉南希:471C:/
 
@@ -80,7 +80,7 @@ hideall "--sync--"
 
 ### Lugus
 # -ii 475B 4766 475A 475E -p 475D:1026.8
-1000.0 "--sync--" sync /00:0839:演奏之间 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距演奏之间被封锁还有/ window 1000,0
 1015.3 "左/右炎狱斩" sync /:卢格斯:476[23]:/
 1026.8 "黑炎流" sync /:卢格斯:475D:/
 1030.3 "鬼炎斩" sync /:卢格斯:475C:/

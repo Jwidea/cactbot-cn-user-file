@@ -19,7 +19,7 @@ hideall "Earthen Wheels"
 
 ### Phase 1
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.0 "--sync--" sync /:泰坦:413D:/ window 2,0
 13.0 "大地之号" sync /:泰坦:40F7:/
 21.3 "邪土" sync /:泰坦:40EE:/

@@ -8,7 +8,7 @@ hideall "--sync--"
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 0.5 "--sync--" sync /:利维亚桑:42D8:/ window 1,0
 12.5 "怒潮咆哮" sync /:利维亚桑:3FC4:/ window 13,5
 23.5 "裂流" sync /:利维亚桑:3FC6:/

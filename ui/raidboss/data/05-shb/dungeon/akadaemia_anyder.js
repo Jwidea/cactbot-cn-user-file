@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Anyder Lash',
-      regex: /Lash/,
+      regex: /鞭打/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'tank' || data.role == 'healer';
@@ -16,7 +16,7 @@
     },
     {
       id: 'Anyder Putrid Breath',
-      regex: /Putrid Breath/,
+      regex: /腐烂之息/,
       beforeSeconds: 5,
       response: Responses.awayFromFront('info'),
     },

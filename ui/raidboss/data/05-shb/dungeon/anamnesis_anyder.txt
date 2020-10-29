@@ -8,7 +8,7 @@ hideall "--sync--"
 ### Unknown
 # -p 4B69:1013.5 4E4B:1313
 # -ii 4B78 4B6D 4B6F
-1000.0 "--sync--" sync / 00:0839:净化广场 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync / 00:0839:距净化广场被封锁还有/ window 1000,0
 1013.5 "恶臭尖牙" sync /:不明物体:4B69:/
 1032.3 "观察" sync /:不明物体:4E25:/
 1034.3 "爆炸" sync /:怪异泡沫:4B6E:/
@@ -65,7 +65,7 @@ hideall "--sync--"
 ### Kyklops
 # -p 4B58:2011
 # -ii 4B53 4B5C 4B5B
-2000.0 "--sync--" sync / 00:0839:信仰大堂 will be sealed off/ window 2000,0
+2000.0 "--sync--" sync / 00:0839:距信仰大堂被封锁还有/ window 2000,0
 2011.0 "恐怖的最终章" sync /:克琉普斯:4B58:/ window 2012,5
 2020.6 "钢铁/横扫/月环" sync /:克琉普斯:4B5[457]:/
 2030.9 "战锤/大剑标记" sync /:克琉普斯:4B5[9A]:/
@@ -96,7 +96,7 @@ hideall "--sync--"
 ### Rukshs Dheem
 # -p 4B8C:3013
 # -ii 4B7C 4B7E 4B8A 4B86 4B85 4B80 4B82 4B87
-3000.0 "--sync--" sync / 00:0839:概念之间 will be sealed off/ window 3000,0
+3000.0 "--sync--" sync / 00:0839:距概念之间被封锁还有/ window 3000,0
 3013.0 "碎骨" sync /:鲁克嘶·蒂母:4B8C:/
 3019.2 "高速移动" sync /:鲁克嘶·蒂母:4B83:/
 3026.5 "水底仪式" sync /:鲁克嘶·蒂母:4B7B:/

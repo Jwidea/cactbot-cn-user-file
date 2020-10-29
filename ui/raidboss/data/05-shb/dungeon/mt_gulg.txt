@@ -11,7 +11,7 @@ hideall "Rite Of The Sacrament"
 
 ### Forgiven Cruelty
 # -p 3CFB:113 -ii 3CFE 3CFD 4301 3CFF
-100.0 "--sync--" sync /00:0839:破损的山路 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距破损的山路被封锁还有/ window 100,0
 113.0 "利爪" sync /:得到宽恕的残忍:3CFB:/ window 115,5
 121.2 "流明无限" sync /:得到宽恕的残忍:41B2:/
 138.3 "台风之翼" sync /:得到宽恕的残忍:3D00:/
@@ -47,7 +47,7 @@ hideall "Rite Of The Sacrament"
 
 ### Forgiven Whimsy
 # -p 3D0B:514.5 -ii 3D0C 3D07 3D0A
-500.0 "--sync--" sync /00:0839:纯白门 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距纯白门被封锁还有/ window 500,0
 514.5 "忏悔圣礼" sync /:得到宽恕的无常:3D0B:/ window 515,5
 518.3 "形态变化" sync /:得到宽恕的无常:3D04:/
 530.4 "解经" sync /:得到宽恕的无常:425C:/
@@ -83,7 +83,7 @@ hideall "Rite Of The Sacrament"
 
 ### Forgiven Obscenity
 # -ii 3D15 4669 3D19 3D19 3D21 3D13 41CE 3D1B 3D20 -p 3D14:1014
-1000.0 "--sync--" sync /00:0839:光芒阶梯 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距光芒阶梯被封锁还有/ window 1000,0
 1014.0 "洪声祷告" sync /:得到宽恕的猥亵:3D14:/ window 1014,5
 1023.2 "渐弱神音" sync /:得到宽恕的猥亵:3D16:/
 1032.4 "--sync--" sync /:得到宽恕的猥亵:3D17:/

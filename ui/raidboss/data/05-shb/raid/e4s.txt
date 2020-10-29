@@ -12,7 +12,7 @@ hideall "Earthen Wheels"
 
 ### Warmup
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.5 "--sync--" sync /:泰坦:413D:/ window 3,0
 11.0 "--sync--" sync /:4116:泰坦/ window 11,5
 16.0 "崩岩 1" sync /:泰坦:4116:/

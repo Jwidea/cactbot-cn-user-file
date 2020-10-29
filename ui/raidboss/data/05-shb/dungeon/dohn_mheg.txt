@@ -8,7 +8,7 @@ hideall "--sync--"
 
 ### Aenc Thon, Lord of the Lingering Gaze
 # -ii 1EDB 22BD -p 2299:112.2
-100.0 "--sync--" sync /00:0839:微睡之泉 will be sealed off/ window 100,0
+100.0 "--sync--" sync /00:0839:距微睡之泉被封锁还有/ window 100,0
 
 112.2 "糖果手杖" sync /:美眼 因克·佐恩:2299:/ window 113,5
 120.4 "水瀑" sync /:美眼 因克·佐恩:22A7:/
@@ -36,7 +36,7 @@ hideall "--sync--"
 
 ### Griaule
 # -p 2873:507.5
-500.0 "--sync--" sync /00:0839:格里奥勒的睡床 will be sealed off/ window 500,0
+500.0 "--sync--" sync /00:0839:距格里奥勒的睡床被封锁还有/ window 500,0
 
 507.5 "利爪" sync /:格里奥勒:2873:/ window 508,5
 518.0 "重击" sync /:格里奥勒:22CA:/
@@ -76,7 +76,7 @@ hideall "--sync--"
 
 ### Aenc Thon, Lord of the Lengthsome Gate
 # -p 35A4:1011 34D2:1300 -ii 34EC 3681 3396
-1000.0 "--sync--" sync /00:0839:王冠之间 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync /00:0839:距王冠之间被封锁还有/ window 1000,0
 
 1011.0 "痛击" sync /:乐圣 因克·佐恩:35A4:/ window 1011,5
 1018.2 "残酷狂想曲" sync /:乐圣 因克·佐恩:358C:/
