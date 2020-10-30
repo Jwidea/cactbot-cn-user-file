@@ -3,7 +3,7 @@ hideall "--sync--"
 hideall "Travail"
 hideall "Reconstruct"
 
-0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 5000 jump 0 #MISSINGSYNC
+0.0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 5000 jump 0 #MISSINGSYNC
 
 #~~~~~~~~#
 # Garula #
@@ -11,7 +11,7 @@ hideall "Reconstruct"
 
 # -ic "Steppe Coeurl" "Steppe Sheep" "Steppe Yamaa"
 
-0 "Start" sync / 00:0839:战士巴儿达木的猎场 will be sealed off/
+0 "Start" sync / 00:0839:距战士巴儿达木的猎场被封锁还有/
 11.7 "掀地" sync /:加鲁拉:1EF7:/ window 11.7,5
 20.9 "--sync--" sync /:加鲁拉:1EF8:/
 22.4 "地面崩裂" sync /:加鲁拉:1F13:/
@@ -34,7 +34,7 @@ hideall "Reconstruct"
 
 # -ii 1EFE 2578 2579 257A 257E 257B
 
-1000.0 "Start" sync / 00:0839:.*勇猛巴儿达木的重生 will be sealed off/ window 1000,5
+1000.0 "Start" sync / 00:0839:.距勇猛巴儿达木的重生被封锁还有/ window 1000,5
 1007.8 "试炼" sync /:巴儿达木巨像:1EFF:/ window 7.8,5
 1014.1 "磁力" sync /:巴儿达木的猎人:1F08:/
 1020.3 "地震" sync /:巴儿达木巨像:257C:/
@@ -71,7 +71,7 @@ hideall "Reconstruct"
 
 # -ii 1F0B 1F0E
 
-2000.0 "Start" sync / 00:0839:.*无声的叙事者 will be sealed off/ window 2000,5
+2000.0 "Start" sync / 00:0839:.距无声的叙事者被封锁还有/ window 2000,5
 2008.1 "飞羽斩" sync /:胡鹰:1F09:/
 2015.2 "无拘之风" sync /:胡鹰:1F0A:/
 2023.9 "飞羽镖" sync /:胡鹰的羽毛:1F11:/

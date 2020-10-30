@@ -12,7 +12,7 @@ hideall "--start--"
 
 
 ### Mateus
-0.0 "--start--" sync / 00:0839:崩塌的桥 will be sealed off/ window 0,1
+0.0 "--start--" sync / 00:0839:距崩塌的桥被封锁还有/ window 0,1
 23.0 "拘束解放" sync /:2633:背德皇帝马提乌斯/ window 23,10 # start of cast
 35.0 "水球出现" # adds appearing
 110.0 "--sync--" sync /:2635:背德皇帝马提乌斯/ window 85,10
@@ -30,7 +30,7 @@ hideall "--start--"
 
 
 ### Hashmal
-1000.0 "--start--" sync / 00:0839:王宫前广场 will be sealed off/ window 2000,0
+1000.0 "--start--" sync / 00:0839:距王宫前广场被封锁还有/ window 2000,0
 1013.5 "激震" # end of cast
 1032.0 "统治之塔" duration 13.5 sync /:25C1:统治者哈修马利姆/ window 20,20 # start of cast -> tower fall
 1044.5 "--untargetable--" #MISSINGTEXT
@@ -79,7 +79,7 @@ hideall "--start--"
 
 
 ### Rofocale
-2000.0 "--start--" sync / 00:0839:勒萨利亚圆庭遗迹 will be sealed off/ window 3000,0
+2000.0 "--start--" sync / 00:0839:距勒萨利亚圆庭遗迹被封锁还有/ window 3000,0
 2019.5 "星天爆击打" sync /:人马王洛弗卡勒:2682:/
 2034.5 "人马战车" # end of cast
 2036.8 "战吼" duration 2.7 # start -> end of cast
@@ -148,7 +148,7 @@ hideall "--start--"
 
 ### Argath
 ## Phase 1
-3000.0 "--start--" sync / 00:0839:勒萨利亚神殿遗迹 will be sealed off/ window 4000,1
+3000.0 "--start--" sync / 00:0839:距勒萨利亚神殿遗迹被封锁还有/ window 4000,1
 3008.5 "痛击" # end of cast
 3017.0 "冥界恐叫打" # end of cast
 3023.0 "咒枪穿刺" # end of cast

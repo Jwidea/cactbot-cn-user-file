@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'A11S Blastoff',
-      regex: /Blastoff/,
+      regex: /准备升空/,
       beforeSeconds: 5,
       response: Responses.knockback(),
     },

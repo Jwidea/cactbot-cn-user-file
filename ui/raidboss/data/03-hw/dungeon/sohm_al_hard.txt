@@ -3,7 +3,7 @@
 hideall "--sync--"
 hideall "--Reset--"
 
-0 "--Reset--" sync /00:0839:.*is no longer sealed/ window 100000 jump 0 #MISSINGSYNC
+0 "--Reset--" sync /00:0839:.*的封锁解除了/ window 100000 jump 0 #MISSINGSYNC
 
 #~~~~~~~~~~~~~~~~~~#
 # THE LEIGHTONWARD #
@@ -11,7 +11,7 @@ hideall "--Reset--"
 
 # -ic "Spore Sac"
 
-0.0 "--sync--" sync / 00:0839:灵伤 will be sealed off/ window 0,1
+0.0 "--sync--" sync / 00:0839:距灵伤被封锁还有/ window 0,1
 2.4 "--sync--" sync /:莱顿瓦德:5B5:/ window 2.4,1
 6.1 "野性利角" sync /:莱顿瓦德:1C2D:/ window 6.1,5
 13.2 "可燃性气体 (Readies)" sync /:莱顿瓦德:1C30:/
@@ -63,7 +63,7 @@ hideall "--Reset--"
 
 # -ii 1C3F
 
-2000.0 "--sync--" sync / 00:0839:大熔岩窟 will be sealed off/ window 2000,1
+2000.0 "--sync--" sync / 00:0839:距大熔岩窟被封锁还有/ window 2000,1
 2001.2 "--sync--" sync /:熔岩蝎:366:/ window 1.2,2
 2012.0 "炎丝喷射 (Front)" sync /:熔岩蝎:1C43:/ window 12,5
 2022.2 "飞跃重压" sync /:熔岩蝎:1C3E:/

@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'E3S Plunging Wave',
-      regex: /Plunging Wave/,
+      regex: /卷跃波/,
       beforeSeconds: 2,
       infoText: {
         en: 'Line Stack',
@@ -19,7 +19,7 @@
     },
     {
       id: 'E3S Spilling Wave',
-      regex: /Spilling Wave/,
+      regex: /崩碎波/,
       beforeSeconds: 3,
       condition: function(data) {
         return data.role == 'tank';

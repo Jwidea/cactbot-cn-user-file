@@ -8,7 +8,7 @@ hideall "--sync--"
 
 # Initial Phase: Tankbuster, Charge, Repeat
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 0.0 "--sync--" sync / 00:0839:第1信徒区间 will be sealed off/ window 5,5
 8.0 "雷光电闪" sync /:伊姆都古德:B55:/
 16.0 "暴击撕裂" sync /:伊姆都古德:B56:/

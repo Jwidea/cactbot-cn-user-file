@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'E2N Punishing Ray',
-      regex: /(Punishing Ray) | (惩戒之光)/,
+      regex: /惩戒之光/,
       beforeSeconds: 9,
       infoText: {
         en: 'Get Puddles',

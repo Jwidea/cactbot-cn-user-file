@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'SeiryuEx Split Group',
-      regex: /Forbidden Arts 1/,
+      regex: /刀禁咒 1/,
       beforeSeconds: 4,
       infoText: {
         en: 'stack with your group',
@@ -20,7 +20,7 @@
     },
     {
       id: 'SeiryuEx Line Stack',
-      regex: /Forbidden Arts$/,
+      regex: /刀禁咒$/,
       beforeSeconds: 1,
       suppressSeconds: 10,
       infoText: {
@@ -34,7 +34,7 @@
     },
     {
       id: 'SeiryuEx Tether',
-      regex: /Kanabo/,
+      regex: /如虎添翼/,
       beforeSeconds: 7,
       condition: function(data) {
         return data.role == 'tank';

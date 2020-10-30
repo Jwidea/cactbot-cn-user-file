@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'O12N Knockback',
-      regex: /Discharger/,
+      regex: /能量放出/,
       beforeSeconds: 5,
       response: Responses.knockback('alert'),
     },

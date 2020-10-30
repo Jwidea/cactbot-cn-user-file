@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'O11N Blaster',
-      regex: /Blaster/,
+      regex: /冲击波/,
       beforeSeconds: 3,
       condition: function(data) {
         return data.role == 'tank';

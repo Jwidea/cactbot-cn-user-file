@@ -8,7 +8,7 @@
   timelineTriggers: [
     {
       id: 'SusEx Cloud',
-      regex: /Knockback \(cloud\)/,
+      regex: /击退 \(云\)/,
       beforeSeconds: 1.5,
       infoText: {
         en: 'look for cloud',

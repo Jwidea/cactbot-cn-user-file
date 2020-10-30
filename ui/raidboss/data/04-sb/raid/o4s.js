@@ -8,7 +8,7 @@
   timelineTriggers: [
     {
       id: 'O4S Neo Vacuum Wave',
-      regex: /Vacuum Wave/,
+      regex: /真空波/,
       beforeSeconds: 8,
       alertText: {
         en: 'Vacuum Wave soon',

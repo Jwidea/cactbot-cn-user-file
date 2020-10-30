@@ -7,7 +7,7 @@ hideall "--Reset--"
 0 "--Reset--" sync /Removing combatant 究极神兵\.  Max HP: \d{8}\./ window 10000 jump 0
 
 ### Phase 1: Garuda ###
-0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 0 "--sync--" sync /00:0044:[^:]*:哈哈哈哈哈！/ window 0,20
 9 "螺旋气流" sync /:迦楼罗:2B53:/ # drift 0.293
 12 "寒风之歌" sync /:迦楼罗:2B42:/ # drift -0.456

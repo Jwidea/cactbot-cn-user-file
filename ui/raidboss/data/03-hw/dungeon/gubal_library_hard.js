@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'Gubal Hard Triclip',
-      regex: /Triclip/,
+      regex: /三连爪/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';
@@ -16,7 +16,7 @@
     },
     {
       id: 'Gubal Hard Searing Wind',
-      regex: /Searing Wind/,
+      regex: /热风/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },

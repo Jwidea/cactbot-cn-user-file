@@ -8,7 +8,7 @@
   timelineTriggers: [
     {
       id: 'ShivaHm Absolute Zero',
-      regex: /Absolute Zero/,
+      regex: /绝对零度/,
       beforeSeconds: 5,
       condition: Conditions.caresAboutAOE(),
       // These are usually doubled, so avoid spamming.
@@ -17,7 +17,7 @@
     },
     {
       id: 'ShivaHm Icebrand',
-      regex: /Icebrand/,
+      regex: /冰印剑/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },

@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Bardam\'s Mettle Feathercut',
-      regex: /Feathercut/,
+      regex: /飞羽斩/,
       beforeSeconds: 4,
       condition: function(data) {
         return data.role == 'tank' || data.role == 'healer';

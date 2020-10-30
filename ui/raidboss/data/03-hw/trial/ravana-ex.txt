@@ -11,7 +11,7 @@ hideall "--sync--"
 # The meter also increases passively during all phases except the opening block.
 # Any displayed phase lengths are the maximum that could occur with no "extra" Bloodlust.
 
-0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /战斗开始！/ window 0,1 #MISSINGSYNC
 1.2 "--sync--" sync /:罗波那:13E4:/ window 1.2,1
 7.1 "武神闪" sync /:罗波那:E9F:/ window 7.1,10
 11.9 "左翼防御/右翼防御/两翼防御" sync /:罗波那:EA[012]:/

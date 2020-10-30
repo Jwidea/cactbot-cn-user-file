@@ -1,12 +1,12 @@
 hideall "--Reset--"
 hideall "--sync--"
 
-0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 5000 jump 0 #MISSINGSYNC
+0.0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 5000 jump 0 #MISSINGSYNC
 
 # Demon of the Tome
 # -ii 1951 1952
 
-0 "--sync--" sync / 00:0839:魔书翼廊 will be sealed off/
+0 "--sync--" sync / 00:0839:距魔书翼廊被封锁还有/
 6.1 "三连爪" sync /:书中恶魔:193A:/ window 6.1,5
 17.3 "再版" sync /:书中恶魔:193C:/
 23.4 "--sync--" sync /:精装本:193D:/
@@ -54,7 +54,7 @@ hideall "--sync--"
 # We use game log lines for the phases because the ACT log lines are unreliable
 # Whichever intermission comes second ends up with phantom "Gains Effect" lines
 
-1000.0 "--sync--"  sync / 00:0839:占星学研究室 will be sealed off/ window 1000,0
+1000.0 "--sync--"  sync / 00:0839:距占星学研究室被封锁还有/ window 1000,0
 1007.3 "热风" sync /:液态火焰:1944:/ window 7.3,5
 1014.3 "焚书" sync /:液态火焰:1945:/
 1025.7 "火海 x3"
@@ -107,7 +107,7 @@ hideall "--sync--"
 # Strix
 # -ii 194F 1950 1958 195B 1969
 
-2000.0 "--sync--" sync / 00:0839:思想珍秘书库 will be sealed off/ window 2000,5
+2000.0 "--sync--" sync / 00:0839:距思想珍秘书库被封锁还有/ window 2000,5
 2009.2 "选集" sync /:博学林鸮:194E:/ window 9.2,10
 2017.5 "黑暗之章 (buster)" sync /:博学林鸮:1954:/
 2029.6 "爆震之章" sync /:博学林鸮:1956:/

@@ -10,7 +10,7 @@ hideall "Scorched Pinion"
 
 ### Phase 1: Blackfire/Whitefire
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.5 "--sync--" sync /:不死鸟:368:/ window 3,0
 9.0 "贝努鸟出现"
 18.0 "天启" sync /:不死鸟:B87:/

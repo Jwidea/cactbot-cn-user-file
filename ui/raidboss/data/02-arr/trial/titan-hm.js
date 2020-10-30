@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'TitanHm Mountain Buster',
-      regex: /Mountain Buster/,
+      regex: /山崩/,
       beforeSeconds: 7,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';
@@ -15,7 +15,7 @@
     },
     {
       id: 'TitanHm Mountain Buster Avoid',
-      regex: /Mountain Buster/,
+      regex: /山崩/,
       beforeSeconds: 7,
       condition: function(data) {
         return data.role != 'healer' && data.role != 'tank';
@@ -24,13 +24,13 @@
     },
     {
       id: 'TitanHm Rock Buster',
-      regex: /Rock Buster/,
+      regex: /碎岩/,
       beforeSeconds: 6,
       response: Responses.tankCleave('info'),
     },
     {
       id: 'TitanHm Tumult',
-      regex: /Tumult/,
+      regex: /怒震/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank' || data.CanAddle();

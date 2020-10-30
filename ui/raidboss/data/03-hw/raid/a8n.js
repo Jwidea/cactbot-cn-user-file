@@ -9,19 +9,19 @@
   timelineTriggers: [
     {
       id: 'A8N Hydrothermal Missile',
-      regex: /Hydrothermal Missile/,
+      regex: /蒸汽导弹/,
       beforeSeconds: 3,
       response: Responses.tankCleave('info'),
     },
     {
       id: 'A8N Flarethrower',
-      regex: /Flarethrower/,
+      regex: /大火炎放射/,
       beforeSeconds: 3,
       response: Responses.tankCleave('info'),
     },
     {
       id: 'A8N Super Jump Soon',
-      regex: /Super Jump/,
+      regex: /超级跳跃/,
       beforeSeconds: 8,
       infoText: {
         en: 'Bait Super Jump',

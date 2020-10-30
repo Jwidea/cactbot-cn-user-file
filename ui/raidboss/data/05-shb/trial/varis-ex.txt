@@ -9,7 +9,7 @@ hideall "--sync--"
 
 ### Phase 1
 0 "Start!"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 0.9 "--sync--" sync /:瓦厉斯·耶·加尔乌斯:4CEF:/ window 1,0
 19.0 "更高" sync /:瓦厉斯·耶·加尔乌斯:4CCA:/ window 19,5
 28.5 "大局已定" sync /:瓦厉斯·耶·加尔乌斯:4CD2:/

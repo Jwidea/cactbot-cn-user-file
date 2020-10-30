@@ -9,7 +9,7 @@ hideall "--sync--"
 ##############################################################
 0 "--Reset--" sync /Removing combatant 魔列车\.  Max HP: 12860067\./ window 10000 jump 0
 
-0 "Start" sync /:Engage!:/ window 1,0 #MISSINGSYNC
+0 "Start" sync /:战斗开始！:/ window 1,0 #MISSINGSYNC
 8 "--sync--" sync /:28AE:怒灵/ window 8,3
 13 "挡路" sync /:怒灵:28AE:/
 27 "追尾" sync /:魔列车:28AF:/

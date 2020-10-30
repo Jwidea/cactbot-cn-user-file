@@ -6,13 +6,13 @@
   timelineTriggers: [
     {
       id: 'A12S Divine Spear',
-      regex: /Divine Spear/,
+      regex: /圣炎/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },
     {
       id: 'A12S Holy Bleed',
-      regex: /Holy Bleed/,
+      regex: /神圣爆发/,
       beforeSeconds: 5,
       condition: Conditions.caresAboutAOE(),
       response: Responses.bigAoe(),

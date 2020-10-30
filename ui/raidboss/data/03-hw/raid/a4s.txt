@@ -12,7 +12,7 @@
 
 
 ### Leg 1
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 3.0 "蒸汽导弹" sync /:操纵者:F5B:/ window 3,13
 14.1 "圆盘" sync /:操纵者:F61:/
 21.2 "天空之种" sync /:操纵者:13D0:/

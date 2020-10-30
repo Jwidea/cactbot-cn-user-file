@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'T13 Dive Warning',
-      regex: /Megaflare Dive/,
+      regex: /百万核爆冲/,
       beforeSeconds: 5,
       response: Responses.stackMiddle(),
     },

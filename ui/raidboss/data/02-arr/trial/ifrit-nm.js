@@ -6,19 +6,19 @@
   timelineTriggers: [
     {
       id: 'IfritNM Inner',
-      regex: /Radiant Plume \(inner\)/,
+      regex: /光辉炎柱 \(中\)/,
       beforeSeconds: 3.5,
       response: Responses.getOut(),
     },
     {
       id: 'IfritNM Outer',
-      regex: /Radiant Plume \(outer\)/,
+      regex: /光辉炎柱 \(外\)/,
       beforeSeconds: 3.5,
       response: Responses.getIn(),
     },
     {
       id: 'IfritNM Nail Add',
-      regex: /Nail Add/,
+      regex: /火狱之楔出现/,
       beforeSeconds: 0.5,
       infoText: {
         en: 'Kill Nail',

@@ -28,13 +28,13 @@
   timelineTriggers: [
     {
       id: 'E8S Shining Armor',
-      regex: /(?<!Reflected )Shining Armor/,
+      regex: /(?<!连锁反 )闪光护甲/,
       beforeSeconds: 2,
       response: Responses.lookAway('alert'),
     },
     {
       id: 'E8S Reflected Armor',
-      regex: /Reflected Armor/,
+      regex: /闪光护甲/,
       beforeSeconds: 2,
       response: Responses.lookAway('alert'),
     },
@@ -42,13 +42,13 @@
       id: 'E8S Frost Armor',
       // Not the reflected one, as we want the "move" call there
       // which will happen naturally from `Reflected Drachen Armor`.
-      regex: /^Frost Armor$/,
+      regex: /^冰霜护甲$/,
       beforeSeconds: 2,
       response: Responses.stopMoving('alert'),
     },
     {
       id: 'E8S Rush',
-      regex: /Rush \d/,
+      regex: /蓄势冲撞 \d/,
       beforeSeconds: 5,
       infoText: function(data) {
         data.rushCount = data.rushCount || 0;

@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Ala Mhigo Umoving Troika',
-      regex: /Unmoving Troika/,
+      regex: /不动三段/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },

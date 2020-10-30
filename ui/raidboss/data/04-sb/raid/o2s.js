@@ -8,7 +8,7 @@
   timelineTriggers: [
     {
       id: 'O2S Double Stack',
-      regex: /Double Stack/,
+      regex: /二连分摊/,
       beforeSeconds: 6,
       alertText: {
         en: 'DPS: Levitate',

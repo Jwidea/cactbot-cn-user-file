@@ -13,7 +13,7 @@ hideall "--sync--"
 
 ### PHASE 1: Elemental carousel
 ###
-0.0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "Start" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 11.0 "--sync--" sync /:25FD:神龙/ window 11,5
 20.5 "大地之怒" # castbar end
 35.8 "连线" # debuff appearance

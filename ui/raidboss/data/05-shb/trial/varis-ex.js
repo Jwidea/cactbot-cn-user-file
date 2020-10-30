@@ -7,7 +7,7 @@
       id: 'VarisEx Ignis Est',
       // 4CB5: Varis starts using
       // 4CB6, 4CC5: Ignis Est starts using
-      regex: /^Ignis Est$/,
+      regex: /^是为烈火$/,
       // Many alerts are 5 seconds ahead (stack, knockback), so differentiate.
       beforeSeconds: 7,
       durationSeconds: 7,
@@ -28,7 +28,7 @@
       id: 'VarisEx Ventus Est',
       // 4CC6: Varis starts using
       // 4CC7, 4CC8: Ventus Est starts using
-      regex: /^Ventus Est$/,
+      regex: /^是为疾风$/,
       beforeSeconds: 7,
       durationSeconds: 7,
       response: Responses.getIn('info'),
@@ -37,7 +37,7 @@
       id: 'VarisEx Festina Lente',
       // This is headMarker({id: '00A1'}), but is a timeline trigger both
       // for more warning, and to precede the "dodge clones" call.
-      regex: /^Festina Lente$/,
+      regex: /^从容不迫$/,
       beforeSeconds: 6,
       durationSeconds: 6,
       response: function(data) {
@@ -64,7 +64,7 @@
     },
     {
       id: 'VarisEx Magitek Burst',
-      regex: /^Magitek Burst$/,
+      regex: /^魔导爆发$/,
       beforeSeconds: 15,
       durationSeconds: 5,
       infoText: {

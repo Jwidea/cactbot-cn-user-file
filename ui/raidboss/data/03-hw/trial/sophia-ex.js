@@ -54,14 +54,14 @@ let callSafeDir = (callIndex) => {
       // Gnosis does in fact have a cast time, but it's only 2.7 seconds.
       // It's safer to warn via the timeline.
       id: 'SophiaEX Gnosis',
-      regex: /Gnosis/,
+      regex: /灵知/,
       beforeSeconds: 5,
       response: Responses.knockback(),
     },
     {
       // Onrush also has a 2.7 second cast time and thus is best notified from the timeline.
       id: 'SophiaEX Onrush',
-      regex: /Onrush/,
+      regex: /突袭/,
       beforeSeconds: 5,
       infoText: {
         en: 'Avoid Dash Attack',
@@ -73,14 +73,14 @@ let callSafeDir = (callIndex) => {
     },
     {
       id: 'SophiaEX Cintamani',
-      regex: /Cintamani/,
+      regex: /如意宝珠/,
       beforeSeconds: 4,
       condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
       id: 'SophiaEX Dischordant Cleansing',
-      regex: /Dischordant Cleansing/,
+      regex: /不平衡之罚/,
       beforeSeconds: 6,
       alertText: {
         en: 'Stack With Partner',
@@ -93,7 +93,7 @@ let callSafeDir = (callIndex) => {
     },
     {
       id: 'SophiaEX Quasar Bait',
-      regex: /Quasar \(Snapshot\)/,
+      regex: /类星体 \(快照\)/,
       beforeSeconds: 6,
       infoText: {
         en: 'Bait Quasar Meteors',

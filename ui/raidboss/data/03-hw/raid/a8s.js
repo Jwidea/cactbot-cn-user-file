@@ -12,13 +12,13 @@
   timelineTriggers: [
     {
       id: 'A8S Hydrothermal Missile',
-      regex: /Hydrothermal Missile/,
+      regex: /蒸汽导弹/,
       beforeSeconds: 3,
       response: Responses.tankCleave('info'),
     },
     {
       id: 'A8S Swindler Add',
-      regex: /Swindler/,
+      regex: /欺诈者/,
       beforeSeconds: 5,
       infoText: {
         en: 'Swindler Soon',
@@ -31,7 +31,7 @@
     },
     {
       id: 'A8S Vortexer Add',
-      regex: /Vortexer/,
+      regex: /环旋者/,
       beforeSeconds: 5,
       infoText: {
         en: 'Vortexer Soon',
@@ -44,13 +44,13 @@
     },
     {
       id: 'A8S Flarethrower',
-      regex: /Flarethrower/,
+      regex: /大火炎放射/,
       beforeSeconds: 3,
       response: Responses.tankCleave('info'),
     },
     {
       id: 'A8S Super Jump Soon',
-      regex: /Super Jump/,
+      regex: /超级跳跃/,
       beforeSeconds: 8,
       infoText: {
         en: 'Bait Super Jump',

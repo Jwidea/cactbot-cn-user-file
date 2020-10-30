@@ -1,7 +1,7 @@
 hideall "--reset--"
 hideall "--sync--"
 
-0 "--reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+0 "--reset--" sync / 00:0839:.*的封锁解除了/ window 10000 jump 0 #MISSINGSYNC
 
 ###Ser Adelphel Brightblade
 # -ii 101B 1374 1019 101C
@@ -9,7 +9,7 @@ hideall "--sync--"
 # Pre-phase
 # Barely worth including, but oh well.
 
-0.0 "--sync--" sync / 00:0839:圣歌队席 will be sealed off/ window 0,1
+0.0 "--sync--" sync / 00:0839:距圣歌队席被封锁还有/ window 0,1
 5.4 "先锋剑" sync /:光辉剑 阿代尔斐尔:2CD:/ window 5.4,5
 12.5 "染血剑" sync /:光辉剑 阿代尔斐尔:44B:/
 15.8 "先锋剑" sync /:光辉剑 阿代尔斐尔:2CD:/
@@ -92,7 +92,7 @@ hideall "--sync--"
 # -ii 101A
 
 # Pre-phase
-1000 "--sync--" sync / 00:0839:庭园小厅 will be sealed off/ window 1000,1
+1000 "--sync--" sync / 00:0839:距庭园小厅被封锁还有/ window 1000,1
 1006.7 "超压斧" sync /:战争狂 格里诺:88C:/ window 6.7,5
 1015.6 "撕裂斧" sync /:战争狂 格里诺:46F:/
 1018.9 "超压斧" sync /:战争狂 格里诺:88C:/
@@ -154,7 +154,7 @@ hideall "--sync--"
 
 ###Ser Charibert
 
-2000.0 "--sync--" sync / 00:0839:冰天宫礼拜堂 will be sealed off/ window 2000,0
+2000.0 "--sync--" sync / 00:0839:距冰天宫礼拜堂被封锁还有/ window 2000,0
 2006.3 "圣坛蜡烛" sync /:圣骑士沙里贝尔:1030:/ window 6.3,5
 2015.0 "天火" sync /:圣骑士沙里贝尔:1031:/
 2019.2 "圣锁" sync /:圣骑士沙里贝尔:1033:/ window 15,15

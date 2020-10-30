@@ -14,7 +14,7 @@ hideall "Brute Force"
 # ending with a Final Judgment sword drop.
 
 # ONSLAUGHTER
-0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /战斗开始！/ window 0,1 #MISSINGSYNC
 2.7 "--sync--" sync /:突击者:172E:/ window 2.7,1
 5.4 "蒸汽导弹" sync /:突击者:172F:/ window 5.4,5
 12.6 "巨型光束炮" sync /:突击者:1732:/

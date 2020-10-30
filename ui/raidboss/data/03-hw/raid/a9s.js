@@ -13,7 +13,7 @@
     },
     {
       id: 'A9S Power Generator',
-      regex: /Power Generator/,
+      regex: /动力发生器/,
       infoText: function(data) {
         let nw1se1 = {
           en: 'Place Generators NW/SE',
@@ -62,7 +62,7 @@
     },
     {
       id: 'A9S Alarum',
-      regex: /Alarum/,
+      regex: /爆炸/,
       delaySeconds: 1,
       infoText: function(data) {
         // .. or anywhere not NW

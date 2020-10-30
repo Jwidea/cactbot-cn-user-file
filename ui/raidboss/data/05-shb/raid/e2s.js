@@ -10,7 +10,7 @@
   timelineTriggers: [
     {
       id: 'E2S Punishing Ray',
-      regex: /(惩戒之光) | (Punishing Ray)/,
+      regex: /惩戒之光/,
       beforeSeconds: 9,
       infoText: {
         en: 'Get Puddles',
@@ -23,7 +23,7 @@
     },
     {
       id: 'E2S Buddy Circles',
-      regex: /(Light\/Dark Circles) | (黑白圈)/,
+      regex: /黑白圈/,
       beforeSeconds: 5,
       alarmText: {
         en: 'Stack With Partner',

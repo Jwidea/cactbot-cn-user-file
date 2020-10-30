@@ -1,11 +1,11 @@
 hideall "--Reset--"
 hideall "--sync--"
 
-0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 5000 jump 0 #MISSINGSYNC
+0.0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 5000 jump 0 #MISSINGSYNC
 
 # Guard Scorpion
 # -ii 2049 204A 204B 204C
-0.0 "--Start--" sync / 00:0839:破坏神之门 will be sealed off/
+0.0 "--Start--" sync / 00:0839:距破坏神之门被封锁还有/
 4.1 "--sync--" sync /:守卫机蝎:2457:/ window 3,1
 9.6 "电磁力场" sync /:守卫机蝎:204D:/
 18.8 "寻找目标" sync /:守卫机蝎:2046:/
@@ -30,7 +30,7 @@ hideall "--sync--"
 
 # Aulus Mal Asina
 # -ii 2051 2052 205E
-1000.0 "--Start--" sync / 00:0839:亚希纳临时实验场 will be sealed off/ window 1000,5
+1000.0 "--Start--" sync / 00:0839:距亚希纳临时实验场被封锁还有/ window 1000,5
 1002.7 "--sync--" sync /:奥卢斯·玛尔·亚希纳:2458:/ window 3,1
 1013.2 "魔力爆发" sync /:奥卢斯·玛尔·亚希纳:204F:/
 1019.4 "出击命令" sync /:奥卢斯·玛尔·亚希纳:2057:/
@@ -90,7 +90,7 @@ hideall "--sync--"
 # Zenos Yae Galvus
 # -ii 2061 2062 2064 2067 2069 2589
 
-2000.0 "--Start--" sync / 00:0839:狮鹫之间 will be sealed off/ window 2000,5
+2000.0 "--Start--" sync / 00:0839:距狮鹫之间被封锁还有/ window 2000,5
 2003.5 "--sync--" sync /:芝诺斯·耶·加尔乌斯:366:/ window 3,1
 2009.7 "--sync--" sync /:芝诺斯·耶·加尔乌斯:205F:/
 2023.4 "风断一闪" sync /:芝诺斯·耶·加尔乌斯:2065:/

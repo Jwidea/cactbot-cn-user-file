@@ -8,7 +8,7 @@ hideall "--sync--"
 
 ### Phase 1: Megaflare Warmup
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.0 "--sync--" sync /:至尊巴哈姆特:BAC:/ window 2,1
 7.0 "核爆吐息" sync /:至尊巴哈姆特:BAD:/ window 7,10
 15.1 "百万核爆" sync /:至尊巴哈姆特:BAF:/ window 80,80
