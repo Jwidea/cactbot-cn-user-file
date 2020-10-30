@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'O3N Frost Breath',
-      regex: /Frost Breath/,
+      regex: /寒霜吐息/,
       beforeSeconds: 4,
       response: Responses.tankCleave('alert'),
     },

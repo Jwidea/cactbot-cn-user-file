@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'E5S Stepped Leader Next',
-      regex: /^Stepped Leader$/,
+      regex: /^梯级先导$/,
       beforeSeconds: 15,
       run: function(data) {
         data.steppedLeaderNext = true;

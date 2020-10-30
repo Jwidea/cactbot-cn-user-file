@@ -6,14 +6,14 @@
   timelineTriggers: [
     {
       id: 'Weeping City Dark Spike',
-      regex: /Dark Spike/,
+      regex: /暗之刺爪/,
       beforeSeconds: 4,
       condition: Conditions.caresAboutPhysical(),
       response: Responses.tankBuster(),
     },
     {
       id: 'Weeping City Widow\'s Kiss',
-      regex: /The Widow's Kiss/,
+      regex: /蜘蛛陷阱/,
       beforeSeconds: 5,
       // Probably kills the player if failed, so it gets an alert.
       alertText: {
@@ -26,7 +26,7 @@
     },
     {
       id: 'Weeping City Punishing Ray',
-      regex: /Punishing Ray/,
+      regex: /惩戒之光/,
       beforeSeconds: 10,
       infoText: {
         en: 'Get Puddles',
@@ -39,7 +39,7 @@
     },
     {
       id: 'Weeping City Bloodied Nail',
-      regex: /Bloodied Nail/,
+      regex: /血爪/,
       beforeSeconds: 4,
       condition: Conditions.caresAboutPhysical(),
       suppressSeconds: 10,
@@ -47,14 +47,14 @@
     },
     {
       id: 'Weeping City Split End',
-      regex: /Split End/,
+      regex: /发梢分裂/,
       beforeSeconds: 4,
       suppressSeconds: 10,
       response: Responses.tankCleave(),
     },
     {
       id: 'Weeping City Aura Burst',
-      regex: /Aura Burst/,
+      regex: /灵气爆/,
       beforeSeconds: 4,
       condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),

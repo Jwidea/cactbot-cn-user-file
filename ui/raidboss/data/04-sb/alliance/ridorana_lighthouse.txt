@@ -12,7 +12,7 @@ hideall "--sync--"
 ###########
 # Famfrit #
 ###########
-0 "Start" sync / 00:0839:悠久时光庭园 will be sealed off/ window 0,1
+0 "Start" sync / 00:0839:距悠久时光庭园被封锁还有/ window 0,1
 13 "水流弹" sync /:暗黑之云法姆弗里特:2C3E:/ window 13,1
 26 "骇水" sync /:暗黑之云法姆弗里特:2C3D:/
 35 "苍炮击" sync /:暗黑之云法姆弗里特:2C45:/
@@ -68,7 +68,7 @@ hideall "--sync--"
 # Belias #
 ##########
 
-1000 "Start" sync / 00:0839:至顶封域 will be sealed off/ window 1000,0
+1000 "Start" sync / 00:0839:距至顶封域被封锁还有/ window 1000,0
 1012 "火炎" sync /:魔人贝利亚斯:2CDB:/ window 1012,5
 1024 "炽炎" sync /:魔人贝利亚斯:2CDC:/
 1033 "时空地火喷发" sync /:魔人贝利亚斯:2CDE:/
@@ -128,7 +128,7 @@ hideall "--sync--"
 ###############
 # Construct 7 #
 ###############
-2000 "Start" sync / 00:0839:吹拂异风的白色战场 will be sealed off/ window 2000,0
+2000 "Start" sync / 00:0839:距吹拂异风的白色战场被封锁还有/ window 2000,0
 2016 "执行破坏" sync /:劳动七号:2C5A:/ window 2016,0
 2026 "执行放热" sync /:劳动七号:2C67:/
 2029 "执行贯穿" sync /:劳动七号:2C65:/
@@ -190,7 +190,7 @@ hideall "--sync--"
 
 
 ### Yiazmat
-3000 "Start" sync / 00:0839:高古斗技场 will be sealed off/ window 3000,0
+3000 "Start" sync / 00:0839:距高古斗技场被封锁还有/ window 3000,0
 3016 "利爪 (single)" sync /:鬼龙雅兹玛特:2C26:/ window 3016,0
 3026 "飑风" duration 4
 3034 "石化吐息" sync /:鬼龙雅兹玛特:2C29:/

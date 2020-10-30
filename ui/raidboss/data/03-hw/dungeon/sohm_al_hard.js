@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Sohm Al Hard Wild Horn',
-      regex: /Wild Horn/,
+      regex: /野性利角/,
       beforeSeconds: 4,
       condition: function(data) {
         return data.role == 'tank' || data.role == 'healer';

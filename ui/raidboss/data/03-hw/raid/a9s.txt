@@ -6,11 +6,11 @@ hideall "--rocks fall--"
 hideall "--Reset--"
 hideall "--sync--"
 
-0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 10000 jump 0 #MISSINGSYNC
 
 ### Faust Z
 # -p 1A2B:1006.5
-1000.0  "--sync--"      sync / 00:0839:头部甲板 will be sealed off/ window 10000
+1000.0  "--sync--" sync / 00:0839:距头部甲板被封锁还有/ window 10000
 1006.5 "寒光" sync /:终极浮士德:1A2B:/ window 1007,2.5
 1013.6 "寒光" sync /:终极浮士德:1A2B:/
 1020.7 "寒光" sync /:终极浮士德:1A2B:/
@@ -49,7 +49,7 @@ hideall "--sync--"
 # Lava doesn't show up in the log either.
 
 # Phase 1
-2000.0  "--sync--"      sync / 00:0839:再生处理室 will be sealed off/ window 10000
+2000.0  "--sync--" sync / 00:0839:距再生处理室被封锁还有/ window 10000
 2010.0 "吸收" sync /:废品翻新装置:1A38:/ window 2010,5
 2012.1 "右臂再生" sync /:废品翻新装置:1A2E:/
 2014.3 "动力发生器 x2 (NE)"

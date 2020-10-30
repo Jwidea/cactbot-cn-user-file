@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'Fractal Atmospheric Displacement',
-      regex: /Atmospheric Displacement/,
+      regex: /剑风/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer';
@@ -16,13 +16,13 @@
     },
     {
       id: 'Fractal Sanctification',
-      regex: /Sanctification/,
+      regex: /祝圣之光/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },
     {
       id: 'Fractal Unholy',
-      regex: /Unholy/,
+      regex: /邪圣/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer';

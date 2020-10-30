@@ -1,13 +1,13 @@
 hideall "--reset--"
 hideall "--sync--"
 
-0 "--reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+0 "--reset--" sync / 00:0839:.*的封锁解除了/ window 10000 jump 0 #MISSINGSYNC
 
 
 ###Phantom Ray
 #-ii F7D -p F7F:100
 
-0.0 "--sync--" sync / 00:0839:第三展示区 will be sealed off/ window 0,1
+0.0 "--sync--" sync / 00:0839:距第三展示区被封锁还有/ window 0,1
 10.3 "急促斩击" sync /:幻影光:F7A:/ window 15,15
 16.6 "剑风" sync /:幻影光:F7E:/
 21.4 "多重斩击 1" sync /:幻影光:F7[BC]:/
@@ -50,7 +50,7 @@ hideall "--sync--"
 176.6 "剑风"
 
 ###Minotaur
-1000.0 "--sync--" sync / 00:0839:特级合成兽培养室 will be sealed off/ window 1999,5
+1000.0 "--sync--" sync / 00:0839:距特级合成兽培养室被封锁还有/ window 1999,5
 1003.4 "--sync--" sync /:弥诺陶洛斯:366:/ window 3.4,0
 1008.8 "十一吨横扫" sync /:弥诺陶洛斯:F81:/
 1019.0 "百十一吨回转" sync /:弥诺陶洛斯:F82:/ window 20,20
@@ -95,7 +95,7 @@ hideall "--sync--"
 # and there's no way to disambiguate where.
 # Phase length is the same regardless of added abilities.
 
-2000 "--sync--" sync / 00:0839:现实增强室 will be sealed off/ window 2000,0
+2000 "--sync--" sync / 00:0839:距现实增强室被封锁还有/ window 2000,0
 2003.0 "--sync--" sync /:博物总管:368:/ window 3,2
 2006.2 "祝圣之光" sync /:博物总管:F89:/
 2011.4 "邪圣" sync /:博物总管:F8A:/

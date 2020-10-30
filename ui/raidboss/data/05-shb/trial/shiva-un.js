@@ -9,7 +9,7 @@
   timelineTriggers: [
     {
       id: 'ShivaUn Absolute Zero',
-      regex: /Absolute Zero/,
+      regex: /绝对零度/,
       beforeSeconds: 5,
       condition: Conditions.caresAboutAOE(),
       // These are usually doubled, so avoid spamming.
@@ -18,7 +18,7 @@
     },
     {
       id: 'ShivaUn Icebrand',
-      regex: /Icebrand/,
+      regex: /冰印剑/,
       beforeSeconds: 5,
       alertText: {
         en: 'Party Share Tankbuster',
@@ -32,7 +32,7 @@
     {
       // Heavenly Strike is knockback only when unshielded, so use "info" here.
       id: 'ShivaUn Heavenly Strike',
-      regex: /Heavenly Strike/,
+      regex: /天降一击/,
       beforeSeconds: 5,
       response: Responses.knockback('info'),
     },

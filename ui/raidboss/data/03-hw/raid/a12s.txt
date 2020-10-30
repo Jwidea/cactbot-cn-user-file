@@ -8,11 +8,11 @@ hideall "--Reset--"
 hideall "--sync--"
 
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
-0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+0.0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 10000 jump 0 #MISSINGSYNC
 
 
 ### Phase 1
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.0 "--sync--" sync /:至尊亚历山大:19E7:/ window 1,0
 7.0 "圣炎" sync /:至尊亚历山大:19E8:/ window 7,10
 14.1 "惩戒射线" sync /:至尊亚历山大:19E9:/

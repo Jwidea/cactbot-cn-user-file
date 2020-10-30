@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'O2N Paranormal Wave',
-      regex: /Paranormal Wave/,
+      regex: /诅咒波/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },

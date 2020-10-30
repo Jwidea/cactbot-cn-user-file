@@ -5,11 +5,11 @@ hideall "--Reset--"
 hideall "--sync--"
 
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
-0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 10000 jump 0 #MISSINGSYNC
+0.0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 10000 jump 0 #MISSINGSYNC
 
 ### Faust
 # -p E3C:1006 -ii E3E
-1000.0 "--sync--" sync / 00:0839:第44机工兵仓库 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync / 00:0839:第44机工兵仓库被封锁还有/ window 1000,0
 1006.0 "寒光" sync /:浮士德:E3C:/ window 1006,5
 1009.7 "风暴人偶 Add"
 1016.0 "寒光" sync /:浮士德:E3C:/
@@ -51,7 +51,7 @@ hideall "--sync--"
 # -ii E44 E53 E50 E4C E54 E47
 # -ic "Oppressor 0.5"
 
-2000.0 "--sync--" sync / 00:0839:第8大型机库 will be sealed off in 15 seconds/ window 2000,0
+2000.0 "--sync--" sync / 00:0839:距第8大型机库被封锁还有/ window 2000,0
 2007.0 "皇泉射线" sync /:压迫者:E40:/ window 2010,5
 2011.1 "炮台散射" sync /:压迫者:E41:/
 2016.2 "蒸汽导弹" sync /:压迫者:E43:/ duration 8

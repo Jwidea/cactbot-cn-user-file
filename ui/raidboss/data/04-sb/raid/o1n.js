@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'O1N Wyrm Tail',
-      regex: /(Wyrm Tail) | (太古龙尾)/,
+      regex: /太古龙尾/,
       beforeSeconds: 4,
       condition: function(data) {
         return data.role == 'tank' || data.role == 'healer';

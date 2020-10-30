@@ -11,7 +11,7 @@
   timelineTriggers: [
     {
       id: 'HadesEx Comet',
-      regex: /Comet 1/,
+      regex: /彗星 1/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'tank';

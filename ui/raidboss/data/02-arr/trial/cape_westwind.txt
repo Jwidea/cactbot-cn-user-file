@@ -8,7 +8,7 @@ hideall "--sync--"
 
 ### Phase 1: skewers and stuns
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.0 "盾牌穿刺" sync /:里塔提恩·萨斯·阿维纳:471:/
 10.6 "盾牌穿刺" sync /:里塔提恩·萨斯·阿维纳:471:/
 19.0 "盾牌穿刺" sync /:里塔提恩·萨斯·阿维纳:471:/

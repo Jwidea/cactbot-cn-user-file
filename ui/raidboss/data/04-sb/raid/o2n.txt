@@ -8,7 +8,7 @@ hideall "--sync--"
 # -ii 24E8 24FC 2500 2501 2505 2514 2515 2516
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
-0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /战斗开始！/ window 0,1 #MISSINGSYNC
 3.0 "--sync--" sync /:灾变者:24E8:/ window 3,1
 5.6 "地震" sync /:灾变者:2511:/ window 5.6,2
 9.2 "地震" sync /:灾变者:2511:/

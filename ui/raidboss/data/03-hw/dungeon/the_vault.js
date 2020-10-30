@@ -7,13 +7,13 @@
   timelineTriggers: [
     {
       id: 'The Vault Heavenly Slash',
-      regex: /Heavenly Slash/,
+      regex: /天斩/,
       beforeSeconds: 3.5,
       response: Responses.tankCleave(),
     },
     {
       id: 'The Vault Shining Blade',
-      regex: /Shining Blade/,
+      regex: /光芒剑/,
       beforeSeconds: 3,
       suppressSeconds: 10,
       infoText: {
@@ -27,13 +27,13 @@
     },
     {
       id: 'The Vault Heavy Swing',
-      regex: /Heavy Swing/,
+      regex: /重挥/,
       beforeSeconds: 4,
       response: Responses.tankCleave(),
     },
     {
       id: 'The Vault Altar Candle',
-      regex: /Altar Candle/,
+      regex: /圣坛蜡烛/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role != 'dps';

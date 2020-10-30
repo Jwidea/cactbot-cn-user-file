@@ -27,21 +27,21 @@ let bombLocation = (matches) => {
   timelineTriggers: [
     {
       id: 'A5S Kaltstrahl',
-      regex: /Kaltstrahl/,
+      regex: /寒光/,
       // Hopefully you'll figure it out the first time.
       suppressSeconds: 9999,
       response: Responses.tankCleave('info'),
     },
     {
       id: 'A5S Panzerschreck',
-      regex: /Panzerschreck/,
+      regex: /反坦克火箭筒/,
       beforeSeconds: 10,
       suppressSeconds: 10,
       response: Responses.aoe(),
     },
     {
       id: 'A5S Gobhook',
-      regex: /Gobhook/,
+      regex: /刚猛勾拳/,
       // Needs more warning than the cast.
       beforeSeconds: 7,
       suppressSeconds: 1,
@@ -49,7 +49,7 @@ let bombLocation = (matches) => {
     },
     {
       id: 'A5S Boost',
-      regex: /Boost/,
+      regex: /蓄力/,
       beforeSeconds: 10,
       suppressSeconds: 1,
       alertText: {
@@ -61,7 +61,7 @@ let bombLocation = (matches) => {
     },
     {
       id: 'A5S Bomb\'s Away Soon',
-      regex: /Bomb's Away/,
+      regex: /投放炸弹/,
       beforeSeconds: 10,
       suppressSeconds: 1,
       alertText: {
@@ -73,7 +73,7 @@ let bombLocation = (matches) => {
     },
     {
       id: 'A5S Debuff Refresh',
-      regex: /Disorienting Groan/,
+      regex: /吼叫/,
       beforeSeconds: 1,
       suppressSeconds: 1,
       infoText: {

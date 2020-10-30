@@ -6,13 +6,13 @@
   timelineTriggers: [
     {
       id: 'A3S Wash Away',
-      regex: /Wash Away/,
+      regex: /冲净/,
       beforeSeconds: 5,
       response: Responses.knockback(),
     },
     {
       id: 'A3S Splash',
-      regex: /Splash/,
+      regex: /溅开/,
       beforeSeconds: 5,
       response: Responses.aoe(),
     },

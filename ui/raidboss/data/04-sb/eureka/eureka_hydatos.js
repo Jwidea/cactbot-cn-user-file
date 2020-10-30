@@ -7,13 +7,13 @@
   timelineTriggers: [
     {
       id: 'BA Art Geas',
-      regex: /Legendary Geas/,
+      regex: /妖枪乱击/,
       beforeSeconds: 0,
       response: Responses.stopMoving(),
     },
     {
       id: 'BA Raiden Levinwhorl',
-      regex: /Levinwhorl/,
+      regex: /涡雷/,
       beforeSeconds: 10,
       alertText: {
         en: 'Shields and Mitigation',
@@ -26,7 +26,7 @@
     },
     {
       id: 'BA AV Eurekan Potion',
-      regex: /Explosive Impulse/,
+      regex: /爆炸性冲击/,
       beforeSeconds: 10,
       suppressSeconds: 60,
       infoText: {
@@ -40,7 +40,7 @@
     },
     {
       id: 'BA Ozma Black Hole Warning',
-      regex: /Black Hole/,
+      regex: /黑洞/,
       beforeSeconds: 12,
       infoText: {
         en: 'Black Hole Soon',

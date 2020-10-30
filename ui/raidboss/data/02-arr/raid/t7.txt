@@ -8,7 +8,7 @@ hideall "--sync--"
 
 ### Phase 1 (100%)
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 0.0 "--sync--" sync / 00:0839:生体管理区 will be sealed off/ window 10,10
 6.4 "尾部猛击" sync /:美瑠姬奴:7A8:/ window 7,0
 12.3 "诅咒之声" sync /:美瑠姬奴:7AC:/

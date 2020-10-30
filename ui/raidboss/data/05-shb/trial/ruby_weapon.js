@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Ruby Magitek Meteor Behind',
-      regex: /Magitek Meteor/,
+      regex: /魔导陨石/,
       beforeSeconds: 4,
       alertText: {
         en: 'Hide Behind Meteor',
@@ -19,7 +19,7 @@
     },
     {
       id: 'Ruby Magitek Meteor Away',
-      regex: /Burst/,
+      regex: /飞散/,
       beforeSeconds: 1,
       infoText: {
         en: 'Away From Meteor',

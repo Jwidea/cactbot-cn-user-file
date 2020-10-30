@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'Facility Bastardbluss',
-      regex: /Bastardbluss/,
+      regex: /重枪剑/,
       beforeSeconds: 4,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';
@@ -16,7 +16,7 @@
     },
     {
       id: 'Facility Hood Swing',
-      regex: /Hood Swing/,
+      regex: /甩头攻击/,
       beforeSeconds: 4,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';
@@ -25,13 +25,13 @@
     },
     {
       id: 'Facility Chthonic Hush',
-      regex: /Chthonic Hush/,
+      regex: /地府安宁/,
       beforeSeconds: 4,
       response: Responses.tankCleave(),
     },
     {
       id: 'Facility Height Of Chaos',
-      regex: /Height Of Chaos/,
+      regex: /混沌之巅/,
       beforeSeconds: 4,
       response: Responses.tankCleave(),
     },

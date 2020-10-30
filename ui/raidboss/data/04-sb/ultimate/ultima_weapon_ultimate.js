@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'UWU Feather Rain',
-      regex: /Feather Rain/,
+      regex: /飞翎雨/,
       beforeSeconds: 3,
       infoText: {
         en: 'Move!',

@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'Dun Scaith Spike Of Darkness',
-      regex: /Spike Of Darkness/,
+      regex: /黑暗钉刺/,
       beforeSeconds: 4,
       condition: Conditions.caresAboutMagical(),
       response: Responses.tankBuster(),

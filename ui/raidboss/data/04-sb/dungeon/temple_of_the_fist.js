@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Temple Pounce',
-      regex: /Pounce/,
+      regex: /爪袭/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';
@@ -15,7 +15,7 @@
     },
     {
       id: 'Temple Cardinal Shift',
-      regex: /Cardinal Shift/,
+      regex: /四剑大回旋/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'healer';

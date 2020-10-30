@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'A1S Emergency Liftoff',
-      regex: /Emergency Liftoff/,
+      regex: /紧急上升/,
       beforeSeconds: 5,
       infoText: {
         en: 'Liftoff Soon',
@@ -19,7 +19,7 @@
     },
     {
       id: 'A1S Gunnery Pod',
-      regex: /Gunnery Pod/,
+      regex: /炮台散射/,
       beforeSeconds: 4,
       condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),

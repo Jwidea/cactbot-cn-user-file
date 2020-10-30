@@ -10,7 +10,7 @@ hideall "Alluring Arm"
 0.0 "--Reset--" sync /Removing combatant 吉祥天女/ window 10000 jump 0
 
 ### Adds
-0.0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "Start" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.0 "--sync--" sync /:2146:梦寐的刹帝利/ window 1,10
 15.5 "心魔" # end of castbar
 15.5 "赞歌" # end of castbar

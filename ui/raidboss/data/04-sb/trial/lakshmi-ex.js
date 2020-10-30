@@ -7,7 +7,7 @@
   timelineTriggers: [
     {
       id: 'Lakshmi Path of Light',
-      regex: /Path of Light/,
+      regex: /光之波动/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'tank';

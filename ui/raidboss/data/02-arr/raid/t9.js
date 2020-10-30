@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'T9 Claw',
-      regex: /Bahamut's Claw x5/,
+      regex: /巴哈姆特之爪 x5/,
       beforeSeconds: 5,
       condition: function(data) {
         return data.role == 'tank' || data.role == 'healer' || data.job == 'BLU';
@@ -15,7 +15,7 @@
     },
     {
       id: 'T9 Dalamud Dive',
-      regex: /Dalamud Dive/,
+      regex: /月华冲/,
       beforeSeconds: 5,
       infoText: {
         en: 'Dive on Main Tank',
@@ -28,7 +28,7 @@
     },
     {
       id: 'T9 Super Nova',
-      regex: /Super Nova x3/,
+      regex: /超新星 x3/,
       beforeSeconds: 4,
       infoText: {
         en: 'Bait Super Novas Outside',

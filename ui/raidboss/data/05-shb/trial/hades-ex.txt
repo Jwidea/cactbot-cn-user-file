@@ -10,7 +10,7 @@ hideall "--sync--"
 
 ### Phase 1
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.5 "--sync--" sync /:哈迪斯:368/ window 3,0
 10.7 "古代双重" sync /:哈迪斯:47A5:/ window 11,0
 19.8 "暗影扩散" sync /:哈迪斯:47A9:/

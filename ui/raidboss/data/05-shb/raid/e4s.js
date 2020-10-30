@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'E4S Earthen Anguish',
-      regex: /(大地之痛)|(Earthen Anguish)/,
+      regex: /大地之痛/,
       beforeSeconds: 3,
       condition: function(data) {
         return data.role == 'healer' || data.role == 'tank';

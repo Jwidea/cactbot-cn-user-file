@@ -7,7 +7,7 @@ hideall "--sync--"
 
 ## Common start
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.5 "--sync--" sync /:欧米茄:368:/ window 2,0
 12.8 "原子射线" sync /:欧米茄:3286:/ window 20,80
 24.9 "芥末爆弹" sync /:欧米茄:3287:/

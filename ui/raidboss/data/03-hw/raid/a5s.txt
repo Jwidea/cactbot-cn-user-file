@@ -10,7 +10,7 @@ hideall "Relaxant"
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
 ### Hummel and Friends
-1000.0 "--sync--" sync / 00:0839:哥布林科学研究室 will be sealed off/ window 1000,0
+1000.0 "--sync--" sync / 00:0839:距哥布林科学研究室被封锁还有/ window 1000,0
 1001.8 "--sync--" sync /:浮士德:367:/ window 1002,0.5
 1009.8 "寒光 x1" sync /:浮士德:16CC:/
 1018.9 "寒光 x2" duration 2.1 sync /:浮士德:16CC:/ window 5,0.5

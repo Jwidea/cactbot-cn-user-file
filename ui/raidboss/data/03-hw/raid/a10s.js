@@ -9,7 +9,7 @@
   timelineTriggers: [
     {
       id: 'A10S Goblin Rush',
-      regex: /Goblin Rush/,
+      regex: /哥布林冲锋/,
       beforeSeconds: 5,
       condition: Conditions.caresAboutPhysical(),
       suppressSeconds: 1,
@@ -17,7 +17,7 @@
     },
     {
       id: 'A10S Gobbie Adds',
-      regex: /Gobbie Adds/,
+      regex: /哥布林出现/,
       beforeSeconds: 0,
       suppressSeconds: 1,
       infoText: {

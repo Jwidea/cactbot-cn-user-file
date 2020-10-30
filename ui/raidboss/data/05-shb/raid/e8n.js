@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'E8N Shining Armor',
-      regex: /Shining Armor/,
+      regex: /闪光护甲/,
       beforeSeconds: 2,
       response: Responses.lookAway('alert'),
     },

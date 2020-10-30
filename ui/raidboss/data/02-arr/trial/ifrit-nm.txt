@@ -8,7 +8,7 @@ hideall "--sync--"
 
 # 0%
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.2 "烈焰焚烧" sync /:伊弗利特:1C5:/ window 10,10
 9.1 "火神爆裂" sync /:伊弗利特:1C6:/
 17.1 "烈焰焚烧" sync /:伊弗利特:1C5:/

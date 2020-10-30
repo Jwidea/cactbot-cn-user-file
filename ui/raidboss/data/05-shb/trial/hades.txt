@@ -8,7 +8,7 @@ hideall "Double"
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
 # Phase 1: Everybody Murdered By Circles
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.5 "--sync--" sync /:哈迪斯:368:/ window 2,0
 15.5 "贪婪突袭" sync /:哈迪斯:4158:/ window 16,5
 25.9 "失信" sync /:哈迪斯:414[9A]:/

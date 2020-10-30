@@ -9,7 +9,7 @@ hideall "--sync--"
 ### Phase 1
 # This phase really doesn't seem to loop anywhere.
 0.0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.5 "--sync--" sync /:奈尔·神·达纳斯:367:/ window 3,0
 5.5 "凶鸟利爪" sync /:奈尔·神·达纳斯:7D5:/ window 6,5
 16.6 "凶鸟利爪" sync /:奈尔·神·达纳斯:7D5:/

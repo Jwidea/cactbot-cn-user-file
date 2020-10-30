@@ -6,7 +6,7 @@ hideall "Reformation"
 hideall "Perfect Contrition"
 hideall "Rite Of The Sacrament"
 
-0 "--Reset--" sync /00:0839:.*is no longer sealed/ window 100000 jump 0 #MISSINGSYNC
+0 "--Reset--" sync /00:0839:.*的封锁解除了/ window 100000 jump 0 #MISSINGSYNC
 
 
 ### Forgiven Cruelty

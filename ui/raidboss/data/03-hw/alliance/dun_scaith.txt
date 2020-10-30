@@ -3,7 +3,7 @@
 hideall "--Reset--"
 hideall "--sync--"
 
-0 "--Reset--" sync /00:0839:.*is no longer sealed/ window 100000 jump 0 #MISSINGSYNC
+0 "--Reset--" sync /00:0839:.*的封锁解除了/ window 100000 jump 0 #MISSINGSYNC
 
 #~~~~~~~~~~~~~~~~~~#
 # DEATHGAZE HOLLOW #
@@ -11,7 +11,7 @@ hideall "--sync--"
 
 # -ii 1C90 1ABC -ic "Fierce Wind" "Void Sprite"
 
-0 "--sync--" sync /00:0839:主甲板 will be sealed off/ window 0,5
+0 "--sync--" sync /00:0839:距主甲板被封锁还有/ window 0,5
 6.7 "黑暗钉刺" sync /:虚空死亡凝视:1E51:/
 11.8 "--sync--" sync /:虚空死亡凝视:1C91:/
 16.6 "--sync--" sync /:虚空死亡凝视:1C92:/
@@ -117,7 +117,7 @@ hideall "--sync--"
 # -ii 1C97 1CA8 1CA9 1CAB -ic "Abyssal Scythe"
 # -ic "Ferdiad's Fool"
 
-1000.0 "--sync--" sync /00:0839:小丑舞台 will be sealed off/ window 1000,5
+1000.0 "--sync--" sync /00:0839:距小丑舞台被封锁还有/ window 1000,5
 1014.2 "黑风 x3" # sync /:虚空弗迪亚:1CAC:/
 1020.3 "诡计" sync /:虚空弗迪亚:1C99:/
 1028.0 "虫洞" sync /:虚空弗迪亚:1C9A:/
@@ -188,7 +188,7 @@ hideall "--sync--"
 # -ii 1D9B
 # -ic "Allagan Dreadnaught" "Proto Bit"
 
-2000.0 "--sync--" sync /00:0839:女王的阅兵广场 will be sealed off/ window 2000,5
+2000.0 "--sync--" sync /00:0839:距女王的阅兵广场被封锁还有/ window 2000,5
 
 2007.8 "以太曲折" sync /:究极神兵原型:1D99:/
 2018.4 "魔科学激光 1" sync /:究极神兵原型:1D96:/
@@ -247,7 +247,7 @@ hideall "--sync--"
 # -ii 1D2C 1D2D 1D2E 1D30 1DD4 1DD5 1E50
 # -ic Shadowcourt Jester" "Chimera Poppet"
 
-3000.0 "--sync--" sync /00:0839:女王之间 will be sealed off/ window 3000,5
+3000.0 "--sync--" sync /00:0839:距女王之间被封锁还有/ window 3000,5
 3013.1 "三十棘" sync /:斯卡哈:1D2B:/
 3030.2 "三十矢" sync /:斯卡哈:1D2F:/ window 30,5
 3037.4 "影子凝缩" sync /:斯卡哈:1CD3:/ window 30,5

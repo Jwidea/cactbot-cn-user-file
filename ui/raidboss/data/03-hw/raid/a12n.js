@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'A12N Tank Limit Break',
-      regex: /Divine Judgment/,
+      regex: /神圣审判/,
       beforeSeconds: 5,
       suppressSeconds: 9999, // Let's not spam tanks if they are unlucky enough to see enrage.
       alarmText: {
@@ -19,7 +19,7 @@
     },
     {
       id: 'A12N Divine Spear',
-      regex: /Divine Spear/,
+      regex: /圣炎/,
       beforeSeconds: 5,
       response: Responses.tankCleave(),
     },

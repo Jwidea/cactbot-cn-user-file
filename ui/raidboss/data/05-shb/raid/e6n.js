@@ -7,7 +7,7 @@
     {
       // We warn the user here because the startsUsing warning gives only 3.5s or so.
       id: 'E6N Downburst',
-      regex: /Downburst/,
+      regex: /下行突风/,
       beforeSeconds: 5,
       response: Responses.knockback('info'),
     },

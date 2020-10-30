@@ -12,7 +12,7 @@ hideall "Soul And Body"
 
 ### Phase 1
 0 "Start"
-0.0 "--sync--" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0.0 "--sync--" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 1.0 "--sync--" sync /:无瑕灵君:3ECA:/ window 2,0
 17.0 "夺影" sync /:无瑕灵君:3EEA:/ window 20,5
 28.0 "连线断罪飞翔" sync /:无瑕灵君:40BD:/

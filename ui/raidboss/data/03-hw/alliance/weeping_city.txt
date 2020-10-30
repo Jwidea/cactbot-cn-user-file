@@ -3,7 +3,7 @@
 hideall "--Reset--"
 hideall "--sync--"
 
-0 "--Reset--" sync /00:0839:.*is no longer sealed/ window 100000 jump 0 #MISSINGSYNC
+0 "--Reset--" sync /00:0839:.*的封锁解除了/ window 100000 jump 0 #MISSINGSYNC
 
 #~~~~~~~~~~~~~#
 # ARACHNE EVE #
@@ -12,7 +12,7 @@ hideall "--sync--"
 # -ii 368 1835 1836
 # -ic "Webmaiden" "Spitting Spider" "Skittering Spider" "Earth Aether"
 
-0 "--sync--" sync /00:0839:女王蛛猎场 will be sealed off/
+0 "--sync--" sync /00:0839:距女王蛛猎场被封锁还有/
 9.8 "暗之刺爪" sync /:阿剌克涅:1823:/
 21.6 "喷吐蛛丝" sync /:阿剌克涅:1824:/
 30.4 "阿剌克涅之网 x3" duration 5 # sync /:阿剌克涅:185E:/
@@ -134,7 +134,7 @@ hideall "--sync--"
 
 # -ii 366 17D5 17C1 17D6
 
-1000.0 "--sync--" sync /00:0839:神谕祭坛 will be sealed off/ window 1000,5
+1000.0 "--sync--" sync /00:0839:距神谕祭坛被封锁还有/ window 1000,5
 1014.2 "死灵潜质" sync /:猛禽联盟遗骸:17D7:/
 1024.4 "米吉多烈焰" sync /:弗加尔:17C0:/
 1032.4 "死灵潜质" sync /:弗加尔:17BE:/
@@ -194,7 +194,7 @@ hideall "--sync--"
 #                                                                         V                       |
 # Cube opening block ----> Intermission --> Sphere bridge block --> (Cube|Sphere) rotation blocks |
 
-2000.0 "--sync--" sync /00:0839:金字塔上层 will be sealed off/ window 2000,5
+2000.0 "--sync--" sync /00:0839:距金字塔上层被封锁还有/ window 2000,5
 2015.0 "陨石点名"
 2024.0 "陨石冲击" sync /:压缩世界的断片:1935:/
 
@@ -324,7 +324,7 @@ hideall "--sync--"
 
 # 1811 and 180D are releasing hair after Haircut and Split End cleaves
 
-4000.0 "--sync--" sync /00:0839:契约石玄室 will be sealed off/ window 4000,5
+4000.0 "--sync--" sync /00:0839:距契约石玄室被封锁还有/ window 4000,5
 4004.1 "血爪 x4" # sync /:卡洛菲斯提莉:181F:/
 4018.8 "魔发变化" sync /:卡洛菲斯提莉:180[AE]:/ window 18.8,5
 4027.8 "魔发斩" sync /:卡洛菲斯提莉:180[BF]:/

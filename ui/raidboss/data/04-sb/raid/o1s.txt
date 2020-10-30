@@ -12,7 +12,7 @@ hideall "Flame"
 ###### 1st Classical Elements
 # spread: knockback => in => spread+lightning
 
-0 "Start" sync /:Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /:战斗开始！/ window 0,1 #MISSINGSYNC
 2.5 "--sync--" sync /:老者:368:/ window 2.5,0
 6.9 "太古龙尾" sync /:老者:1ECE:/ window 7,3
 13.0 "太古龙尾" sync /:老者:1ECE:/

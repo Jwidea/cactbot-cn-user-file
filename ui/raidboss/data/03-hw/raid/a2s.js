@@ -13,7 +13,7 @@
   timelineTriggers: [
     {
       id: 'A2S Breakblock',
-      regex: /(?:Brainhurt|Bodyhurt) Breakblock/,
+      regex: /(?:躯体|精神) 防护/,
       beforeSeconds: 10,
       suppressSeconds: 1,
       infoText: {

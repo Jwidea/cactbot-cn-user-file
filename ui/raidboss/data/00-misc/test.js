@@ -37,7 +37,7 @@
   ],
   timelineStyles: [
     {
-      regex: /^Death To/,
+      regex: /^嗝屁攻击：/,
       locale: 'cn',
       style: {
         'color': 'red',
@@ -48,7 +48,7 @@
   timelineTriggers: [
     {
       id: 'Test Angry Dummy',
-      regex: /(Angry Dummy)/,
+      regex: /(愤怒的木人)/,
       locale: 'cn',
       beforeSeconds: 2,
       infoText: function(data, matches) {
@@ -72,7 +72,7 @@
     },
     {
       id: 'Test Delayed Dummy',
-      regex: /(Angry Dummy)/,
+      regex: /(愤怒的木人)/,
       locale: 'cn',
       // Add in a huge delay to make it obvious the delay runs before promise.
       delaySeconds: 10,

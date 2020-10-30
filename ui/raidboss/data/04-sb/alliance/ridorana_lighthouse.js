@@ -6,7 +6,7 @@
   timelineTriggers: [
     {
       id: 'Ridorana Stone Breath',
-      regex: /Stone Breath/,
+      regex: /石化吐息/,
       beforeSeconds: 7,
       response: Responses.getBehind(),
     },

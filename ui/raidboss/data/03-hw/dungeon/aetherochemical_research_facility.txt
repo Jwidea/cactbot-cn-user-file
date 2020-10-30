@@ -1,14 +1,14 @@
 hideall "--Reset--"
 hideall "--sync--"
 
-0.0 "--Reset--" sync / 00:0839:.*is no longer sealed/ window 10000,0 #MISSINGSYNC
+0.0 "--Reset--" sync / 00:0839:.*的封锁解除了/ window 10000,0 #MISSINGSYNC
 
 #~~~~~~~~~~~~~~~~~~~#
 # Regula van Hydrus #
 #~~~~~~~~~~~~~~~~~~~#
 
 # -ii 10E1
-0.0 "--sync--" sync / 00:0839:试验机评测库 will be sealed off/
+0.0 "--sync--" sync / 00:0839:距试验机评测库被封锁还有/
 2.9 "--sync--" sync /:雷古拉·范·休著斯:366/
 6.3 "重枪剑" sync /:雷古拉·范·休著斯:10DA:/ window 6.3,5
 
@@ -116,7 +116,7 @@ hideall "--sync--"
 # It's not included at phase starts because each start is accompanied
 # by a unique version of the skill as well.
 
-1000.0 "--sync--" sync / 00:0839:评测场 will be sealed off/ window 1000,5
+1000.0 "--sync--" sync / 00:0839:距评测场被封锁还有/ window 1000,5
 
 # Cobra is immediate
 1001.4 "--sync--" sync /:赫鲁玛奇斯:366:/ window 2,2

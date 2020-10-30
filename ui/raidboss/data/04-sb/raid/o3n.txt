@@ -5,7 +5,7 @@
 # -ii 230C 2470 2472 2473
 0.0 "--Reset--" sync / 21:........:40000010:/ window 10000 jump 0 #MISSINGSYNC
 
-0 "Start" sync /Engage!/ window 0,1 #MISSINGSYNC
+0 "Start" sync /战斗开始！/ window 0,1 #MISSINGSYNC
 3.2 "--sync--" sync /:哈利卡纳苏斯:367:/ window 3.2,1
 9.7 "呱呱呱呱呱！ (avoid)" sync /:哈利卡纳苏斯:2466:/ window 9.7,10
 17.3 "魔法剑·暴雷" sync /:哈利卡纳苏斯:2462:/
