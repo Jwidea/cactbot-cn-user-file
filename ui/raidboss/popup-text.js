@@ -119,7 +119,7 @@ class PopupText {
     this.alertText = document.getElementById('popup-text-alert');
     this.alarmText = document.getElementById('popup-text-alarm');
 
-    this.parserLang = 'cn' || this.options.parserLang || 'en';
+    this.parserLang = 'cn' || this.options.ParserLanguage || 'en';
     this.displayLang = this.options.AlertsLanguage || this.options.DisplayLanguage || this.options.ParserLanguage || 'en';
 
     if (this.options.IsRemoteRaidboss || this.options.BrowserTTS) {
